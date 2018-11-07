@@ -1,1 +1,2 @@
-public class Tool {}
+public class Tool implements Component {
+}

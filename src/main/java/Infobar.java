@@ -1,1 +1,2 @@
-public class Infobar {}
+public class Infobar implements Component {
+}

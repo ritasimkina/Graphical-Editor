@@ -1,1 +1,2 @@
-public class Layer {}
+public class Layer implements Component {
+}

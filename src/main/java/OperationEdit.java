@@ -1,1 +1,1 @@
-public class OperationEdit {}
+public class OperationEdit implements Operation {}

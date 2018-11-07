@@ -1,1 +1,3 @@
-public interface FactoryUI {}
+public interface FactoryUI {
+    public Component create();
+}

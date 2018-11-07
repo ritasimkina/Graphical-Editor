@@ -1,1 +1,2 @@
-public class Menu {}
+public class Menu implements Component {
+}

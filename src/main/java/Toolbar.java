@@ -1,1 +1,2 @@
-public class Toolbar {}
+public class Toolbar implements Component {
+}

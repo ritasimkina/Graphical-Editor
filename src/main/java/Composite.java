@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Composite implements Component {
+    //Adds the Component to the composition.
+    public void add(Component component) {
+        childComponent.add(component);
+    }
+    //Removes the Component from the composition.
+    public void remove(Component component) {
+        childComponent.remove(component);
+    }
+}

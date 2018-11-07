@@ -1,1 +1,1 @@
-public class FactoryDraw {}
+public class FactoryDraw{}// implements FactoryDrawArray {}

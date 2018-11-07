@@ -1,1 +1,2 @@
-public class Draw {}
+public class Draw implements Component {
+}

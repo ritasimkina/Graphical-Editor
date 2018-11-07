@@ -1,1 +1,1 @@
-public class OperationMove {}
+public class OperationMove implements Operation {}

@@ -1,1 +1,2 @@
-public class DrawArray {}
+public class DrawArray implements Component {
+}

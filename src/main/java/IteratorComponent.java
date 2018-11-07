@@ -1,1 +1,1 @@
-public class IteratorComponent {}
+public class IteratorComponent implements Iterator {}

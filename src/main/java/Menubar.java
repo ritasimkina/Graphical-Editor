@@ -1,1 +1,2 @@
-public class Menubar {}
+public class Menubar implements Component {
+}

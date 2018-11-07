@@ -1,1 +1,1 @@
-public class GraphicElementSelect {}
+public class GraphicElementSelect implements Observer {}
