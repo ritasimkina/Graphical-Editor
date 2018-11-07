@@ -9,7 +9,7 @@ public class Screen {
         FactoryUI factory_infobar = new FactoryInfobar();
         Component infobar=factory_infobar.create();
 
-        System.out.println("infobar="+infobar);
+        System.out.println(""+menubar.get_html());
     }
 
 

@@ -10,4 +10,10 @@ public class Composite implements Component {
     public void remove(Component component) {
         childComponent.remove(component);
     }
+
+    public String get_html()   {
+        assert false;
+        String s="";
+        return s;
+    }
 }
