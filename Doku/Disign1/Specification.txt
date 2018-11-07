@@ -1,0 +1,51 @@
+
+Erzeugungsmuster:
+-	• Abstract Factory Pattern:	System mit unterschiedlichen Produktfamilien konfiguriert (Menu, Buttons, ...)
+-	• Factory Method Pattern:	zum erstellen neuer GrafikElemente (-> zeichnen)
+Strukturmuster:
+-	• Composite Pattern:		Screenstruktur (unten)
++	• Proxy Pattern:		 	schnittstelle Netzwerk-Interne Objekte (Objectstruktur <-> HTML)
+-	• Decorator Pattern:		GUI unterschiedlich je nach selektion
+								StoreImage
+								-Leyer sichtbar oder nicht
+Verhaltensmuster:
++	• Observer Pattern:			GraphicElement->GUI:
+								Kein GraphicElement deselectiert: GUI-Delete disabled
+																editing disabled (FR2 Toolbar)
+																Infobar: löschen
+								Ein	 GraphicElement selectiert: GUI-Delete enabled
+																editing enabled (FR2 Toolbar)
+																Infobar: infos anzeigen
+																je nach selektion strategie (edit/move) setzten
+								GraphicElement move/edit:		nach gewälter strategie
+																Infobar: Koordinate anzeigen
+								GUI->GraphicElement:
+								GraphicElement deletion:		DrawArray anpassen 
+																GraphicElement deselectieren
+								GraphicElement addition: 		DrawArray anpassen 
+																GraphicElement selectieren
+								FR3: Layer on/off				DrawArray anpassen
++	• Strategy Pattern:		 	FR2 mehrfach für alle GraphicElement Verwendet.
+								Move/Edit auf GraphicElement. (Edit ist move auf einen Punkt.)
+								• editing: ein punkt selectiert
+								• movement: object selectiert
+-	• Iterator Pattern:			Über die GUI und GraphicElement
+
+
+Screen						Composite (Menubar, ...)
+	Menubar
+		Menu
+	Toolbar
+		FR1: GraphicElement
+		FR2: Operationen
+		FR3: Layer
+	DrawArray				Composite (Composite: Layer, Leaf: Line, ... )
+		Layer
+			GraphicElement
+			GraphicElement
+		Layer
+			GraphicElement
+	Infobar
+	
+	
+
