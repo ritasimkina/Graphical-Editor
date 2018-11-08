@@ -2,13 +2,15 @@ import java.net.*;
 import java.io.*;
 
 public class Server {
+    private Proxy proxy;
+
     public class App {
-        private Screen screen;
+
         App() {
             prepare();
         }
         private void prepare()  {
-            screen = new Screen();
+            proxy = new Proxy();
         }
     }
     public class TCPServer  {
@@ -34,8 +36,7 @@ public class Server {
             s1out = s1.getOutputStream();
             dos = new DataOutputStream(s1out);
 
-            // Send a string
-            dos.writeUTF("Hi there");
+            dos.writeUTF(proxy.get_html());
         }
         public void stop() throws IOException    {
             // Close the connection, but not the server socket
@@ -54,8 +55,6 @@ public class Server {
         server.start();
     }
     public void start(){
-
-
         try {
             TCPServer server= new TCPServer();
             App app=new App();
