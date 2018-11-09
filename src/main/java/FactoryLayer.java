@@ -1,1 +1,1 @@
-public class FactoryLayer {}
+public class FactoryLayer implements FactoryDraw {}

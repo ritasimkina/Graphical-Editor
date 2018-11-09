@@ -1,3 +1,5 @@
-public interface FactoryDrawArray {
-    public Component create();
+public class FactoryDrawArray implements FactoryUI {
+    public Component create()   {
+        return new DrawArray();
+    }
 }

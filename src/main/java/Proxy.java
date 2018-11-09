@@ -12,7 +12,9 @@ public class Proxy {
                 "</body>\n";
     }
     private String get_head()   {
-        return "<!DOCTYPE HTML>\n" +
+        return "HTTP/1.1 200 OK"+
+                "Content-Type: text/html"+
+                "<!DOCTYPE HTML>\n" +
                 "<html lang=\"en\">\n" +
                 "\t<head>\n" +
                 "\t\t<meta charset=\"UTF-8\">\n" +
@@ -20,7 +22,6 @@ public class Proxy {
                 //"\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n" +
                 "\t</head>\n" +
                 "\t\n";
-
     }
 
 

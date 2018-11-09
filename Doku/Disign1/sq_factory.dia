@@ -420,7 +420,7 @@
         <dia:real val="2.2000000000000002"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#FactoryDrawArray#</dia:string>
+        <dia:string>#FactoryDraw#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#interface#</dia:string>
@@ -750,7 +750,7 @@
         <dia:real val="2.2000000000000002"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#FactoryDraw#</dia:string>
+        <dia:string>#FactoryDrawComponent#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#interface#</dia:string>

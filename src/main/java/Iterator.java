@@ -1,1 +1,4 @@
-public interface Iterator {}
+public interface Iterator {
+    public Iterator createIterator();
+
+}

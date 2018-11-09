@@ -1,1 +1,3 @@
-public class FactoryDraw{}// implements FactoryDrawArray {}
+public interface FactoryDraw {
+    //public Component create();
+}

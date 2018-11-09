@@ -29,14 +29,20 @@ public class Server {
         }
         public void start(App app) throws IOException    {
             // Wait and accept a connection
-            s1 = s.accept();
 
-            // Get a communication stream
-            // associated with the socket
-            s1out = s1.getOutputStream();
-            dos = new DataOutputStream(s1out);
+            do {
+                s1 = s.accept();
 
-            dos.writeUTF(proxy.get_html());
+                // Get a communication stream
+                // associated with the socket
+                s1out = s1.getOutputStream();
+                dos = new DataOutputStream(s1out);
+
+                dos.writeUTF(proxy.get_html());
+                dos.writeUTF(proxy.get_html());
+                dos.writeUTF(proxy.get_html());
+                System.out.println(proxy.get_html());
+            } while(true);
         }
         public void stop() throws IOException    {
             // Close the connection, but not the server socket
