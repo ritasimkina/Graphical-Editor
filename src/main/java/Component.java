@@ -5,6 +5,8 @@ public interface Component {
 
 
     IteratorComponent   iterator = null;
-    
+
+    public Iterator createIterator();
+
     public String get_html();
 }

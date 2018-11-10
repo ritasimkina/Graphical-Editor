@@ -14,6 +14,11 @@ public class Composite implements Component {
         childComponent.remove(component);
     }
 
+    public Iterator createIterator() {
+        assert false;
+        return null;
+    }
+
     public String get_html()   {
         assert false;
         String s="";

@@ -23,7 +23,8 @@ public class Screen {
 
     public String get_html()   {
         //später über iterator:
-        //IteratorComponent it = combonent.create();
+        //Iterator it = screen.createIterator();
+        
         return menubar.get_html();  //zum test
     }
 

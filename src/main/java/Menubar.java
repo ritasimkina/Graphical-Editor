@@ -1,5 +1,9 @@
 public class Menubar implements Component {
 
+    public Iterator createIterator()    {
+        return new IteratorMenubar(this);
+    }
+
     public String get_html()   {
         String s="//menubar:\n";
         s+="<ul>\n";
