@@ -1,7 +1,7 @@
 public class Menubar implements Component {
 
     public Iterator createIterator()    {
-        return new IteratorMenubar(this);
+        return new Iterator.IteratorMenubar(this);
     }
 
     public String get_html()   {
