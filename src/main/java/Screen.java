@@ -23,7 +23,9 @@ public class Screen {
 
     public String get_html()   {
         //später über iterator:
-        //Iterator it = screen.createIterator();
+        Iterator itl = screen.createIterator();
+
+       // for (itl->first(), itr->first(); !itl->isDone(); itl->next(), itr->next())
 
         return menubar.get_html();  //zum test
     }

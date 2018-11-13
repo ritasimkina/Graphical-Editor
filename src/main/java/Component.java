@@ -2,14 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface Component {
-
-
     Iterator.IteratorComponent   iterator = null;
-
     public Iterator createIterator();
-
     public String get_html();
-
 
     public class Composite implements Component {
         //Collection of child Component.
@@ -25,8 +20,7 @@ public interface Component {
         }
 
         public Iterator createIterator() {
-            assert false;
-            return null;
+            return (Iterator) childComponent.iterator();
         }
 
         public String get_html()   {
