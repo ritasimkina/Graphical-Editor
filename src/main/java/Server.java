@@ -1,3 +1,11 @@
+/**
+ * Processing the client's access.
+ * The ip-address is: 127.0.0.1:8080
+ *
+ * @author Klaus Bareis
+ * @version 1.0
+ */
+
 import java.net.*;
 import java.io.*;
 
@@ -5,9 +13,11 @@ import java.io.*;
 import java.util.*;
 
 public class Server extends Thread {
-    private Proxy proxy=new Proxy();;
-
     static final int PORT=8080;
+    //static final String IP="10.101.101.5";
+    static final String IP="127.0.0.1";
+
+    private Proxy proxy=new Proxy();;
 
     static final String HTML_START = "<html><title>MyServer</title><body>";
     static final String HTML_END = "</body></html>";
@@ -21,6 +31,9 @@ public class Server extends Thread {
         this.socket = socket;
     }
 
+    /**
+     * main Server routine
+     */
     public void run() {
 
         try {
@@ -65,6 +78,13 @@ public class Server extends Thread {
         }
     }
 
+    /**
+     * Sends a string to the client
+     *
+     * @param resp: the string to send
+     * @param status: the status
+     * @throws java.lang.Exception Error writing the host
+     */
     public void sendResponse (int status, String resp) throws Exception {
 
         String statusLine = null;
@@ -89,9 +109,15 @@ public class Server extends Thread {
         out.close();
     }
 
+    /**
+     * Entry routine of the Application
+     *
+     * @param args: currently no use
+     * @throws java.lang.Exception error of the host
+     */
     public static void main (String args[]) throws Exception {
 
-        ServerSocket Server = new ServerSocket (PORT, 10, InetAddress.getByName("127.0.0.1"));
+        ServerSocket Server = new ServerSocket (PORT, 10, InetAddress.getByName(IP));
         System.out.println ("TCPServer Waiting for client on port "+PORT);
 
         while(true) {
@@ -101,92 +127,3 @@ public class Server extends Thread {
     }
 }
 
-
-
-/*
-public class Server {
-    private Proxy proxy;
-
-    public class App {
-
-        App(Socket socket) {
-            prepare();
-        }
-        private void prepare()  {
-            proxy = new Proxy();
-        }
-    }
-    public class TCPServer  {
-        final int SERVER_PORT=8080;
-        private ServerSocket s;
-        private Socket s1;
-        private OutputStream s1out;
-        private DataOutputStream dos;
-
-        TCPServer() throws IOException {
-            prepare();
-        }
-        private void prepare() throws IOException    {
-            // Register service on port 1254
-            s = new ServerSocket(SERVER_PORT);
-        }
-        public void start(App app) throws IOException    {
-            // Wait and accept a connection
-
-            do {
-                s1 = s.accept();
-
-                // Get a communication stream
-                // associated with the socket
-                s1out = s1.getOutputStream();
-                dos = new DataOutputStream(s1out);
-
-                dos.writeUTF(proxy.get_html());
-                dos.writeUTF(proxy.get_html());
-                dos.writeUTF(proxy.get_html());
-                System.out.println(proxy.get_html());
-                stop()
-            } while(true);
-        }
-        public void stop() throws IOException    {
-            // Close the connection, but not the server socket
-            dos.close();
-
-            s1out.close();
-            s1.close();
-        }
-    }
-
-
-
-
-    public static void main(String[] args) {
-        Server server = new Server();
-        server.start();
-    }
-    public void start(){
-        try {
-           // TCPServer server= new TCPServer();
-
-           // App app=new App();
-
-            ServerSocket Server = new ServerSocket (8080, 10, InetAddress.getByName("127.0.0.1"));
-            System.out.println ("Waiting for client on port 8080");
-
-            while(true) {
-                Socket socket = Server.accept();
-                (new App(socket)).start();
-            }
-
-
-
-            //server.start(app);
-            //server.stop();
-
-        } catch (Exception e) {
-            System.out.println(e);
-            assert false;
-        }
-    }
-}
-*/
