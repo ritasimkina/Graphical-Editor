@@ -6,7 +6,7 @@ public class ToolbarOperation  implements Component {
 
     public String get_html()   {
         assert false;
-        String s="";
+        String s="<div id=\"operations\"> Operations</div>";
         return s;
     }
 }
