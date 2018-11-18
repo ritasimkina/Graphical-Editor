@@ -19,8 +19,8 @@ public class Server extends Thread {
 
     private Proxy proxy=new Proxy();;
 
-    static final String HTML_START = "<html><title>MyServer</title><body>";
-    static final String HTML_END = "</body></html>";
+    static final String HTML_START = "<html><head><title>Forms</title>";
+    static final String HTML_END = "</html>";
 
     Socket socket = null;
     BufferedReader in = null;
@@ -49,8 +49,8 @@ public class Server extends Thread {
             String httpQueryString = header.nextToken();
 
             StringBuffer resp = new StringBuffer();
-            resp.append("<b> Response from Server </b><BR>");
-            //resp.append(proxy.get_html());
+            //resp.append("<b> Response from Server </b><BR>");
+            resp.append(proxy.get_html());
 
 
 

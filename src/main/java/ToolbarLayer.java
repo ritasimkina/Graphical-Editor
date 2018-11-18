@@ -6,7 +6,7 @@ public class ToolbarLayer  implements Component {
 
     public String get_html()   {
         assert false;
-        String s="";
+        String s="<div id=\"layers\"> Layers</div>";
         return s;
     }
 }
