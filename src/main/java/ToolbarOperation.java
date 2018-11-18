@@ -4,7 +4,7 @@ public class ToolbarOperation  implements Component {
         return null;
     }
 
-    public String get_html()   {
+    public String get_html()   {Debug.out(Thread.currentThread());
         assert false;
         String s="<div id=\"operations\"> Operations</div>";
         return s;

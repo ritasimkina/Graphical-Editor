@@ -27,17 +27,16 @@ public class Server extends Thread {
     DataOutputStream out = null;
 
 
-    public Server(Socket socket) {
+    public Server(Socket socket) {  Debug.out(Thread.currentThread());
         this.socket = socket;
     }
 
     /**
      * main Server routine
      */
-    public void run() {
-
+    public void run() { Debug.out(Thread.currentThread());
         try {
-            System.out.println( "Client="+  socket.getInetAddress() + ":" + socket.getPort());
+            //System.out.println( "Client="+  socket.getInetAddress() + ":" + socket.getPort());
 
             in = new BufferedReader(new InputStreamReader (socket.getInputStream()));
             out = new DataOutputStream(socket.getOutputStream());
@@ -51,9 +50,6 @@ public class Server extends Thread {
             StringBuffer resp = new StringBuffer();
             //resp.append("<b> Response from Server </b><BR>");
             resp.append(proxy.get_html());
-
-
-
 
             while (in.ready())  req = in.readLine();
 
@@ -85,7 +81,7 @@ public class Server extends Thread {
      * @param status: the status
      * @throws java.lang.Exception Error writing the host
      */
-    public void sendResponse (int status, String resp) throws Exception {
+    public void sendResponse (int status, String resp) throws Exception { Debug.out(Thread.currentThread());
 
         String statusLine = null;
         String contentLengthLine = null;
@@ -115,8 +111,7 @@ public class Server extends Thread {
      * @param args: currently no use
      * @throws java.lang.Exception error of the host
      */
-    public static void main (String args[]) throws Exception {
-
+    public static void main (String args[]) throws Exception {  Debug.out(Thread.currentThread());
         ServerSocket Server = new ServerSocket (PORT, 10, InetAddress.getByName(IP));
         System.out.println ("TCPServer Waiting for client on port "+PORT);
 

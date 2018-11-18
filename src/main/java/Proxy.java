@@ -1,17 +1,19 @@
 public class Proxy {
     private Screen screen;
 
-    public Proxy() {
+    public Proxy() {    Debug.out(Thread.currentThread());
         screen = new Screen();
     }
 
-    private String get_styles()   {return "";}
-    private String get_body()   {
+    private String get_styles()   { Debug.out(Thread.currentThread());
+    return "";
+    }
+    private String get_body()   {   Debug.out(Thread.currentThread());
         return "<body>" +
                 screen.get_html() + "\n"+
                 "</body>\n";
     }
-    private String get_head()   {
+    private String get_head()   {   Debug.out(Thread.currentThread());
 
         String formatting =
                 "<style type=\"text/css\">\n" +
@@ -39,7 +41,7 @@ public class Proxy {
                 "\t\n";*/
     }
 
-    public String get_html()   {
+    public String get_html()   {    Debug.out(Thread.currentThread());
         String s=get_head();
         s+=get_body();
         return s;

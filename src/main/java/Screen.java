@@ -8,7 +8,7 @@ public class Screen {
     Component toolbarLayer;
     Component infobar;
 
-    public Screen() {
+    public Screen() {   Debug.out(Thread.currentThread());
         FactoryUI factory_menubar = new FactoryUI.FactoryMenubar();                       /*Component*/ menubar=factory_menubar.create();
         FactoryUI factory_toolbar = new FactoryUI.FactoryToolbar();                       //Component toolbar=factory_toolbar.create();
         FactoryUI factory_toolbar_operation = new FactoryUI.FactoryToolbarOperation();    /*Component*/ toolbarOperation=factory_toolbar_operation.create();
@@ -24,8 +24,7 @@ public class Screen {
         screen.add(factory_infobar.create());
     }
 
-    public String get_html()   {
-
+    public String get_html()   {    Debug.out(Thread.currentThread());
         //später über iterator:
         //Iterator itl = screen.createIterator();
         // for (itl->first(), itr->first(); !itl->isDone(); itl->next(), itr->next())
