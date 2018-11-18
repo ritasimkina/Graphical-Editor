@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,16 +38,6 @@
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#597#598#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Toolbar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="66" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,13 +76,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Text.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolbarLayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="method#Server#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+                <element signature="method#run#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+                <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+                <element signature="method#main#0;class#Server#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -126,16 +141,6 @@
                 <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
                 <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menubar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menubar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,12 +217,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/DrawTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Layer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
       </list>
     </option>
   </component>
@@ -281,14 +286,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
-              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -500,12 +497,12 @@
       <workItem from="1542269594318" duration="4291000" />
       <workItem from="1542297852812" duration="26000" />
       <workItem from="1542530489205" duration="13149000" />
-      <workItem from="1542561638798" duration="2321000" />
+      <workItem from="1542561638798" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53923000" />
+    <option name="totallyTimeSpent" value="54705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1480" height="888" extended-state="0" />
@@ -817,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -849,22 +836,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="method#Server#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-            <element signature="method#run#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-            <element signature="method#main#0;class#Server#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -983,6 +946,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+            <element signature="method#run#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
