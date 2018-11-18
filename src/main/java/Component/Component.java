@@ -10,6 +10,7 @@ public interface Component {
     public Iterator createIterator();
     public String get_html();
 
+
     public class Composite implements Component {
         //Collection of child Component.
         List<Component> childComponent = new ArrayList<Component>();
@@ -28,8 +29,10 @@ public interface Component {
         }
 
         public String get_html()   {Debug.out(Thread.currentThread());
-            assert false;
             String s="";
+            for (Component i: childComponent  ) {
+                s+=i.get_html();
+            }
             return s;
         }
     }
