@@ -2,99 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" afterPath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" />
       <change beforePath="$PROJECT_DIR$/Doku/Disign1/class1.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/class1.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_composite.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_composite.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_factory.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_factory.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_iterator.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_iterator.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_proxy.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_proxy.dia" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Component.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Component.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/DrawArray.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/DrawArray.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Infobar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Infobar.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Iterator.IteratorMenubar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Iterator.IteratorMenubar.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Menu.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Menu.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Menubar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Menubar.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Tool.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Tool.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Toolbar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Toolbar.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarLayer.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarLayer.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarOperation.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarOperation.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-14.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-14.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-5.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-6.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-9.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/overview-tree.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-frame.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-summary.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-tree.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Circle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Debug.java" afterPath="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elipse.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Elipse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Infobar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Infobar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Layer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menubar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menubar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NGon.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/NGon.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Star.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Star.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Text.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tool.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Tool.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarOperation.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/x.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ComponentTest.java" afterPath="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrawTest.java" afterPath="$PROJECT_DIR$/src/test/java/DrawTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Circle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Component$Composite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Component.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Debug.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Draw.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DrawArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Elipse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryDrawArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryInfobar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryMenubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Infobar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorComponent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorMenubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Layer.class" afterPath="$PROJECT_DIR$/target/classes/Layer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Line.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Menubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NGon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Proxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen.class" afterPath="$PROJECT_DIR$/target/classes/Screen.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" afterPath="$PROJECT_DIR$/target/classes/Server.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Star.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Text.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Toolbar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Triangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/x.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DrawTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DrawTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,34 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1590#1613#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComponentTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ComponentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DrawTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,78 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToolbarOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java">
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Infobar.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Infobar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Server#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-                <element signature="method#run#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-                <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-                <element signature="method#main#0;class#Server#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UI/FactoryUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Layer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#add#0;class#Composite#0;class#Component#0" expanded="false" />
+                <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -309,11 +131,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/DrawTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
       </list>
     </option>
   </component>
@@ -323,10 +145,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="33" />
-    <option name="width" value="1440" />
-    <option name="height" value="842" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1164" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -378,6 +199,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -571,15 +400,16 @@
       <workItem from="1542243386930" duration="1159000" />
       <workItem from="1542269594318" duration="4291000" />
       <workItem from="1542297852812" duration="26000" />
-      <workItem from="1542530489205" duration="7642000" />
+      <workItem from="1542530489205" duration="9842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46095000" />
+    <option name="totallyTimeSpent" value="48295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="33" width="1604" height="908" extended-state="6" />
+    <frame x="0" y="0" width="1164" height="888" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,11 +420,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35354838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33774835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28189656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,7 +485,8 @@
         <state relative-caret-position="120">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#add#0;class#Composite#0;class#Component#0" expanded="false" />
+            <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Iterator/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -984,54 +805,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_body#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Server#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-            <element signature="method#run#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-            <element signature="method#main#0;class#Server#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ComponentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1590#1613#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,6 +833,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Infobar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+            <element signature="method#run#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DrawTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1065,11 +868,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Infobar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_body#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="method#add#0;class#Composite#0;class#Component#0" expanded="false" />
+            <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,10 +30,12 @@ public class Screen {
 
     public String get_html()   {    Debug.out(Thread.currentThread());
         //später über iterator:
-        //Iterator itl = Screen.createIterator();
+        //Iterator it = Screen.createIterator();
         // for (itl->first(), itr->first(); !itl->isDone(); itl->next(), itr->next())
 
-        return menubar.get_html() + toolbarOperation.get_html()  +  toolbarLayer.get_html() + infobar.get_html();
+        return screen.get_html();
+
+        //return menubar.get_html() + toolbarOperation.get_html()  +  toolbarLayer.get_html() + infobar.get_html();
 
     }
 
