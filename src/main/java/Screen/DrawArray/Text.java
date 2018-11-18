@@ -5,7 +5,7 @@ import Debug.Debug;
 import Iterator.Iterator;
 
 public class Text implements Component {
-    private double x1=0, y1=0, x2=100, y2=100;
+    private double x1=50, y1=50;
     private int r=255, g=0,b=0;
     private String txt="";
 
@@ -22,7 +22,7 @@ public class Text implements Component {
     }
     public String get_html() {
         String s;
-        s= "<text x='" +x1+ "' y='" +y1+ "' fill='"+rgb_html(r,g,b)+"'>"+txt+"</text>";
+        s= "\n<text x='" +x1+ "' y='" +y1+ "' fill="+rgb_html(r,g,b)+"'>"+txt+"</text>\n";
         return s;
     }
 }

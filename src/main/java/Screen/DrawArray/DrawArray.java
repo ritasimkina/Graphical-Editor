@@ -21,11 +21,16 @@ public class DrawArray implements Component {
         layer.add(new Layer());
     }
 
+    private String souround_svg(String s)   {
+        return "\n<svg height='210' width='500'>"+s+"</svg>\n";
+    }
+
+
     public String get_html()   {
         String s="";
         for (Layer l: layer  ) {
             s+=l.get_html();
         }
-        return s;
+        return souround_svg(s);
     }
 }

@@ -13,6 +13,7 @@ public class Layer implements Component {
     }
     public Layer() { Debug.out(Thread.currentThread());
         draws.add(new Text("Hello World!!!!"));
+        draws.add(new Line(10,10,100,100));
     }
 
     public String get_html()   {
