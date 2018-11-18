@@ -1,6 +1,10 @@
 package Screen.DrawArray;
 
-public class Text {
+import Component.Component;
+import Debug.Debug;
+import Iterator.Iterator;
+
+public class Text implements Component {
     private double x1=0, y1=0, x2=100, y2=100;
     private int r=255, g=0,b=0;
     private String txt="";
@@ -9,6 +13,13 @@ public class Text {
         return "rgb(" +r+ "," +g+ "," +b+ ")";
     }
 
+    public Iterator createIterator() {
+        assert false;
+        return null;
+    }
+    public Text(String text) { Debug.out(Thread.currentThread());
+        txt=text;
+    }
     public String get_html() {
         String s;
         s= "<text x='" +x1+ "' y='" +y1+ "' fill='"+rgb_html(r,g,b)+"'>"+txt+"</text>";
