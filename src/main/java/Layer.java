@@ -1,3 +1,8 @@
+
+import Debug.*;
+import Iterator.*;
+import Component.*;
+
 public class Layer implements Component {
     public Iterator createIterator() {
         assert false;

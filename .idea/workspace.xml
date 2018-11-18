@@ -2,42 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Debug.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Draw.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryUI.java" afterPath="$PROJECT_DIR$/src/main/java/FactoryUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Infobar.java" afterPath="$PROJECT_DIR$/src/main/java/Infobar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menubar.java" afterPath="$PROJECT_DIR$/src/main/java/Menubar.java" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" afterPath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/class1.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/class1.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_composite.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_composite.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_factory.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_factory.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_iterator.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_iterator.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_proxy.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_proxy.dia" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Component.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Component.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/DrawArray.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/DrawArray.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Infobar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Infobar.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Iterator.IteratorMenubar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Iterator.IteratorMenubar.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Menu.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Menu.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Menubar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Menubar.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Tool.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Tool.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/Toolbar.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/Toolbar.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarLayer.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarLayer.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarOperation.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/ToolbarOperation.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-14.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-14.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/overview-tree.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-frame.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-summary.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Doku/JacaDoc/package-tree.html" afterPath="$PROJECT_DIR$/Doku/JacaDoc/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Circle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Debug.java" afterPath="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Elipse.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Elipse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Infobar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Infobar.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Layer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menu.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menubar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menubar.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NGon.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/NGon.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tool.java" afterPath="$PROJECT_DIR$/src/main/java/Tool.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Toolbar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/ToolbarLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarOperation.java" afterPath="$PROJECT_DIR$/src/main/java/ToolbarOperation.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Component$Composite.class" afterPath="$PROJECT_DIR$/target/classes/Component$Composite.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Draw.class" afterPath="$PROJECT_DIR$/target/classes/Draw.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryDrawArray.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryDrawArray.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryInfobar.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryInfobar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryMenubar.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryMenubar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbar.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarLayer.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarLayer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarOperation.class" afterPath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarOperation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Infobar.class" afterPath="$PROJECT_DIR$/target/classes/Infobar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorComponent.class" afterPath="$PROJECT_DIR$/target/classes/Iterator$IteratorComponent.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorMenubar.class" afterPath="$PROJECT_DIR$/target/classes/Iterator$IteratorMenubar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" afterPath="$PROJECT_DIR$/target/classes/Menu.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Menubar.class" afterPath="$PROJECT_DIR$/target/classes/Menubar.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Star.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Star.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Text.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tool.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Tool.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToolbarOperation.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/x.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ComponentTest.java" afterPath="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DrawTest.java" afterPath="$PROJECT_DIR$/src/test/java/DrawTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Circle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Component$Composite.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Debug.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Draw.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DrawArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Elipse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryDrawArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryInfobar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryMenubar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarLayer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI$FactoryToolbarOperation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryUI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Infobar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Iterator$IteratorMenubar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Iterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Layer.class" afterPath="$PROJECT_DIR$/target/classes/Layer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Line.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Menubar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NGon.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/Proxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/Screen.class" afterPath="$PROJECT_DIR$/target/classes/Screen.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/Server.class" afterPath="$PROJECT_DIR$/target/classes/Server.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tool.class" afterPath="$PROJECT_DIR$/target/classes/Tool.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Toolbar.class" afterPath="$PROJECT_DIR$/target/classes/Toolbar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarLayer.class" afterPath="$PROJECT_DIR$/target/classes/ToolbarLayer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarOperation.class" afterPath="$PROJECT_DIR$/target/classes/ToolbarOperation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Star.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Text.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Toolbar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarLayer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ToolbarOperation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Triangle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/x.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DrawTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DrawTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,33 +110,56 @@
       <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <element signature="e#1522#1545#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1590#1613#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Star.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Star.java">
+      <file leaf-file-name="ComponentTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ComponentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Component.java">
+      <file leaf-file-name="DrawTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DrawTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolbarOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Infobar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Infobar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,78 +167,71 @@
       <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Server#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+                <element signature="method#run#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
                 <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+                <element signature="method#main#0;class#Server#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Debug.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Debug.java">
+      <file leaf-file-name="FactoryUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/FactoryUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Draw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elipse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Elipse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="554">
+              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NGon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NGon.java">
+      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quadrangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Quadrangle.java">
+      <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Layer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
+                <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
+                <element signature="method#get_body#0;class#Proxy#0" expanded="false" />
+                <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
+                <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,19 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/Doku/Disign1/README.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/DecoratorFileSVG.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OperationEdit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OperationMove.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GraphicElementSelectIterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GraphicElementSelect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MenubarIter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DrawArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Layer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FactoryMenubar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FactoryToolbar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FactoryToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryToolbarOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryInfobar.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryDrawArray.java" />
@@ -212,27 +272,48 @@
         <option value="$PROJECT_DIR$/src/main/java/IteratorComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/IteratorMenubar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Composite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DrawTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/Menubar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Debug.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Draw.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FactoryUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Infobar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tool.java" />
         <option value="$PROJECT_DIR$/src/main/java/Toolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/ToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ToolbarOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Quadrangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Elipse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Draw.java" />
         <option value="$PROJECT_DIR$/src/main/java/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/NGon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Quadrangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/screen/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DrawArray/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Debug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DrawArray/Draw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/screen/Infobar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Infobar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Tool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Layer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FactoryUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DrawTest.java" />
       </list>
     </option>
   </component>
@@ -298,6 +379,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -311,8 +405,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.webservices" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Fabian/se2/g2018w_se2_0403/src/main/java/Server.java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -476,16 +571,15 @@
       <workItem from="1542243386930" duration="1159000" />
       <workItem from="1542269594318" duration="4291000" />
       <workItem from="1542297852812" duration="26000" />
-      <workItem from="1542530489205" duration="4811000" />
+      <workItem from="1542530489205" duration="7642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43264000" />
+    <option name="totallyTimeSpent" value="46095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1604" height="908" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -500,9 +594,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -550,33 +644,30 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FactoryToolbarLayer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/FactoryToolbarOperation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/FactoryInfobar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryDrawArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryDrawComponent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryLayer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/IteratorComponent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/IteratorMenubar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Composite.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -586,26 +677,8 @@
         <state relative-caret-position="289">
           <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DrawTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComponentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,26 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryDraw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FactoryUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -665,50 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Infobar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Kontext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Menubar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -745,128 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Strategie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Toolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ToolbarLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ToolbarOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/x.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Draw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Elipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NGon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -879,41 +778,297 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/x.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Elipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#1522#1545#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Star.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/NGon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Iterator.Iterator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Iterator.Iterator</OriginalElement>
+          <nodes>
+            <node x="" y="">Iterator.Iterator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="45.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2018w_se2_0403.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Debug/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menubar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_body#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+            <element signature="method#run#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
             <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Debug.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComponentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1590#1613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/FactoryUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DrawTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Infobar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>

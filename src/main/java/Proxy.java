@@ -1,3 +1,8 @@
+
+import Debug.*;
+import Iterator.*;
+import Component.*;
+
 public class Proxy {
     private Screen screen;
 

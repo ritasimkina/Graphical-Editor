@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
+import Debug.*;
+import Iterator.*;
+import Component.*;
+import UI.*;
 
 public class Screen {
     Component.Composite screen = new Component.Composite();
@@ -26,7 +30,7 @@ public class Screen {
 
     public String get_html()   {    Debug.out(Thread.currentThread());
         //später über iterator:
-        //Iterator itl = screen.createIterator();
+        //Iterator itl = Screen.createIterator();
         // for (itl->first(), itr->first(); !itl->isDone(); itl->next(), itr->next())
 
         return menubar.get_html() + toolbarOperation.get_html()  +  toolbarLayer.get_html() + infobar.get_html();

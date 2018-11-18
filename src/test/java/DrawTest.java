@@ -6,7 +6,7 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import Screen.DrawArray.*;
 
 @RunWith(Arquillian.class)
 public class DrawTest {

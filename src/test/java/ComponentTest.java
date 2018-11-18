@@ -8,6 +8,8 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+import Component.*;
+
 @RunWith(Arquillian.class)
 public class ComponentTest {
     @Deployment

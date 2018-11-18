@@ -1,6 +1,6 @@
 
 Erzeugungsmuster:
--	• Abstract Factory Pattern:	System mit unterschiedlichen Produktfamilien konfiguriert (Menu, Buttons, ...)
+-	• Abstract Factory Pattern:	System mit unterschiedlichen Produktfamilien konfiguriert (Screen.Menu, Buttons, ...)
 -	• Factory Method Pattern:	zum erstellen neuer GrafikElemente (-> zeichnen)
 Strukturmuster:
 -	• Composite Pattern:		Screenstruktur (unten)
@@ -11,20 +11,20 @@ Strukturmuster:
 Verhaltensmuster:
 +	• Observer Pattern:			GraphicElement->GUI:
 								Kein GraphicElement deselectiert: GUI-Delete disabled
-																editing disabled (FR2 Toolbar)
-																Infobar: löschen
+																editing disabled (FR2 Screen.Toolbar)
+																Screen.Infobar: löschen
 								Ein	 GraphicElement selectiert: GUI-Delete enabled
-																editing enabled (FR2 Toolbar)
-																Infobar: infos anzeigen
+																editing enabled (FR2 Screen.Toolbar)
+																Screen.Infobar: infos anzeigen
 																je nach selektion strategie (edit/move) setzten
 								GraphicElement move/edit:		nach gewälter strategie
-																Infobar: Koordinate anzeigen
+																Screen.Infobar: Koordinate anzeigen
 								GUI->GraphicElement:
-								GraphicElement deletion:		DrawArray anpassen 
+								GraphicElement deletion:		Screen.Screen.DrawArray.DrawArray anpassen
 																GraphicElement deselectieren
-								GraphicElement addition: 		DrawArray anpassen 
+								GraphicElement addition: 		Screen.Screen.DrawArray.DrawArray anpassen
 																GraphicElement selectieren
-								FR3: Layer on/off				DrawArray anpassen
+								FR3: Layer on/off				Screen.Screen.DrawArray.DrawArray anpassen
 +	• Strategy Pattern:		 	FR2 mehrfach für alle GraphicElement Verwendet.
 								Move/Edit auf GraphicElement. (Edit ist move auf einen Punkt.)
 								• editing: ein punkt selectiert
@@ -32,20 +32,20 @@ Verhaltensmuster:
 -	• Iterator Pattern:			Über die GUI und GraphicElement
 
 
-Screen						Composite (Menubar, ...)
-	Menubar
-		Menu
-	Toolbar
+Screen						Composite (Screen.Menubar, ...)
+	Screen.Menubar
+		Screen.Menu
+	Screen.Toolbar
 		FR1: GraphicElement
 		FR2: Operationen
 		FR3: Layer
-	DrawArray				Composite (Composite: Layer, Leaf: Line, ... )
+	Screen.Screen.DrawArray.DrawArray				Composite (Composite: Layer, Leaf: Line, ... )
 		Layer
 			GraphicElement
 			GraphicElement
 		Layer
 			GraphicElement
-	Infobar
+	Screen.Infobar
 	
 	
 

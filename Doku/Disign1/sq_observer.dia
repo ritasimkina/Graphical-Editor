@@ -871,7 +871,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Triangle#</dia:string>
+        <dia:string>#Screen.Screen.DrawArray.DrawArray.Triangle#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -4395,7 +4395,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Triangle#</dia:string>
+        <dia:string>#Screen.Screen.DrawArray.DrawArray.Triangle#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -5274,7 +5274,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Menubar#</dia:string>
+        <dia:string>#Screen.Menubar#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -5384,7 +5384,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Toolbar#</dia:string>
+        <dia:string>#Screen.Toolbar#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -5494,7 +5494,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#DrawArray#</dia:string>
+        <dia:string>#Screen.Screen.DrawArray.DrawArray#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -5604,7 +5604,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Infobar#</dia:string>
+        <dia:string>#Screen.Infobar#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
