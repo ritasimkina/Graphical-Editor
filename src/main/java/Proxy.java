@@ -46,6 +46,10 @@ public class Proxy {
                 "\t\n";*/
     }
 
+
+    public void new_line()  {
+        screen.new_line();
+    }
     public String get_html()   {    Debug.out(Thread.currentThread());
         String s=get_head();
         s+=get_body();

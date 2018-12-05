@@ -3,10 +3,12 @@ import java.util.List;
 import Debug.*;
 import Iterator.*;
 import Component.*;
+import Screen.DrawArray.DrawArray;
 import UI.*;
 
 public class Screen {
     Component.Composite screen = new Component.Composite();
+    Component drawarray;
 
     public Screen() {   Debug.out(Thread.currentThread());
         FactoryUI factory_menubar = new FactoryUI.FactoryMenubar();                       Component menubar=factory_menubar.create();
@@ -14,7 +16,7 @@ public class Screen {
         FactoryUI factory_toolbar_operation = new FactoryUI.FactoryToolbarOperation();    Component toolbarOperation=factory_toolbar_operation.create();
         FactoryUI factory_toolbar_layer = new FactoryUI.FactoryToolbarLayer();            Component toolbarLayer=factory_toolbar_layer.create();
         FactoryUI factory_infobar = new FactoryUI.FactoryInfobar();                       Component infobar=factory_infobar.create();
-        FactoryUI factory_drawarray = new FactoryUI.FactoryDrawArray();                   Component drawarray=factory_drawarray.create();
+        FactoryUI factory_drawarray = new FactoryUI.FactoryDrawArray();                   drawarray=factory_drawarray.create();
 
         screen.add(menubar);
         screen.add(toolbar);
@@ -27,4 +29,9 @@ public class Screen {
     public String get_html()   {    Debug.out(Thread.currentThread());
         return screen.get_html();
     }
+
+    public void new_line()  {
+        ((DrawArray) drawarray).new_line();
+    }
+
 }

@@ -12,9 +12,18 @@ public class Toolbar implements Component {
         return null;
     }
 
-    public String get_html()   {Debug.out(Thread.currentThread());
-        assert false;
-        String s="";
+    public String get_html() {
+        Debug.out(Thread.currentThread());
+        //String s="\n<div id=\"toolbar\">";
+        //s+="<button type=\"button\" onclick=\"alert('Hello World!')\">Click Me!</button>";
+        //s+="</div>\n";
+//    }
+
+        String s = "";
+        s += "\n<form action=\"Line\" method=\"GET\">";
+        s += "\n\t<button>Line</button>";
+        s += "\n</form>";
+
         return s;
     }
 

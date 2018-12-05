@@ -2,127 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/workspace.bak" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Design 2/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Design 2/Design2_Class_diagramm.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Design 2/Design2_Team403.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/Specification.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/class1.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/screen.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_ClientServer.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_composite.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_decorator.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_factory.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_iterator.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_observer.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_proxy.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/Disign1/sq_strategy.dia" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/Doku/tools.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/g2018w_se2_0403.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Circle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Component/Component.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Debug/Debug.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Decorator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/DecoratorFileSVG.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/FactoryDraw.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/GraphicElementSelect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Iterator/Iterator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Kontext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Observer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Operation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/OperationEdit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/OperationMove.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Proxy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Quadrangle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Circle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Draw.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Elipse.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Layer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Line.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/NGon.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Star.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Text.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/DrawArray/Triangle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/Infobar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/Menu.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/Menubar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/Tool.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/Toolbar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/ToolbarLayer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Screen/ToolbarOperation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Server.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Shape.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/Strategie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/main/java/UI/FactoryUI.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/test/java/ComponentTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/src/test/java/DrawTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Component/Component$Composite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Component/Component.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Debug/Debug.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Decorator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/DecoratorFileSVG.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/FactoryDraw$FactoryDrawComponent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/FactoryDraw$FactoryLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/FactoryDraw.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/GraphicElementSelect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Iterator/Iterator$IteratorComponent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Iterator/Iterator$IteratorMenubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Iterator/Iterator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Kontext.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Observer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Operation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/OperationEdit.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/OperationMove.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Proxy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Quadrangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Circle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Draw.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/DrawArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Elipse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Layer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Line.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/NGon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Star.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Text.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/DrawArray/Triangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/Infobar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/Menu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/Menubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/Tool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/Toolbar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/ToolbarLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Screen/ToolbarOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Server.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/Strategie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryDrawArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryInfobar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryMenubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryToolbar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryToolbarLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI$FactoryToolbarOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/classes/UI/FactoryUI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/test-classes/ComponentTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/other/target/test-classes/DrawTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/Operation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OperationEdit.java" afterPath="$PROJECT_DIR$/src/main/java/OperationEdit.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,37 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="245">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+      <file leaf-file-name="Toolbar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -174,10 +48,13 @@
       <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#498#499#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,48 +65,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="31" column="142" lean-forward="false" selection-start-line="31" selection-start-column="142" selection-end-line="31" selection-end-column="142" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToolbarLayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <file leaf-file-name="Menubar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menubar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="method#Server#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-                <element signature="method#run#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-                <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-                <element signature="method#main#0;class#Server#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,8 +97,8 @@
       <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
               </folding>
@@ -247,17 +106,44 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1336">
+              <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+              <folding>
+                <element signature="method#Server#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+                <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+                <element signature="method#main#0;class#Server#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlainSocketImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///etc/java-config-2/current-system-vm/jre/lib/rt.jar!/java/net/PlainSocketImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
                 <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
                 <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
-                <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
+                <element signature="e#1978#1979#0" expanded="true" />
+                <element signature="e#2011#2012#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -324,23 +210,23 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/ToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/DrawTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/Layer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
       </list>
     </option>
   </component>
@@ -350,7 +236,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1480" />
     <option name="height" value="888" />
   </component>
@@ -372,8 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,12 +270,49 @@
               <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
               <item name="Doku" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Screen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Screen" type="462c0819:PsiDirectoryNode" />
+              <item name="DrawArray" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,36 +491,38 @@
       <workItem from="1542561638798" duration="3748000" />
       <workItem from="1542577264672" duration="48000" />
       <workItem from="1544048783762" duration="29000" />
+      <workItem from="1544048962175" duration="5037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55427000" />
+    <option name="totallyTimeSpent" value="60464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1480" height="888" extended-state="0" />
+    <frame x="-2" y="-2" width="1604" height="908" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3178808" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31741935" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2423841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21935484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22154471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5470968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,11 +540,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="ste" language="JAVA" />
+        <watch expression="socket" />
       </configuration>
     </watches-manager>
   </component>
@@ -642,7 +574,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FactoryDrawArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryDrawComponent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryLayer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/IteratorComponent.java" />
@@ -663,7 +594,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Tool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -855,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,81 +803,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menubar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
-            <element signature="method#get_html#0;class#Proxy#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="142" lean-forward="false" selection-start-line="31" selection-start-column="142" selection-end-line="31" selection-end-column="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,28 +829,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Menubar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="142" lean-forward="false" selection-start-line="31" selection-start-column="142" selection-end-line="31" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="method#Server#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-            <element signature="method#run#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-            <element signature="method#main#0;class#Server#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="method#remove#0;class#Composite#0;class#Component#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="245">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Proxy#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_styles#0;class#Proxy#0" expanded="false" />
+            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///etc/java-config-2/current-system-vm/jre/lib/rt.jar!/java/net/PlainSocketImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1336">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding>
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
           </folding>
         </state>
       </provider>

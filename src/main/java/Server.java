@@ -42,37 +42,45 @@ public class Server extends Thread {
             in = new BufferedReader(new InputStreamReader (socket.getInputStream()));
             out = new DataOutputStream(socket.getOutputStream());
 
-            String req = in.readLine();
-
-            StringTokenizer header = new StringTokenizer(req);
-            String httpMethod = header.nextToken();
-            String httpQueryString = header.nextToken();
-
             StringBuffer resp = new StringBuffer();
-            //resp.append("<b> Response from Server </b><BR>");
-            resp.append(proxy.get_html());
+            String req="";
 
-            while (in.ready())  req = in.readLine();
+            while (true)    {
 
-            if (httpMethod.equals("GET")) {
-                if (httpQueryString.equals("/")) {
-                    sendResponse(200, resp.toString());
-                } else {
-                    String req_side = httpQueryString.replaceFirst("/", "");
-                    req_side = URLDecoder.decode(req_side);
-                    if (req_side=="A"){
-                        assert false;
-                        sendResponse(200, req_side);
-                    }
-                    else {
-                        sendResponse(404, "not found");
+                while (!in.ready()) ;
+                req = in.readLine();
+                StringTokenizer header = new StringTokenizer(req);
+                String httpMethod = header.nextToken();
+                String httpQueryString = header.nextToken();
+                while (in.ready())  req = in.readLine();
+
+
+                if (httpMethod.equals("GET")) {
+                    if (httpQueryString.equals("/")) {
+                        resp.append(proxy.get_html());
+                        sendResponse(200, resp.toString());
+                        resp.setLength(0);
+                    } else {
+                        String req_side = httpQueryString.replaceFirst("/", "");
+                        req_side = URLDecoder.decode(req_side);
+                        if (req_side.equals("Line?")){
+                            proxy.new_line();
+                            resp.append(proxy.get_html());
+                            sendResponse(200, resp.toString());
+                            resp.setLength(0);
+                        }
+                        else {
+                            sendResponse(404, "not found");
+                        }
                     }
                 }
+                else sendResponse(404, "not found");
             }
-            else sendResponse(404, "not found");
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 
     /**
@@ -99,11 +107,11 @@ public class Server extends Thread {
         out.writeBytes(statusLine);
         out.writeBytes(contentTypeLine);
         out.writeBytes(contentLengthLine);
-        out.writeBytes("Connection: close\r\n");
+        //out.writeBytes("Connection: close\r\n");
         out.writeBytes("\r\n");
         out.writeBytes(resp);
 
-        out.close();
+        //out.close();
     }
 
     /**

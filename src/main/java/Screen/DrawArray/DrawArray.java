@@ -33,4 +33,11 @@ public class DrawArray implements Component {
         }
         return souround_svg(s);
     }
+
+    public void new_line()  {
+        // ToDo:: für aktiven layer
+        layer.get(0).new_line();
+    }
+
+
 }

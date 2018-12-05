@@ -10,7 +10,6 @@ public interface Component {
     public Iterator createIterator();
     public String get_html();
 
-
     public class Composite implements Component {
         //Collection of child Component.
         List<Component> childComponent = new ArrayList<Component>();
