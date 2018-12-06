@@ -110,7 +110,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Operation#</dia:string>
+        <dia:string>#Screen.Toolbar.Operation#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -251,7 +251,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#OperationMove#</dia:string>
+        <dia:string>#Screen.Toolbar.OperationMove#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -895,7 +895,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#OperationEdit#</dia:string>
+        <dia:string>#Screen.Toolbar.OperationEdit#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>

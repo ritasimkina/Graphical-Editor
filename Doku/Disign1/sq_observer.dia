@@ -73,7 +73,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Observer.Observer Pattern:			GUI (Operation (FR2)) unterschiedlich je nach selektion#</dia:string>
+            <dia:string>#Observer.Observer Pattern:			GUI (Screen.Toolbar.Operation (FR2)) unterschiedlich je nach selektion#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
