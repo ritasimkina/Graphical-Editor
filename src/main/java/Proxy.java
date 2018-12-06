@@ -1,5 +1,6 @@
 
 import Debug.*;
+import Screen.DrawArray.DrawArray;
 import Screen.Screen;
 
 public class Proxy {
@@ -46,16 +47,14 @@ public class Proxy {
     }
 
 
-    public void new_line()  {
-        screen.new_line();
-    }
+
     public String get_html()   {    Debug.out(Thread.currentThread());
         String s=get_head();
         s+=get_body();
         return s;
     }
 
-    public void new_text() {
-        screen.new_text();
+    public boolean create_shape(String name)    {
+        return screen.create_shape(name);
     }
 }

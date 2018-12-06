@@ -38,13 +38,25 @@ public class DrawArray implements Component {
         return souround_svg(s);
     }
 
-    public void new_line()  {
+
+
+    public boolean create_shape(String name)    {
         // ToDo:: für aktiven layer
-        layer.get(0).new_line();
+        boolean result=true;
+
+        switch (name) {
+            case "Line":
+                layer.get(0).new_line();
+                break;
+            case "Text":
+                layer.get(0).new_text();
+                break;
+            default:
+                result=false;
+        }
+        return result;
     }
 
 
-    public void new_text() {
-        layer.get(0).new_text();
-    }
+
 }

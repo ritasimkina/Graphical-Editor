@@ -32,11 +32,9 @@ public class Screen {
         return screen.get_html();
     }
 
-    public void new_line()  {
-        ((DrawArray) drawarray).new_line();
+    public boolean create_shape(String name)    {
+        return ((DrawArray) drawarray).create_shape(name);
     }
 
-    public void new_text() {
-        ((DrawArray) drawarray).new_text();
-    }
+
 }
