@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Observer/ToolbarObserver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Observer/Observer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Observer/ToolbarObserver.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" afterPath="$PROJECT_DIR$/Doku/Disign1/Specification.txt" />
       <change beforePath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" afterPath="$PROJECT_DIR$/Doku/Disign1/sq_observer.dia" />
@@ -18,7 +20,7 @@
       <change beforePath="$PROJECT_DIR$/implementation/JavaDoc/package-tree.html" afterPath="$PROJECT_DIR$/implementation/JavaDoc/package-tree.html" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GraphicElementSelect.java" afterPath="$PROJECT_DIR$/src/main/java/GraphicElementSelect.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Observer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Observer.java" afterPath="$PROJECT_DIR$/src/main/java/Observer/Observer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
@@ -538,12 +540,12 @@
       <workItem from="1542577264672" duration="48000" />
       <workItem from="1544048783762" duration="29000" />
       <workItem from="1544048962175" duration="5037000" />
-      <workItem from="1544081395585" duration="2458000" />
+      <workItem from="1544081395585" duration="2475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62922000" />
+    <option name="totallyTimeSpent" value="62939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1604" height="908" extended-state="6" />
