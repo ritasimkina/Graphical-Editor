@@ -44,4 +44,7 @@ public class DrawArray implements Component {
     }
 
 
+    public void new_text() {
+        layer.get(0).new_text();
+    }
 }

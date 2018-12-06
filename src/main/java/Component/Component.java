@@ -17,6 +17,7 @@ public interface Component {
 
 
 
+
     public class Composite implements Component {
         //Collection of child Component.
         List<Component> childComponent = new ArrayList<Component>();

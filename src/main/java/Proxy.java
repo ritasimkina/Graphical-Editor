@@ -55,4 +55,7 @@ public class Proxy {
         return s;
     }
 
+    public void new_text() {
+        screen.new_text();
+    }
 }

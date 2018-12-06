@@ -63,15 +63,21 @@ public class Server extends Thread {
                     } else {
                         String req_side = httpQueryString.replaceFirst("/", "");
                         req_side = URLDecoder.decode(req_side);
-                        if (req_side.equals("Line?")){
-                            proxy.new_line();
-                            resp.append(proxy.get_html());
-                            sendResponse(200, resp.toString());
-                            resp.setLength(0);
+
+                        switch (req_side) {
+                            case "Line?":
+                                proxy.new_line();
+                                break;
+                            case "Text?":
+                                proxy.new_text();
+                                break;
+                            default:
+                                sendResponse(404, "not found");;
                         }
-                        else {
-                            sendResponse(404, "not found");
-                        }
+                        resp.append(proxy.get_html());
+                        sendResponse(200, resp.toString());
+                        resp.setLength(0);
+
                     }
                 }
                 else sendResponse(404, "not found");

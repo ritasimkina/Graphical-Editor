@@ -22,7 +22,7 @@ public class Layer implements Component {
         return null;
     }
     public Layer() { Debug.out(Thread.currentThread());
-        draws.add(new Text("Hello World!!!!"));
+        //draws.add(new Text("Hello World!!!!"));
     }
 
     public String get_html()   {
@@ -34,4 +34,7 @@ public class Layer implements Component {
     }
 
 
+    public void new_text() {
+        draws.add(new Text("Text"));
+    }
 }

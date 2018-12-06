@@ -36,4 +36,7 @@ public class Screen {
         ((DrawArray) drawarray).new_line();
     }
 
+    public void new_text() {
+        ((DrawArray) drawarray).new_text();
+    }
 }
