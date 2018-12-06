@@ -73,7 +73,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Observer Pattern:			GUI (Operation (FR2)) unterschiedlich je nach selektion#</dia:string>
+            <dia:string>#Observer.Observer Pattern:			GUI (Operation (FR2)) unterschiedlich je nach selektion#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1455,7 +1455,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Observer#</dia:string>
+        <dia:string>#Observer.Observer#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -2257,7 +2257,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Observer#</dia:string>
+        <dia:string>#Observer.Observer#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -3053,7 +3053,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Observer#</dia:string>
+        <dia:string>#Observer.Observer#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -3629,7 +3629,7 @@ connect observer#</dia:string>
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Observer#</dia:string>
+        <dia:string>#Observer.Observer#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>

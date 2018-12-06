@@ -3,6 +3,8 @@ package Screen.DrawArray;
 import Component.Component;
 import Debug.Debug;
 import Iterator.Iterator;
+import Observer.ToolbarObserver;
+import Observer.Observer;
 
 public class Line implements Component {
     double x1=0, y1=0, x2=100, y2=100;
@@ -10,11 +12,12 @@ public class Line implements Component {
 
     int r=255, g=0,b=0;
 
-    public void registerObserver()  {assert false;}
+    public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
     public Line(double x1,double y1,double x2,double y2)    {
         Debug.out(Thread.currentThread());
+        observer.add(new ToolbarObserver());
         this.x1=x1;
         this.y1=y1;
         this.x2=x2;

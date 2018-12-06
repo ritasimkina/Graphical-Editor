@@ -3,13 +3,16 @@ package Component;
 import java.util.ArrayList;
 import java.util.List;
 import Iterator.Iterator;
+import Observer.Observer;
 import Debug.*;
 
 public interface Component {
     Iterator.IteratorComponent   iterator = null;
+    List<Observer> observer = new ArrayList<Observer>();
+
     public Iterator createIterator();
     public String get_html();
-    public void registerObserver();
+    public void registerObserver(Observer o);
     public void notifyObservers();
 
 
@@ -18,8 +21,13 @@ public interface Component {
         //Collection of child Component.
         List<Component> childComponent = new ArrayList<Component>();
 
-        public void registerObserver()  {assert false;}
-        public void notifyObservers()  {assert false;}
+
+        public void registerObserver(Observer o)  {observer.add(o);}
+        public void notifyObservers()  {
+            for (Observer i: observer  ) {
+                i.notify();
+            }
+        }
 
         //Adds the Component to the composition.
         public void add(Component component) {Debug.out(Thread.currentThread());
@@ -41,6 +49,8 @@ public interface Component {
             }
             return s;
         }
+
+
     }
 
 }

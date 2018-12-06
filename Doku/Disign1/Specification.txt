@@ -9,7 +9,7 @@ Strukturmuster:
 								StoreImage
 								-Leyer sichtbar oder nicht
 Verhaltensmuster:
-+	• Observer Pattern:			GraphicElement->GUI:
++	• Observer.Observer Pattern:			GraphicElement->GUI:
 								Kein GraphicElement deselectiert: GUI-Delete disabled
 																editing disabled (FR2 Screen.Toolbar)
 																Screen.Infobar: löschen

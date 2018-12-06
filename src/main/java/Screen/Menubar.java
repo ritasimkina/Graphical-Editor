@@ -3,10 +3,11 @@ package Screen;
 import Debug.*;
 import Iterator.*;
 import Component.*;
+import Observer.Observer;
 
 public class Menubar implements Component {
 
-    public void registerObserver()  {assert false;}
+    public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
     public Iterator createIterator()    {   Debug.out(Thread.currentThread());

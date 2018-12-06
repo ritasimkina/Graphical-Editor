@@ -2,7 +2,7 @@ package Screen.DrawArray;
 import Iterator.*;
 import Component.*;
 import Debug.*;
-
+import Observer.Observer;
 
 
 public class Draw implements Component {
@@ -11,7 +11,7 @@ public class Draw implements Component {
         return null;
     }
 
-    public void registerObserver()  {assert false;}
+    public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
     public String get_html()   {Debug.out(Thread.currentThread());

@@ -3,13 +3,14 @@ package Screen.DrawArray;
 import Component.Component;
 import Debug.Debug;
 import Iterator.Iterator;
+import Observer.Observer;
 
 public class Text implements Component {
     private double x1=50, y1=50;
     private int r=255, g=0,b=0;
     private String txt="";
 
-    public void registerObserver()  {assert false;}
+    public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
     private String rgb_html(int r,int g, int b)   {

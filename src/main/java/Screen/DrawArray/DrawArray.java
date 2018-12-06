@@ -3,6 +3,7 @@ package Screen.DrawArray;
 import Component.*;
 import Debug.Debug;
 import Iterator.*;
+import Observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +13,7 @@ public class DrawArray implements Component {
     Component.Composite screen = new Component.Composite();
     List<Layer> layer = new ArrayList<Layer>();
 
-    public void registerObserver()  {assert false;}
+    public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
     public Iterator createIterator() {
