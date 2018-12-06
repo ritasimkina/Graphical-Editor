@@ -9,10 +9,17 @@ public interface Component {
     Iterator.IteratorComponent   iterator = null;
     public Iterator createIterator();
     public String get_html();
+    public void registerObserver();
+    public void notifyObservers();
+
+
 
     public class Composite implements Component {
         //Collection of child Component.
         List<Component> childComponent = new ArrayList<Component>();
+
+        public void registerObserver()  {assert false;}
+        public void notifyObservers()  {assert false;}
 
         //Adds the Component to the composition.
         public void add(Component component) {Debug.out(Thread.currentThread());

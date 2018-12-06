@@ -11,6 +11,9 @@ public class Layer implements Component {
     Random rand = new Random();
     Component.Composite draws = new Component.Composite();
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
+
     public Iterator createIterator() {
         assert false;
         return null;

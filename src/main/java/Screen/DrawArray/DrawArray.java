@@ -12,6 +12,9 @@ public class DrawArray implements Component {
     Component.Composite screen = new Component.Composite();
     List<Layer> layer = new ArrayList<Layer>();
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
+
     public Iterator createIterator() {
         assert false;
         return null;

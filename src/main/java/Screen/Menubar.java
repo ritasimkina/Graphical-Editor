@@ -6,6 +6,9 @@ import Component.*;
 
 public class Menubar implements Component {
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
+
     public Iterator createIterator()    {   Debug.out(Thread.currentThread());
         return new Iterator.IteratorMenubar(this);
     }

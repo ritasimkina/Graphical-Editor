@@ -9,6 +9,9 @@ public class Text implements Component {
     private int r=255, g=0,b=0;
     private String txt="";
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
+
     private String rgb_html(int r,int g, int b)   {
         return "rgb(" +r+ "," +g+ "," +b+ ")";
     }

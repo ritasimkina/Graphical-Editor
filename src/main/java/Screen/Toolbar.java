@@ -6,6 +6,8 @@ import Component.*;
 
 public class Toolbar implements Component {
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
 
     public Iterator createIterator() {
         assert false;

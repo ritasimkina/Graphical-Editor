@@ -10,6 +10,9 @@ public class Line implements Component {
 
     int r=255, g=0,b=0;
 
+    public void registerObserver()  {assert false;}
+    public void notifyObservers()  {assert false;}
+
     public Line(double x1,double y1,double x2,double y2)    {
         Debug.out(Thread.currentThread());
         this.x1=x1;
