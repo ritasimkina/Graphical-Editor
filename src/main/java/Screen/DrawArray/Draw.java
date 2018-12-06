@@ -3,20 +3,58 @@ import Iterator.*;
 import Component.*;
 import Debug.*;
 import Observer.Observer;
+import Observer.ToolbarObserver;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+
+public abstract class Shape {
+
+	private	ArrayList<Double> x;
+	private ArrayList<Double> y;
+	private String id;
+	private String colour;
+
+	private double diag;
 
 
-public class Draw implements Component {
+
+	public Shape(ArrayList<Double> x, ArrayList<Double> y, String id, String colour) {
+		this.x = x;
+		this.y = y;
+		this.id = id;
+		this.colour = colour;
+
+	}
+
+	public Shape(){}
+
+
+ */
+public abstract class Draw implements Component {
+    List<Observer> observers = new ArrayList<Observer>();
+
     public Iterator createIterator() {
         assert false;
         return null;
     }
 
-    public void registerObserver(Observer o)  {assert false;}
-    public void notifyObservers()  {assert false;}
-
-    public String get_html()   {Debug.out(Thread.currentThread());
-        assert false;
-        String s="";
-        return s;
+    public void registerObserver(Observer o)  {
+        observers.add(o);
     }
+    public void notifyObservers()  {
+        for (Observer i: observers  ) {
+            i.update();
+        }
+    }
+
+    public Draw()   {
+//        registerObserver(new ToolbarObserver(this));
+    }
+
+    public abstract String get_html();
+
+
 }

@@ -1778,7 +1778,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Screen.Menubar#</dia:string>
+        <dia:string>#Screen.Screen.Menubar.Menubar#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -1888,7 +1888,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Screen.Toolbar#</dia:string>
+        <dia:string>#Screen.Screen.Toolbar.Toolbar#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -1998,7 +1998,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Screen.Screen.DrawArray.DrawArray#</dia:string>
+        <dia:string>#Screen.Screen.Screen.Screen.DrawArray.DrawArray#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -2768,7 +2768,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Screen#</dia:string>
+        <dia:string>#Screen.Screen#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -3160,7 +3160,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Screen#</dia:string>
+        <dia:string>#Screen.Screen#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>

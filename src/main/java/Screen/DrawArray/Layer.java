@@ -7,6 +7,8 @@ import Debug.*;
 import Iterator.*;
 import Component.*;
 import Observer.Observer;
+import Screen.DrawArray.Draws.Line;
+import Screen.DrawArray.Draws.Text;
 
 public class Layer implements Component {
     Random rand = new Random();

@@ -1,6 +1,6 @@
 package Iterator;
 import Debug.*;
-import Screen.*;
+import Screen.Menubar.Menubar;
 
 public interface Iterator {
     public Iterator createIterator();

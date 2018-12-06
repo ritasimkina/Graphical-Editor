@@ -1,9 +1,13 @@
 package UI;
 
-import Screen.*;
 import Debug.*;
 import Component.*;
 import Screen.DrawArray.DrawArray;
+import Screen.Infobar.Infobar;
+import Screen.Menubar.Menubar;
+import Screen.Toolbar.Toolbar;
+import Screen.Toolbar.ToolbarLayer;
+import Screen.Toolbar.ToolbarOperation;
 
 public interface FactoryUI {
     public Component create();

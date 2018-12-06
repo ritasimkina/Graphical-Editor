@@ -11,7 +11,7 @@ public class Menubar implements Component {
     }
 
     public String get_html()   { Debug.out(Thread.currentThread());
-        String s= "<div id=\"menu\"> Screen.Menu</div>";
+        String s= "<div id=\"menu\"> Screen.Screen.Menubar.Menu</div>";
         return s;
     }
 }
