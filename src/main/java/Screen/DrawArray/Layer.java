@@ -7,8 +7,7 @@ import Debug.*;
 import Iterator.*;
 import Component.*;
 import Observer.Observer;
-import Screen.DrawArray.Draws.Line;
-import Screen.DrawArray.Draws.Text;
+import Screen.DrawArray.Draws.*;
 
 public class Layer implements Component {
     Random rand = new Random();
@@ -29,12 +28,41 @@ public class Layer implements Component {
         return draws.get_html();
     }
 
-    public void new_line()  {
-        draws.add(new Line(0,0, rand.nextInt(100) + 10,rand.nextInt(100) + 10));
+
+    public boolean create_shape(String name)    {
+        // ToDo:: für aktiven layer
+        boolean result=true;
+
+        switch (name) {
+            case "Circle":
+                draws.add(new Circle(10, 10, 10));
+                break;
+            case "Elipse":
+                draws.add(new Elipse(10, 10, 10,20));
+                break;
+            case "Line":
+                draws.add(new Line(0,0, rand.nextInt(100) + 10,rand.nextInt(100) + 10));
+                break;
+            case "NGon":
+                //draws.add(new Text("Text"));
+                break;
+            case "Quadrangle":
+                draws.add(new Quadrangle(10,10,20,30));
+                break;
+            case "Star":
+                draws.add(new Text("Text"));
+                break;
+            case "Text":
+                draws.add(new Text("Text"));
+                break;
+            case "Triangle":
+                draws.add(new Text("Text"));
+                break;
+            default:
+                result=false;
+        }
+        return result;
     }
 
 
-    public void new_text() {
-        draws.add(new Text("Text"));
-    }
 }

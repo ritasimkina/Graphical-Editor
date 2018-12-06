@@ -42,19 +42,7 @@ public class DrawArray implements Component {
 
     public boolean create_shape(String name)    {
         // ToDo:: für aktiven layer
-        boolean result=true;
-
-        switch (name) {
-            case "Line":
-                layer.get(0).new_line();
-                break;
-            case "Text":
-                layer.get(0).new_text();
-                break;
-            default:
-                result=false;
-        }
-        return result;
+        return layer.get(0).create_shape(name);
     }
 
 

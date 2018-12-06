@@ -10,6 +10,14 @@ public class Elipse  extends Draw {
     private int r=255, g=0,b=0;
     private int r2=255, g2=0,b2=0;
 
+    public Elipse(double x, double y, double rx, double ry) {
+        cx=x;
+        cy=y;
+        this.rx=r;
+        this.ry=r;
+    }
+
+
     private String rgb_html(int r,int g, int b)   {
         return "rgb(" +r+ "," +g+ "," +b+ ")";
     }

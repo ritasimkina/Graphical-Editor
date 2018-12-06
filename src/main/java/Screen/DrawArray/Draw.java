@@ -35,6 +35,7 @@ public abstract class Shape {
  */
 public abstract class Draw implements Component {
     List<Observer> observers = new ArrayList<Observer>();
+    protected  List<Point> points = new ArrayList<Point>();
 
     public Iterator createIterator() {
         assert false;
@@ -53,6 +54,12 @@ public abstract class Draw implements Component {
     public Draw()   {
 //        registerObserver(new ToolbarObserver(this));
     }
+    public void addPoint(Point p)   {
+        points.add(p);
+    }
+
+
+
 
     public abstract String get_html();
 

@@ -6,7 +6,17 @@ public class Quadrangle  extends Draw {
     private int stroke_width=2;
     private int r=255, g=0,b=0;
     private int r2=255, g2=0,b2=0;
+    private double x=0, y=0;
     private double width=0, height=0;
+
+
+    public Quadrangle(double x, double y, double width, double height) {
+        this.x=x;
+        this.y=y;
+        this.width=width;
+        this.height=height;
+    }
+
 
     private String rgb_html(int r,int g, int b)   {
         return "rgb(" +r+ "," +g+ "," +b+ ")";
