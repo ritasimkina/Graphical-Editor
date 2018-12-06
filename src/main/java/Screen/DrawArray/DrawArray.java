@@ -26,7 +26,7 @@ public class DrawArray implements Component {
     }
 
     private String souround_svg(String s)   {
-        return "\n<svg height='210' width='500'>"+s+"</svg>\n";
+        return "\n<svg height='500' width='500'>"+s+"</svg>\n";
     }
 
 

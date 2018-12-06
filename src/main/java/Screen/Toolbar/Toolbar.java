@@ -45,6 +45,7 @@ public class Toolbar implements Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
+        s+="<div id=\"toolbar\">";
         s+="\n<table>";
         for (String i : toolbar_names) {
             s += "\n<form action=\"" + i + "\" method=\"GET\">";
@@ -52,7 +53,7 @@ public class Toolbar implements Component {
             s += "\n</form>";
         }
         s+="\n</table>";
-
+        s+="</div>";
         return s;
     }
 
