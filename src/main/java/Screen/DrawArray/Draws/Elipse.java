@@ -1,30 +1,30 @@
 package Screen.DrawArray.Draws;
 
 import Screen.DrawArray.Draw;
+import Screen.DrawArray.Point;
 
 public class Elipse  extends Draw {
-    private double cx=0, cy=0, cr=100;
-    private double rx=0, ry=0;
-    private int stroke_width=2;
+    private double rx, ry;
+    private int stroke_width;
 
-    private int r=255, g=0,b=0;
-    private int r2=255, g2=0,b2=0;
 
     public Elipse(double x, double y, double rx, double ry) {
-        cx=x;
-        cy=y;
-        this.rx=r;
-        this.ry=r;
+        addPoint(new Point(x,y));
+        this.rx=rx;
+        this.ry=ry;
+        addColor(255,0,0);  // fill
+        addColor(0,0,0);    // stroke
+        stroke_width=2;
     }
 
-
-    private String rgb_html(int r,int g, int b)   {
-        return "rgb(" +r+ "," +g+ "," +b+ ")";
-    }
 
     public String get_html() {
         String s;
-        s= "<ellipse cx='" +cx+ "' cy='" +cy+ "' rx='" +rx+ "' ry='" +ry+ "' style='fill:"+rgb_html(r,g,b)+";stroke:"+rgb_html(r2,g2,b2)+";stroke-width:" +stroke_width+ "' />";
+        s= "<ellipse cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY() +
+                "' rx='" +rx+ "' ry='" +ry+
+                "' style='fill:"+color.get(0).gethtml()+
+                ";stroke:"+color.get(1).gethtml()+
+                ";stroke-width:" +stroke_width+ "' />";
         return s;
     }
 }

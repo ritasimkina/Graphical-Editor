@@ -36,6 +36,7 @@ public abstract class Shape {
 public abstract class Draw implements Component {
     List<Observer> observers = new ArrayList<Observer>();
     protected  List<Point> points = new ArrayList<Point>();
+    protected  List<Color> color = new ArrayList<Color>();
 
     public Iterator createIterator() {
         assert false;
@@ -57,6 +58,10 @@ public abstract class Draw implements Component {
     public void addPoint(Point p)   {
         points.add(p);
     }
+    public void addColor(int r, int g, int b)   {
+        color.add(new Color(r,g,b));
+    }
+
 
 
 

@@ -6,31 +6,25 @@ import Iterator.Iterator;
 import Observer.ToolbarObserver;
 import Observer.Observer;
 import Screen.DrawArray.Draw;
+import Screen.DrawArray.Point;
 
 public class Line extends Draw implements Component {
-    double x1=0, y1=0, x2=100, y2=100;
-    int stroke_width=2;
+    int stroke_width;
 
-    int r=255, g=0,b=0;
-
-    public Line(double x1,double y1,double x2,double y2)    {
-        Debug.out(Thread.currentThread());
-        //observer.add(new ToolbarObserver());
-        this.x1=x1;
-        this.y1=y1;
-        this.x2=x2;
-        this.y2=y2;
-
+    public Line(double x1, double y1, double x2, double y2) {
+        addPoint(new Point(x1,y1));
+        addPoint(new Point(x2,y2));
+        addColor(0,0,0);    // stroke
+        stroke_width=2;
     }
-    String rgb_html(int r,int g, int b)   {
-        return "rgb(" +r+ "," +g+ "," +b+ ")";
-    }
-
 
 
     public String get_html() {
         String s;
-        s= "\n<line x1='" +x1+ "' y1='" +y1+ "' x2='" +x2+ "' y2='" +y2+ "' style='stroke:"+rgb_html(r,g,b)+";stroke-width:" +stroke_width+ "' />\n";
+        s= "\n<line x1='" +points.get(0).getX() + "' y1='" +points.get(0).getY() +
+                "' x2='" +points.get(1).getX() + "' y2='" +points.get(1).getY() +
+                "' style='stroke:"+color.get(0).gethtml()+
+                ";stroke-width:" +stroke_width+ "' />\n";
         return s;
     }
 }

@@ -5,30 +5,24 @@ import Debug.Debug;
 import Iterator.Iterator;
 import Observer.Observer;
 import Screen.DrawArray.Draw;
+import Screen.DrawArray.Point;
 
 public class Text  extends Draw implements Component {
-    private double x1=50, y1=50;
-    private int r=255, g=0,b=0;
     private String txt="";
 
-
-
-
-
-
-    private String rgb_html(int r,int g, int b)   {
-        return "rgb(" +r+ "," +g+ "," +b+ ")";
-    }
-
-    public Text(String text) { Debug.out(Thread.currentThread());
+    public Text(String text, double x, double y) {
         txt=text;
-        notifyObservers();
+        addPoint(new Point(x,y));
+        addColor(0,0,0);    // fill
     }
+
 
 
     public String get_html() {
         String s;
-        s= "\n<text x='" +x1+ "' y='" +y1+ "' fill="+rgb_html(r,g,b)+"'>"+txt+"</text>\n";
+        s= "\n<text x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
+        "' fill="+color.get(0).gethtml()+
+        "'>"+txt+"</text>\n";
         return s;
     }
 

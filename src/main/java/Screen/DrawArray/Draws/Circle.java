@@ -1,27 +1,27 @@
 package Screen.DrawArray.Draws;
 
+import Screen.DrawArray.Color;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
 public class Circle  extends Draw {
-    double cr=100;
-    int stroke_width=2;
-
-    int r=255, g=0,b=0;
-    int r2=255, g2=0,b2=0;
+    double cr;
+    int stroke_width;
 
     public Circle(double x, double y, double r) {
         addPoint(new Point(x,y));
+        addColor(255,0,0);  // line
+        addColor(0,0,0);    // fill
         cr=r;
-    }
-
-    String rgb_html(int r,int g, int b)   {
-        return "rgb(" +r+ "," +g+ "," +b+ ")";
+        stroke_width=2;
     }
 
     public String get_html() {
         String s;
-        s= "<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+ "' stroke='"+rgb_html(r,g,b)+"' stroke-width='" +stroke_width+ "' fill='"+rgb_html(r2,g2,b2)+"' />";
+        s= "<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
+                "' stroke='"+color.get(0).gethtml()+
+                "' stroke-width='" +stroke_width+
+                "' fill='"+color.get(1).gethtml()+"' />";
         return s;
     }
 }

@@ -41,22 +41,22 @@ public class Layer implements Component {
                 draws.add(new Elipse(10, 10, 10,20));
                 break;
             case "Line":
-                draws.add(new Line(0,0, rand.nextInt(100) + 10,rand.nextInt(100) + 10));
+                draws.add(new Line(10,10, rand.nextInt(100) + 10,rand.nextInt(100) + 10));
                 break;
             case "NGon":
                 //draws.add(new Text("Text"));
                 break;
             case "Quadrangle":
-                draws.add(new Quadrangle(10,10,20,30));
+                draws.add(new Quadrangle(20,20,50,50));
                 break;
             case "Star":
-                draws.add(new Text("Text"));
+                draws.add(new Star(50, 50));
                 break;
             case "Text":
-                draws.add(new Text("Text"));
+                draws.add(new Text("Text",20,20));
                 break;
             case "Triangle":
-                draws.add(new Text("Text"));
+                draws.add(new Triangle(20,20));
                 break;
             default:
                 result=false;
