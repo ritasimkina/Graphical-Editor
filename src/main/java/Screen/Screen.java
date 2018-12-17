@@ -1,24 +1,22 @@
 package Screen;
 
-import java.util.ArrayList;
-import java.util.List;
 import Debug.*;
 import Iterator.*;
 import Component.*;
 import Screen.DrawArray.DrawArray;
-import UI.*;
+import Factory.*;
 
 public class Screen {
     Composite screen = new Composite();
     Component drawarray;
 
     public Screen() {   Debug.out(Thread.currentThread());
-        FactoryUI factory_menubar = new FactoryUI.FactoryMenubar();                       Component menubar=factory_menubar.create();
-        FactoryUI factory_toolbar = new FactoryUI.FactoryToolbar();                       Component toolbar=factory_toolbar.create();
-        FactoryUI factory_toolbar_operation = new FactoryUI.FactoryToolbarOperation();    Component toolbarOperation=factory_toolbar_operation.create();
-        FactoryUI factory_toolbar_layer = new FactoryUI.FactoryToolbarLayer();            Component toolbarLayer=factory_toolbar_layer.create();
-        FactoryUI factory_infobar = new FactoryUI.FactoryInfobar();                       Component infobar=factory_infobar.create();
-        FactoryUI factory_drawarray = new FactoryUI.FactoryDrawArray();                   drawarray=factory_drawarray.create();
+        Factory factory_menubar = new FactoryMenubar();                       Component menubar=factory_menubar.create();
+        Factory factory_toolbar = new FactoryToolbar();                       Component toolbar=factory_toolbar.create();
+        Factory factory_toolbar_operation = new FactoryToolbarOperation();    Component toolbarOperation=factory_toolbar_operation.create();
+        Factory factory_toolbar_layer = new FactoryToolbarLayer();            Component toolbarLayer=factory_toolbar_layer.create();
+        Factory factory_infobar = new FactoryInfobar();                       Component infobar=factory_infobar.create();
+        Factory factory_drawarray = new FactoryDrawArray();                   drawarray=factory_drawarray.create();
 
         screen.add(menubar);
         screen.add(toolbar);

@@ -3,7 +3,7 @@ import java.util.List;
 import Debug.*;
 import Iterator.*;
 import Component.*;
-import UI.*;
+import Factory.*;
 
 public class Screen {
     Component.Composite screen = new Component.Composite();

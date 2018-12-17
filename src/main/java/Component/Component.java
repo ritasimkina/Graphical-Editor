@@ -9,6 +9,7 @@ import Debug.*;
 public interface Component {
     //Iterator.IteratorComponent   iterator = null;
     List<Observer> observer = new ArrayList<Observer>();
+    boolean visible=true;
 
     //public Iterator createIterator();
     public String get_html();

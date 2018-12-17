@@ -1,4 +1,4 @@
-package UI;
+package Factory;
 
 import Screen.*;
 import Debug.*;
