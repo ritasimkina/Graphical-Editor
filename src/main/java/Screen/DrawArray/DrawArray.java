@@ -25,8 +25,16 @@ public class DrawArray implements Component {
         layer.add(new Layer());
     }
 
+    private String get_onclick_function()   {
+        return "\t<script type=\"text/javascript\">"+
+                "\n\t\tfunction meldung(){alert('SVG-Element wurde angeklickt!');}"+
+                "\n\t</script>\n\n";
+    }
+
     private String souround_svg(String s)   {
-        return "<svg height='500' width='500'>\n"+s+"</svg>\n\n";
+        return "<svg height='500' width='500'>\n"+
+                get_onclick_function()+s+
+                "</svg>\n\n";
     }
 
 
