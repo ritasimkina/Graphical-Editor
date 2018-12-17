@@ -8,32 +8,17 @@ import Observer.ToolbarObserver;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
 
-public abstract class Shape {
-
-	private	ArrayList<Double> x;
-	private ArrayList<Double> y;
-	private String id;
-	private String colour;
-
-	private double diag;
-
-
-
-	public Shape(ArrayList<Double> x, ArrayList<Double> y, String id, String colour) {
-		this.x = x;
-		this.y = y;
-		this.id = id;
-		this.colour = colour;
-
-	}
-
-	public Shape(){}
-
-
- */
 public abstract class Draw implements Component {
+    private static int id_count=0;
+    private int id=0;
+
+    public Draw()   {
+        //        registerObserver(new ToolbarObserver(this));
+        id_count++;
+        id=id_count;
+    }
+
     List<Observer> observers = new ArrayList<Observer>();
     protected  List<Point> points = new ArrayList<Point>();
     protected  List<Color> color = new ArrayList<Color>();
@@ -52,9 +37,6 @@ public abstract class Draw implements Component {
         }
     }
 
-    public Draw()   {
-//        registerObserver(new ToolbarObserver(this));
-    }
     public void addPoint(Point p)   {
         points.add(p);
     }
@@ -63,8 +45,15 @@ public abstract class Draw implements Component {
     }
 
 
-
-
+    public String get_onclick()   {
+        return " onclick=\"meldung(this.id)\"";
+    }
+    public String get_id_tag()   {
+        return "id="+get_id();
+    }
+    public int get_id() {
+        return id;
+    }
 
     public abstract String get_html();
 

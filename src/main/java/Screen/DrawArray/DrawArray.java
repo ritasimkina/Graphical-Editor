@@ -27,7 +27,7 @@ public class DrawArray implements Component {
 
     private String get_onclick_function()   {
         return "\t<script type=\"text/javascript\">"+
-                "\n\t\tfunction meldung(){alert('SVG-Element wurde angeklickt!');}"+
+                "\n\t\tfunction meldung(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
                 "\n\t</script>\n\n";
     }
 
