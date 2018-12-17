@@ -2,13 +2,13 @@ package Iterator;
 
 import Component.Component;
 import Debug.Debug;
-import Screen.DrawArray.Draws.Quadrangle;
 
-public class IteratorSvgs implements Iterator {
+
+public class IteratorLayer implements Iterator {
     Component component=null;
     int current=0;
 
-    public IteratorSvgs(Component c) {
+    public IteratorLayer(Component c) {
         Debug.out(Thread.currentThread());
         component=c;
         current=0;
@@ -17,7 +17,13 @@ public class IteratorSvgs implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return  current<component.size();
+        //if( n instanceof DerivedNode ){
+        String s="";
+        for (int i=0;i<component.size();i++) {
+            s += component.get(i).get_html();
+        }
+
+        return false;
     }
 
     @Override

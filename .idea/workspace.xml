@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/Factory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryDrawArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryInfobar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryMenubar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarLayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarOperation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryLayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/implementation/src/main/java/Screen.java" afterPath="$PROJECT_DIR$/implementation/src/main/java/Screen.java" />
-      <change beforePath="$PROJECT_DIR$/implementation/src/main/java/UI/FactoryUI.java" afterPath="$PROJECT_DIR$/implementation/src/main/java/UI/FactoryUI.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Debug/Debug.java" afterPath="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Factory.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/Factory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/Component/Component.class" afterPath="$PROJECT_DIR$/target/classes/Component/Component.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Screen.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Screen.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryDrawArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryInfobar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryMenubar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryToolbar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryToolbarLayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI$FactoryToolbarOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/FactoryUI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Debug/Debug.class" afterPath="$PROJECT_DIR$/target/classes/Debug/Debug.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Layer.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Layer.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,6 +38,141 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/g2018w_se2_0403$Server.coverage" NAME="Server Coverage Results" MODIFIED="1545050232895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Layer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="method#createIterator#0;class#Layer#0" expanded="false" />
+                <element signature="method#Layer#0;class#Layer#0" expanded="false" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="method#get_html#0;class#Layer#0" expanded="false" />
+                <element signature="method#create_shape#0;class#Layer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quadrangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Star.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elipse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NGon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,6 +204,7 @@
       <find>angeklickt</find>
       <find>function meldung</find>
       <find>FactoryUI.</find>
+      <find>layer</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -86,9 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Tool.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/ToolbarOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Line.java" />
@@ -102,21 +237,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Operationbar/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/OperationMove.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
         <option value="$PROJECT_DIR$/src/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component/Composite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Infobar/Infobar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menubar.java" />
@@ -124,19 +248,33 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Tool.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryDrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryInfobar.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryToolbarOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryToolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryMenubar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Factory/FactoryLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" />
       </list>
     </option>
   </component>
@@ -200,7 +338,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -208,15 +346,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
-              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Screen" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +355,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Screen" type="462c0819:PsiDirectoryNode" />
-              <item name="Infobar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Screen" type="462c0819:PsiDirectoryNode" />
+              <item name="DrawArray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Screen" type="462c0819:PsiDirectoryNode" />
+              <item name="DrawArray" type="462c0819:PsiDirectoryNode" />
+              <item name="Draws" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -432,12 +580,12 @@
       <workItem from="1544129093035" duration="511000" />
       <workItem from="1544129707209" duration="3630000" />
       <workItem from="1544174279693" duration="120000" />
-      <workItem from="1545043594226" duration="16223000" />
+      <workItem from="1545043594226" duration="19978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99716000" />
+    <option name="totallyTimeSpent" value="103471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1604" height="908" extended-state="6" />
@@ -445,27 +593,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26967743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032258064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -490,19 +638,19 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Component/Component.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java</url>
+          <line>75</line>
           <properties />
-          <option name="timeStamp" value="46" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java</url>
           <line>21</line>
           <properties />
-          <option name="timeStamp" value="51" />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">

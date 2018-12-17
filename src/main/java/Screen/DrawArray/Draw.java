@@ -11,7 +11,8 @@ import java.util.List;
 
 public abstract class Draw implements Component {
     private static int id_count=0;
-    private int id=0;
+    int id=0;
+    protected boolean clicked=false;
 
     public Draw()   {
         //        registerObserver(new ToolbarObserver(this));

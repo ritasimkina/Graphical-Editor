@@ -36,18 +36,7 @@ public class Screen {
 
     public void select_svg(String name)  {
         //screen.select_svg( name);
-
-        Iterator it = new IteratorSvgs(drawarray);
-
-        while(it.hasNext()) {
-                /*Object element = it.next();
-                if (it.get_id()==name) {
-                    it.clicked();
-                    break;
-                }*/
-        }
-
-
+        ((DrawArray)drawarray).select_svg(name);
     }
 
 }

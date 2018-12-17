@@ -26,6 +26,11 @@ public class Circle  extends Draw {
         return 0;
     }
 
+    @Override
+    public void set_clicked(boolean state) {
+        clicked=state;
+    }
+
     public String get_html() {
         String s;
         s= "\t<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+

@@ -17,7 +17,7 @@ public interface Iterator {
     //boolean hasPrevious( )
 
     // Returns the next element. A NoSuchElementException is thrown if there is not a next element.
-    //Object next( )
+    Component next( );
 
 
     // Returns the index of the next element. If there is not a next element, returns the size of the list.

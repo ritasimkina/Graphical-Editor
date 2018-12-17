@@ -25,6 +25,10 @@ public class Quadrangle  extends Draw {
     public int size() {
         return 0;
     }
+    @Override
+    public void set_clicked(boolean state) {
+        clicked=state;
+    }
 
     public String get_html() {
         String s;
