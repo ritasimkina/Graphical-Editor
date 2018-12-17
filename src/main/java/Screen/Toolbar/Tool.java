@@ -23,6 +23,16 @@ public class Tool implements Component {
         return 0;
     }
 
+    @Override
+    public String get_id() {
+        return null;
+    }
+
+    @Override
+    public void set_clicked(boolean state) {
+
+    }
+
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 

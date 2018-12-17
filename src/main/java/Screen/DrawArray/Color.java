@@ -12,6 +12,10 @@ public class Color {
     public String gethtml()   {
         return "rgb(" +r+ "," +g+ "," +b+ ")";
     }
+    public String gethtml(boolean inverted)   {
+        if (inverted) return "rgb(" + (255-r) + "," + (255-g) + "," + (255-b) + ")";
+        else return gethtml();
+    }
 
     public int getR() {
         return r;
@@ -36,4 +40,5 @@ public class Color {
     public void setB(int b) {
         this.b = b;
     }
+
 }

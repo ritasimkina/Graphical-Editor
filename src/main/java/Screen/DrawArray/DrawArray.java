@@ -27,6 +27,16 @@ public class DrawArray implements Component {
         return layer.size();
     }
 
+    @Override
+    public String get_id() {
+        return null;
+    }
+
+    @Override
+    public void set_clicked(boolean state) {
+
+    }
+
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
@@ -76,8 +86,9 @@ public class DrawArray implements Component {
             while(it.hasNext()) {
                 Component c = it.next();
                 if (c.get_id().equals(name)) {
-                    c.set_clicked();
-                    break;
+                    c.set_clicked(true);
+                } else {
+                    c.set_clicked(false);
                 }
             }
         }

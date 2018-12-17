@@ -11,13 +11,13 @@ import java.util.List;
 
 public abstract class Draw implements Component {
     private static int id_count=0;
-    int id=0;
+    String id="?";
     protected boolean clicked=false;
 
     public Draw()   {
         //        registerObserver(new ToolbarObserver(this));
         id_count++;
-        id=id_count;
+        id= Integer.toString(id_count);
     }
 
     List<Observer> observers = new ArrayList<Observer>();
@@ -52,7 +52,7 @@ public abstract class Draw implements Component {
     public String get_id_tag()   {
         return "id="+get_id();
     }
-    public int get_id() {
+    public String get_id() {
         return id;
     }
 

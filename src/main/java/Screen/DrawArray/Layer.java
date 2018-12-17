@@ -34,6 +34,16 @@ public class Layer implements Component {
         return draws.size();
     }
 
+    @Override
+    public String get_id() {
+        return null;
+    }
+
+    @Override
+    public void set_clicked(boolean state) {
+
+    }
+
     public String get_html()   {
         if(visible) return draws.get_html();
         else return "// hided Layer\n";

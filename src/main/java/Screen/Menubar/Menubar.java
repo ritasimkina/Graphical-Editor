@@ -25,6 +25,16 @@ public class Menubar implements Component {
         return 0;
     }
 
+    @Override
+    public String get_id() {
+        return null;
+    }
+
+    @Override
+    public void set_clicked(boolean state) {
+
+    }
+
 
     public String get_html()   { Debug.out(Thread.currentThread());
         String s= "\n<div id=\"menu\"> Screen.Screen.Menubar.Menu</div>\n\n";

@@ -14,7 +14,7 @@ public class Quadrangle  extends Draw {
         this.width=width;
         this.height=height;
         addColor(255,0,0);  // fill
-        addColor(0,0,0);  // stroke
+        addColor(0,0,255);  // stroke
     }
 
     @Override
@@ -36,9 +36,10 @@ public class Quadrangle  extends Draw {
                 get_id_tag()+
                 " x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
                 " width='" +width+ "' height='" +height+"'"+
-                "' style='fill:"+color.get(0).gethtml()+
+                "' style='fill:"+color.get(0).gethtml(clicked)+
                 ";stroke-width:" +stroke_width+
-                ";stroke:"+color.get(1).gethtml()+"'"+get_onclick()+" />\n";
+                ";stroke:"+color.get(1).gethtml(clicked)+"'"+get_onclick()+" />\n";
+        System.out.println(s);
         return s;
     }
 }

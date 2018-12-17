@@ -22,6 +22,6 @@ public class IteratorSvgs implements Iterator {
 
     @Override
     public Component next() {
-        return null;
+        return component.get(current++);
     }
 }

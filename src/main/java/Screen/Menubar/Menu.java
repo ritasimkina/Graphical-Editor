@@ -25,6 +25,16 @@ public class Menu implements Component {
         return 0;
     }
 
+    @Override
+    public String get_id() {
+        return null;
+    }
+
+    @Override
+    public void set_clicked(boolean state) {
+
+    }
+
 
     public String get_html()   {Debug.out(Thread.currentThread());
         assert false;
