@@ -4,7 +4,6 @@
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,12 +49,11 @@
       <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="258">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
-                <element signature="e#2514#2515#0" expanded="true" />
-                <element signature="e#2562#2563#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#2107#2108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -485,12 +483,12 @@
       <workItem from="1544129093035" duration="511000" />
       <workItem from="1544129707209" duration="3630000" />
       <workItem from="1544174279693" duration="120000" />
-      <workItem from="1545043594226" duration="1286000" />
+      <workItem from="1545043594226" duration="1460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84779000" />
+    <option name="totallyTimeSpent" value="84953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1604" height="908" extended-state="6" />
@@ -967,12 +965,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        <state relative-caret-position="258">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="method#get_head#0;class#Proxy#0" expanded="false" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
           </folding>
         </state>
       </provider>

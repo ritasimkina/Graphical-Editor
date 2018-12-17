@@ -21,9 +21,7 @@ public class Proxy {
                 screen.get_html() + "\n"+
                 "</body>\n";
     }
-    private String get_head()   {   Debug.out(Thread.currentThread());
-
-
+    private String get_format()   {   Debug.out(Thread.currentThread());
         String formatting =
                 "<style type=\"text/css\">\n" +
                         "html, body {height: 100%; overflow: hidden;}\n" +
@@ -37,25 +35,11 @@ public class Proxy {
                        "#footer {bottom: 0; background-color : #1976d2;}\n" +
                         "</style>\n" +
                         "</head>";
-
-        return HTML_START  + formatting;
-
-        /*return "HTTP/1.1 200 OK"+
-                "Content-Type: text/html"+
-                "<!DOCTYPE HTML>\n" +
-                "<html lang=\"en\">\n" +
-                "\t<head>\n" +
-                "\t\t<meta charset=\"UTF-8\">\n" +
-                "\t\t<script src=\"./d3.js\"></script>\n" +
-                //"\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n" +
-                "\t</head>\n" +
-                "\t\n";*/
+        return formatting;
     }
 
-
-
     public String get_html()   {    Debug.out(Thread.currentThread());
-        String s=get_head();
+        String s=HTML_START+get_format();
         s+=get_body();
         return s+HTML_END;
     }
