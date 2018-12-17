@@ -63,12 +63,23 @@ public class Server extends Thread {
                         String req_side = httpQueryString.replaceFirst("/", "");
                         req_side = req_side.replace("?","");
 
-                        if ( proxy.create_shape(req_side))  {
-                            resp.append(proxy.get_html());
-                            sendResponse(200, resp.toString());
-                        } else {
-                            sendResponse(404, "not found");;
+                        StringTokenizer tok = new StringTokenizer(req_side,".");
+                        String command = tok.nextToken();
+                        String object = tok.nextToken();
+                        switch (command) {
+                            case "add_svg":
+                                if ( proxy.create_shape(object))  {
+                                    resp.append(proxy.get_html());
+                                    sendResponse(200, resp.toString());
+                                } else {
+                                    sendResponse(404, "not found");;
+                                }
+                                break;
+                            case "clicked_svg":
+                                sendResponse(200, "clicked_svg");
+                                break;
                         }
+
                         resp.setLength(0);
                     }
                 }

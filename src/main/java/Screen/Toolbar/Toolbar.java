@@ -48,7 +48,7 @@ public class Toolbar implements Component {
         s+="<div id=\"toolbar\">\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
-            s += "\n\t<form action=\"" + i + "\" method=\"GET\">";
+            s += "\n\t<form action=\"add_svg." + i + "\" method=\"GET\">";
             s += "\n\t\t<button>" + i + "</button>";
             s += "\n\t</form>";
         }
