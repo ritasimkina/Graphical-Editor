@@ -21,7 +21,7 @@ public class Line extends Draw implements Component {
 
     public String get_html() {
         String s;
-        s= "\n<line x1='" +points.get(0).getX() + "' y1='" +points.get(0).getY() +
+        s= "\t<line x1='" +points.get(0).getX() + "' y1='" +points.get(0).getY() +
                 "' x2='" +points.get(1).getX() + "' y2='" +points.get(1).getY() +
                 "' style='stroke:"+color.get(0).gethtml()+
                 ";stroke-width:" +stroke_width+ "' />\n";

@@ -36,7 +36,7 @@ public class Triangle  extends Draw {
 
     public String get_html() {
         String s;
-        s= "<polygon points='" +
+        s= "\t<polygon points='" +
                 points.get(0).getX()+ "," +points.get(0).getY() + " " +
                 points.get(1).getX()+ "," +points.get(1).getY() + " " +
                 points.get(2).getX()+ "," +points.get(2).getY() + " " +
@@ -44,7 +44,7 @@ public class Triangle  extends Draw {
                 "' style='fill:"+color.get(0).gethtml()+
                 ";stroke:"+color.get(1).gethtml()+
                 ";stroke-width:" +stroke_width+
-                ";fill-rule:nonzero;'/>";
+                ";fill-rule:nonzero;'/>\n";
         return s;
     }
 

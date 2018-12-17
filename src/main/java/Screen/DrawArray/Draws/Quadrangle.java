@@ -18,11 +18,11 @@ public class Quadrangle  extends Draw {
 
     public String get_html() {
         String s;
-        s= "\n<rect x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
+        s= "\t<rect x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
                 " width='" +width+ "' height='" +height+"'"+
                 "' style='fill:"+color.get(0).gethtml()+
                 ";stroke-width:" +stroke_width+
-                ";stroke:"+color.get(1).gethtml()+"' />";
+                ";stroke:"+color.get(1).gethtml()+"' />\n";
         return s;
     }
 }

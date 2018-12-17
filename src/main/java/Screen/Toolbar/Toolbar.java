@@ -45,15 +45,15 @@ public class Toolbar implements Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
-        s+="<div id=\"toolbar\">";
-        s+="\n<table>";
+        s+="<div id=\"toolbar\">\n";
+        s+="\t<table>";
         for (String i : toolbar_names) {
-            s += "\n<form action=\"" + i + "\" method=\"GET\">";
-            s += "\n\t<button>" + i + "</button>";
-            s += "\n</form>";
+            s += "\n\t<form action=\"" + i + "\" method=\"GET\">";
+            s += "\n\t\t<button>" + i + "</button>";
+            s += "\n\t</form>";
         }
-        s+="\n</table>";
-        s+="</div>";
+        s+="\n\t</table>\n";
+        s+="</div>\n\n";
         return s;
     }
 

@@ -18,10 +18,10 @@ public class Circle  extends Draw {
 
     public String get_html() {
         String s;
-        s= "<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
+        s= "\t<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
                 "' stroke='"+color.get(0).gethtml()+
                 "' stroke-width='" +stroke_width+
-                "' fill='"+color.get(1).gethtml()+"' />";
+                "' fill='"+color.get(1).gethtml()+"' />\n";
         return s;
     }
 }

@@ -28,13 +28,13 @@ public class ToolbarOperation  implements Component {
 
         String s="\n<div id=\"operations\">";
         for (String i : operation_names) {
-            s+="\n<div>";
-            s += "\n<form action=\"" + i + "\" method=\"GET\">";
-            s += "\n\t<button>" + i + "</button>";
-            s += "\n</form>";
-            s+="\n</div>";
+            s+="\n\t<div>";
+            s += "\n\t<form action=\"" + i + "\" method=\"GET\">";
+            s += "\n\t\t<button>" + i + "</button>";
+            s += "\n\t</form>";
+            s+="\n\t</div>";
         }
-        s+="\n</div>";
+        s+="\n</div>\n\n";
 
         return s;
     }

@@ -15,7 +15,7 @@ public class Infobar implements Component {
 
     public String get_html()   {Debug.out(Thread.currentThread());
         assert false;
-        String s="<div id=\"footer\"> Name</div>";
+        String s="<div id=\"footer\">footer</div>\n";
         return s;
     }
 

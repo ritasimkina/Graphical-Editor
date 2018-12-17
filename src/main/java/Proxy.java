@@ -4,7 +4,7 @@ import Screen.DrawArray.DrawArray;
 import Screen.Screen;
 
 public class Proxy {
-    static final String HTML_START = "<html>\n<head>\n<title>Forms</title>\n";
+    static final String HTML_START = "<html>\n\n<head>\n<title>Forms</title>\n";
     static final String HTML_END = "\n</html>";
 
     private Screen screen;
@@ -17,9 +17,9 @@ public class Proxy {
     return "";
     }
     private String get_body()   {   Debug.out(Thread.currentThread());
-        return "<body>" +
-                screen.get_html() + "\n"+
-                "</body>\n";
+        return "<body>\n" +
+                    screen.get_html() +
+                "\n</body>\n";
     }
     private String get_format()   {   Debug.out(Thread.currentThread());
         String formatting =
@@ -34,7 +34,7 @@ public class Proxy {
                         "#layers {position: relative; right: 0; top: 10px; width : 100px; height: 100%; float: right; background-color : #bbdefb;}\n" +
                        "#footer {bottom: 0; background-color : #1976d2;}\n" +
                         "</style>\n" +
-                        "</head>";
+                        "</head>\n\n";
         return formatting;
     }
 

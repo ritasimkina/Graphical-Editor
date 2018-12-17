@@ -20,7 +20,7 @@ public class Text  extends Draw implements Component {
 
     public String get_html() {
         String s;
-        s= "\n<text x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
+        s= "\t<text x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
         "' fill="+color.get(0).gethtml()+
         "'>"+txt+"</text>\n";
         return s;

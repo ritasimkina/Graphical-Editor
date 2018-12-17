@@ -20,11 +20,11 @@ public class Elipse  extends Draw {
 
     public String get_html() {
         String s;
-        s= "<ellipse cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY() +
+        s= "\t<ellipse cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY() +
                 "' rx='" +rx+ "' ry='" +ry+
                 "' style='fill:"+color.get(0).gethtml()+
                 ";stroke:"+color.get(1).gethtml()+
-                ";stroke-width:" +stroke_width+ "' />";
+                ";stroke-width:" +stroke_width+ "' />\n";
         return s;
     }
 }
