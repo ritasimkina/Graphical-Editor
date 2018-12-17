@@ -39,7 +39,6 @@ public class Quadrangle  extends Draw {
                 "' style='fill:"+color.get(0).gethtml(clicked)+
                 ";stroke-width:" +stroke_width+
                 ";stroke:"+color.get(1).gethtml(clicked)+"'"+get_onclick()+" />\n";
-        System.out.println(s);
         return s;
     }
 }

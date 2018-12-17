@@ -25,7 +25,6 @@ public class Circle  extends Draw {
     public int size() {
         return 0;
     }
-
     @Override
     public void set_clicked(boolean state) {
         clicked=state;
@@ -33,10 +32,12 @@ public class Circle  extends Draw {
 
     public String get_html() {
         String s;
-        s= "\t<circle cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
-                "' stroke='"+color.get(0).gethtml()+
+        s= "\t<circle "+
+                get_id_tag()+
+                " cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
+                "' stroke='"+color.get(0).gethtml(clicked)+
                 "' stroke-width='" +stroke_width+
-                "' fill='"+color.get(1).gethtml()+"' />\n";
+                "' fill='"+color.get(1).gethtml(clicked)+"'"+get_onclick()+" />\n";
         return s;
     }
 }

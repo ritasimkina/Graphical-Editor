@@ -32,8 +32,10 @@ public class Text  extends Draw implements Component {
 
     public String get_html() {
         String s;
-        s= "\t<text x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
-        "' fill="+color.get(0).gethtml()+
+        s= "\t<text "+
+                get_id_tag()+
+                " x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
+        "' fill="+color.get(0).gethtml(clicked)+" "+get_onclick()+
         "'>"+txt+"</text>\n";
         return s;
     }

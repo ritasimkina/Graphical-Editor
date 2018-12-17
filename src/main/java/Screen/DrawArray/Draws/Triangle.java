@@ -50,15 +50,19 @@ public class Triangle  extends Draw {
 
     public String get_html() {
         String s;
-        s= "\t<polygon points='" +
+        s= "\t<polygon " +
+                get_id_tag()+
+                " points='" +
                 points.get(0).getX()+ "," +points.get(0).getY() + " " +
                 points.get(1).getX()+ "," +points.get(1).getY() + " " +
                 points.get(2).getX()+ "," +points.get(2).getY() + " " +
                 points.get(3).getX()+ "," +points.get(3).getY() +
-                "' style='fill:"+color.get(0).gethtml()+
-                ";stroke:"+color.get(1).gethtml()+
+                "' style='fill:"+color.get(0).gethtml(clicked)+
+                ";stroke:"+color.get(1).gethtml(clicked)+
                 ";stroke-width:" +stroke_width+
-                ";fill-rule:nonzero;'/>\n";
+                ";fill-rule:nonzero;'"+
+                get_onclick()+
+                " />\n";
         return s;
     }
 
