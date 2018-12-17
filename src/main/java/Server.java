@@ -20,8 +20,7 @@ public class Server extends Thread {
 
     private Proxy proxy=new Proxy();;
 
-    static final String HTML_START = "<html><head><title>Forms</title>";
-    static final String HTML_END = "</html>";
+
 
     Socket socket = null;
     BufferedReader in = null;
@@ -100,7 +99,7 @@ public class Server extends Thread {
         if (status == 200)  statusLine = "HTTP/1.1 200 OK\r\n";
         else                statusLine = "HTTP/1.1 404 Not Found\r\n";
 
-        resp = Server.HTML_START + resp + Server.HTML_END;
+//        resp = Server.HTML_START + resp + Server.HTML_END;
         contentLengthLine = "Content-Length: " + resp.length() + "\r\n";
 
         out.writeBytes(statusLine);

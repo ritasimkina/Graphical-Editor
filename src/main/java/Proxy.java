@@ -4,6 +4,9 @@ import Screen.DrawArray.DrawArray;
 import Screen.Screen;
 
 public class Proxy {
+    static final String HTML_START = "<html>\n<head>\n<title>Forms</title>\n";
+    static final String HTML_END = "\n</html>";
+
     private Screen screen;
 
     public Proxy() {    Debug.out(Thread.currentThread());
@@ -20,6 +23,7 @@ public class Proxy {
     }
     private String get_head()   {   Debug.out(Thread.currentThread());
 
+
         String formatting =
                 "<style type=\"text/css\">\n" +
                         "html, body {height: 100%; overflow: hidden;}\n" +
@@ -34,7 +38,7 @@ public class Proxy {
                         "</style>\n" +
                         "</head>";
 
-        return formatting;
+        return HTML_START  + formatting;
 
         /*return "HTTP/1.1 200 OK"+
                 "Content-Type: text/html"+
@@ -53,7 +57,7 @@ public class Proxy {
     public String get_html()   {    Debug.out(Thread.currentThread());
         String s=get_head();
         s+=get_body();
-        return s;
+        return s+HTML_END;
     }
 
     public boolean create_shape(String name)    {
