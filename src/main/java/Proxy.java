@@ -51,5 +51,7 @@ public class Proxy {
     public void select_svg(String name)  {
         screen.select_svg(name);
     }
-
+    public void add_layer()  {
+        screen.add_layer();
+    }
 }

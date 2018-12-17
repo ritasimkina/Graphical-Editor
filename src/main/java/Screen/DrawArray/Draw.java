@@ -20,7 +20,7 @@ public abstract class Draw implements Component {
         id= Integer.toString(id_count);
     }
 
-    List<Observer> observers = new ArrayList<Observer>();
+
     protected  List<Point> points = new ArrayList<Point>();
     protected  List<Color> color = new ArrayList<Color>();
 
@@ -29,14 +29,7 @@ public abstract class Draw implements Component {
         return null;
     }
 
-    public void registerObserver(Observer o)  {
-        observers.add(o);
-    }
-    public void notifyObservers()  {
-        for (Observer i: observers  ) {
-            i.update();
-        }
-    }
+
 
     public void addPoint(Point p)   {
         points.add(p);

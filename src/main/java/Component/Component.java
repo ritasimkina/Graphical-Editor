@@ -7,15 +7,23 @@ import Observer.Observer;
 import Debug.*;
 
 public interface Component {
-
-    //Iterator.IteratorComponent   iterator = null;
-    List<Observer> observer = new ArrayList<Observer>();
     boolean visible=true;
 
+    //Iterator.IteratorComponent   iterator = null;
     //public Iterator createIterator();
+
     public String get_html();
-    public void registerObserver(Observer o);
-    public void notifyObservers();
+
+    List<Observer> observers = new ArrayList<Observer>();
+    default public void registerObserver(Observer o)  {
+        observers.add(o);
+    }
+    default public void notifyObservers()  {
+        for (Observer i: observers  ) {
+            i.update();
+        }
+    }
+
 
 
     public Component get(int i);

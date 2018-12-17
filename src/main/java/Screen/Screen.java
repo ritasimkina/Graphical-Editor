@@ -3,12 +3,14 @@ package Screen;
 import Debug.*;
 import Iterator.*;
 import Component.*;
+import Observer.ToolbarObserver;
 import Screen.DrawArray.DrawArray;
 import Factory.*;
 
 public class Screen {
     Composite screen = new Composite();
-    Component drawarray;
+    Component drawarray;    // for direct (faster) access
+    ToolbarObserver toolbar_observer=new ToolbarObserver();
 
     public Screen() {   Debug.out(Thread.currentThread());
         Factory factory_menubar = new FactoryMenubar();                       Component menubar=factory_menubar.create();
@@ -37,6 +39,12 @@ public class Screen {
     public void select_svg(String name)  {
         //screen.select_svg( name);
         ((DrawArray)drawarray).select_svg(name);
+    }
+    public void add_layer()  {
+        Component c=((DrawArray)drawarray).add_layer();
+        c.registerObserver(toolbar_observer);
+        c.notifyObservers();
+        // register toolbarLayer
     }
 
 }

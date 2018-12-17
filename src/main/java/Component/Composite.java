@@ -14,12 +14,7 @@ public class Composite implements Component {
         return childComponent.get(i);
     }
 
-    public void registerObserver(Observer o)  {observer.add(o);}
-    public void notifyObservers()  {
-        for (Observer i: observer  ) {
-            i.notify();
-        }
-    }
+
 
     //Adds the Component to the composition.
     public void add(Component component) {

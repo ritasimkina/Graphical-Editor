@@ -37,8 +37,8 @@ public class DrawArray implements Component {
 
     }
 
-    public void registerObserver(Observer o)  {assert false;}
-    public void notifyObservers()  {assert false;}
+    /*public void registerObserver(Observer o)  {assert false;}
+    public void notifyObservers()  {assert false;}*/
 
     public Iterator createIterator() {
         assert false;
@@ -47,14 +47,22 @@ public class DrawArray implements Component {
 
     public DrawArray() { Debug.out(Thread.currentThread());
         factory_layer = new FactoryLayer();
-        layer.add(factory_layer.create());
+        add_layer();
     }
 
+    public Component add_layer() {
+        layer.add(factory_layer.create());
+        active_layer=layer.size()-1;
+        //System.out.println(active_layer);
+        // info an ToolbarLayer
+        return layer.get(active_layer);
+    }
     private String get_onclick_function()   {
         return "\t<script type=\"text/javascript\">"+
 //                "\n\t\tfunction meldung(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
                 "\n\t\tfunction meldung(clicked_id){\n"+
-                "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;}\n"+
+                "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;}n"+
+                 "\t\t}\n"+
                 "\t</script>\n\n";
     }
 

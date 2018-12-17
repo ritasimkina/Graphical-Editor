@@ -13,8 +13,7 @@ public class Layer implements Component {
     Random rand = new Random();
     Composite draws = new Composite();
 
-    public void registerObserver(Observer o)  {assert false;}
-    public void notifyObservers()  {assert false;}
+
 
     public Iterator createIterator() {
         assert false;

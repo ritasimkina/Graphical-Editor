@@ -65,9 +65,10 @@ public class Server extends Thread {
 
                         StringTokenizer tok = new StringTokenizer(req_side,".");
                         String command = tok.nextToken();
-                        String object = tok.nextToken();
+                        String object ;
                         switch (command) {
                             case "add_svg":
+                                object = tok.nextToken();
                                 if ( proxy.create_shape(object))  {
                                     resp.append(proxy.get_html());
                                     sendResponse(200, resp.toString());
@@ -76,7 +77,13 @@ public class Server extends Thread {
                                 }
                                 break;
                             case "clicked_svg":
+                                object = tok.nextToken();
                                 proxy.select_svg(object);
+                                resp.append(proxy.get_html());
+                                sendResponse(200, resp.toString());
+                                break;
+                            case "layer_add":
+                                proxy.add_layer();
                                 resp.append(proxy.get_html());
                                 sendResponse(200, resp.toString());
                                 break;
