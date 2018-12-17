@@ -10,8 +10,17 @@ import java.util.List;
 
 
 public class DrawArray implements Component {
-    Component.Composite screen = new Component.Composite();
+    Component screen = new Composite();
     List<Layer> layer = new ArrayList<Layer>();
+
+    @Override
+    public Component get(int i) {
+        return layer.get(i);
+    }
+    @Override
+    public int size() {
+        return layer.size();
+    }
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}

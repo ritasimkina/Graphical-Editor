@@ -1,5 +1,6 @@
 package Screen.DrawArray.Draws;
 
+import Component.Component;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -17,6 +18,14 @@ public class Elipse  extends Draw {
         stroke_width=2;
     }
 
+    @Override
+    public Component get(int i) {
+        return null;
+    }
+    @Override
+    public int size() {
+        return 0;
+    }
 
     public String get_html() {
         String s;

@@ -76,7 +76,9 @@ public class Server extends Thread {
                                 }
                                 break;
                             case "clicked_svg":
-                                sendResponse(200, "clicked_svg");
+                                proxy.select_svg(object);
+                                resp.append(proxy.get_html());
+                                sendResponse(200, resp.toString());
                                 break;
                         }
 

@@ -11,7 +11,7 @@ import Screen.DrawArray.Draws.*;
 
 public class Layer implements Component {
     Random rand = new Random();
-    Component.Composite draws = new Component.Composite();
+    Composite draws = new Composite();
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
@@ -22,6 +22,16 @@ public class Layer implements Component {
     }
     public Layer() { Debug.out(Thread.currentThread());
         //draws.add(new Text("Hello World!!!!"));
+    }
+
+
+    @Override
+    public Component get(int i) {
+        return draws.get(i);
+    }
+    @Override
+    public int size() {
+        return draws.size();
     }
 
     public String get_html()   {

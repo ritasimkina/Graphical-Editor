@@ -41,6 +41,18 @@ public class Toolbar implements Component {
         }
     }
 
+
+    @Override
+    public Component get(int i) {
+        assert false;
+        return null;
+    }
+    @Override
+    public int size() {
+        assert false;
+        return 0;
+    }
+
     public String get_html() {
         Debug.out(Thread.currentThread());
         String s = "";

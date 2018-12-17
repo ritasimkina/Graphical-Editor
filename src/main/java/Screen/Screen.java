@@ -9,7 +9,7 @@ import Screen.DrawArray.DrawArray;
 import UI.*;
 
 public class Screen {
-    Component.Composite screen = new Component.Composite();
+    Composite screen = new Composite();
     Component drawarray;
 
     public Screen() {   Debug.out(Thread.currentThread());
@@ -36,5 +36,20 @@ public class Screen {
         return ((DrawArray) drawarray).create_shape(name);
     }
 
+    public void select_svg(String name)  {
+        //screen.select_svg( name);
+
+        Iterator it = new IteratorSvgs(drawarray);
+
+        while(it.hasNext()) {
+                /*Object element = it.next();
+                if (it.get_id()==name) {
+                    it.clicked();
+                    break;
+                }*/
+        }
+
+
+    }
 
 }

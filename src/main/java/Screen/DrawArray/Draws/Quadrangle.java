@@ -1,5 +1,6 @@
 package Screen.DrawArray.Draws;
 
+import Component.Component;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -14,6 +15,15 @@ public class Quadrangle  extends Draw {
         this.height=height;
         addColor(255,0,0);  // fill
         addColor(0,0,0);  // stroke
+    }
+
+    @Override
+    public Component get(int i) {
+        return null;
+    }
+    @Override
+    public int size() {
+        return 0;
     }
 
     public String get_html() {

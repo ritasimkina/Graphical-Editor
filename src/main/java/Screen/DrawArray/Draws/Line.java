@@ -18,6 +18,14 @@ public class Line extends Draw implements Component {
         stroke_width=2;
     }
 
+    @Override
+    public Component get(int i) {
+        return null;
+    }
+    @Override
+    public int size() {
+        return 0;
+    }
 
     public String get_html() {
         String s;

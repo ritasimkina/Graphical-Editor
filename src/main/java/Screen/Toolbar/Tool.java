@@ -11,6 +11,18 @@ public class Tool implements Component {
         return null;
     }
 
+
+    @Override
+    public Component get(int i) {
+        assert false;
+        return null;
+    }
+    @Override
+    public int size() {
+        assert false;
+        return 0;
+    }
+
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 

@@ -1,5 +1,6 @@
 package Screen.DrawArray.Draws;
 
+import Component.Component;
 import Screen.DrawArray.Draw;
 
 public class NGon  extends Draw {
@@ -9,6 +10,14 @@ public class NGon  extends Draw {
    private int r=255, g=0,b=0;
     private int r2=255, g2=0,b2=0;
 
+    @Override
+    public Component get(int i) {
+        return null;
+    }
+    @Override
+    public int size() {
+        return 0;
+    }
 
     public String get_html() {
         String s="";

@@ -17,6 +17,14 @@ public class Text  extends Draw implements Component {
     }
 
 
+    @Override
+    public Component get(int i) {
+        return null;
+    }
+    @Override
+    public int size() {
+        return 0;
+    }
 
     public String get_html() {
         String s;

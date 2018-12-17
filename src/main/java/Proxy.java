@@ -47,4 +47,9 @@ public class Proxy {
     public boolean create_shape(String name)    {
         return screen.create_shape(name);
     }
+
+    public void select_svg(String name)  {
+        screen.select_svg(name);
+    }
+
 }
