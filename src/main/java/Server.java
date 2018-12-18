@@ -14,6 +14,7 @@ import Iterator.*;
 import Component.*;
 
 public class Server extends Thread {
+    static final boolean SINGLE_CONNECTION=true;
     static final int PORT=8080;
     //static final String IP="10.101.101.5";
     static final String IP="127.0.0.1";
@@ -138,12 +139,21 @@ public class Server extends Thread {
      */
     public static void main (String args[]) throws Exception {  Debug.out(Thread.currentThread());
         ServerSocket Server = new ServerSocket (PORT, 10, InetAddress.getByName(IP));
-        while(true) {
+
+        if(!SINGLE_CONNECTION)   {
+            while(true) {
+                System.out.println ("TCPServer Waiting for client on port "+PORT);
+                Socket connected = Server.accept();
+                (new Server(connected)).start();
+            }
+        } else {
             System.out.println ("TCPServer Waiting for client on port "+PORT);
             Socket connected = Server.accept();
             (new Server(connected)).start();
+            while(true) {Thread.sleep(5000);}
+
         }
-        //while(true) {Thread.sleep(5000);}
+
     }
 }
 

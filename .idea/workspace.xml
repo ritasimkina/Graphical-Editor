@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="140" column="8" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="29" />
               <folding>
                 <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
@@ -138,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
@@ -269,10 +269,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Observer/ToolbarLayerObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
       </list>
     </option>
   </component>
@@ -612,12 +612,12 @@
       <workItem from="1544129707209" duration="3630000" />
       <workItem from="1544174279693" duration="120000" />
       <workItem from="1545043594226" duration="37093000" />
-      <workItem from="1545131656341" duration="651000" />
+      <workItem from="1545131656341" duration="1016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121237000" />
+    <option name="totallyTimeSpent" value="121602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -665,7 +665,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Server.java</url>
-          <line>35</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
@@ -1212,19 +1212,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="140" column="8" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1932,6 +1919,19 @@
             <element signature="e#1144#1179#0" expanded="false" />
             <element signature="method#souround_svg#0;class#DrawArray#0" expanded="false" />
             <element signature="method#get_html#0;class#DrawArray#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
           </folding>
         </state>
       </provider>
