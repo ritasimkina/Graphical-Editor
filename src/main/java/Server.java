@@ -150,7 +150,7 @@ public class Server extends Thread {
             System.out.println ("TCPServer Waiting for client on port "+PORT);
             Socket connected = Server.accept();
             (new Server(connected)).start();
-            while(true) {Thread.sleep(5000);}
+            while(true) {Thread.sleep(1000);}
 
         }
 

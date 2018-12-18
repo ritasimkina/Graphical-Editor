@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Toolbar extends Component {
-    static List<String> toolbar_names = new ArrayList<String>();
+    List<String> toolbar_names = new ArrayList<String>();
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
@@ -23,7 +23,7 @@ public class Toolbar extends Component {
     public Toolbar()    {
         getClassnames();
     }
-    private static void getClassnames() {
+    private void getClassnames() {
         File directory = new File("./src/main/java/Screen/DrawArray/Draws");
         //get all the files from a directory
         File[] files = directory.listFiles();
