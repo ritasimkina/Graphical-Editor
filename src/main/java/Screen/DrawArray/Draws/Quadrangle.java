@@ -23,9 +23,9 @@ public class Quadrangle  extends Draw {
                 get_id_tag()+
                 " x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
                 " width='" +width+ "' height='" +height+"'"+
-                "' style='fill:"+color.get(0).gethtml(get_clicked())+
+                "' style='fill:"+color.get(0).gethtml(is_clicked())+
                 ";stroke-width:" +stroke_width+
-                ";stroke:"+color.get(1).gethtml(get_clicked())+"'"+get_onclick()+" />\n";
+                ";stroke:"+color.get(1).gethtml(is_clicked())+"'"+get_onclick()+" />\n";
         return s;
     }
 }

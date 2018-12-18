@@ -18,14 +18,29 @@ public abstract class Component implements IComponent {
         return id;
     }
 
-    public boolean is_visible()    {
+
+    public void set_visible(boolean state) {
+        visible=state;
+    }
+    public boolean is_visible() {
         return visible;
     }
+    public boolean toggle_visible() {
+        visible=!visible;
+        notifyObservers();
+        return visible;
+    }
+
 
     public void set_clicked(boolean state) {
         clicked=state;
     }
-    public boolean get_clicked() {
+    public boolean is_clicked() {
         return clicked;
     }
+    public boolean toggle_clicked() {
+        clicked=!clicked;
+        return clicked;
+    }
+
 }

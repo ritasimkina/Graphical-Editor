@@ -25,29 +25,6 @@ public class DrawArray extends Component {
         return layer.size();
     }
 
-
-
-
-    /*public void registerObserver(Observer o)  {assert false;}
-    public void notifyObservers()  {assert false;}*/
-
-    public Iterator createIterator() {
-        assert false;
-        return null;
-    }
-
-    public DrawArray() { Debug.out(Thread.currentThread());
-        factory_layer = new FactoryLayer();
-        //add_layer();
-    }
-
-    public Component add_layer() {
-        layer.add(factory_layer.create());
-        active_layer=layer.size()-1;
-        //System.out.println(active_layer);
-        // info an ToolbarLayer
-        return layer.get(active_layer);
-    }
     private String get_clicked_svg_function()   {
         return "\t<script type=\"text/javascript\">"+
 //                "\n\t\tfunction clicked_svg(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
@@ -64,7 +41,6 @@ public class DrawArray extends Component {
                 "\t\t}\n"+
                 "\t</script>\n\n";
     }
-
     private String souround_svg(String s)   {
         return "<svg height='500' width='500'>\n"+
                 get_clicked_svg_function()+s+
@@ -73,18 +49,29 @@ public class DrawArray extends Component {
     }
 
 
-    public String get_html()   {
-        String s="";
-        for (IComponent c: layer  ) {
-            s+=c.get_html();
+    public DrawArray() { Debug.out(Thread.currentThread());
+        factory_layer = new FactoryLayer();
+    }
+
+    public Component add_layer() {
+        Component l=factory_layer.create();
+        layer.add(l);
+        active_layer=layer.size()-1;
+        //System.out.println(active_layer);
+        // info an ToolbarLayer
+        return layer.get(active_layer);
+    }
+    public void select_layer(String name)  {
+        for( Component c: layer )    {
+            if (c.get_id().equals(name)) {
+                c.toggle_visible();
+            }
         }
-        return souround_svg(s);
     }
 
     public boolean create_shape(String name)    {
         return   ((Layer)layer.get(active_layer)).create_shape(name);
     }
-
     public void select_svg(String name)  {
         Iterator it = new IteratorSvgs(layer.get(active_layer));
         while(it.hasNext()) {
@@ -96,5 +83,15 @@ public class DrawArray extends Component {
             }
         }
     }
+
+    public String get_html()   {
+        String s="";
+        for (IComponent c: layer  ) {
+            s+=c.get_html();
+        }
+        return souround_svg(s);
+    }
+
+
 
 }

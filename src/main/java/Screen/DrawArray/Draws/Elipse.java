@@ -24,8 +24,8 @@ public class Elipse  extends Draw {
                 get_id_tag()+
                 " cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY() +
                 "' rx='" +rx+ "' ry='" +ry+
-                "' style='fill:"+color.get(0).gethtml(get_clicked())+
-                ";stroke:"+color.get(1).gethtml(get_clicked())+
+                "' style='fill:"+color.get(0).gethtml(is_clicked())+
+                ";stroke:"+color.get(1).gethtml(is_clicked())+
                 ";stroke-width:" +stroke_width+ "'"+get_onclick()+" />\n";
         return s;
     }

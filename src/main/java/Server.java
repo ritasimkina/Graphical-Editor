@@ -82,8 +82,8 @@ public class Server extends Thread {
                                 sendResponse(200, resp.toString());
                                 break;
                             case "clicked_layer":
-                                //object = tok.nextToken();
-                                //proxy.select_svg(object);
+                                object = tok.nextToken();
+                                proxy.select_layer(object);
                                 resp.append(proxy.get_html());
                                 sendResponse(200, resp.toString());
                                 break;

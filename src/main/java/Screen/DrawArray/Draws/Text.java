@@ -18,7 +18,7 @@ public class Text  extends Draw  {
         s= "\t<text "+
                 get_id_tag()+
                 " x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
-        "' fill="+color.get(0).gethtml(get_clicked())+" "+get_onclick()+
+        "' fill="+color.get(0).gethtml(is_clicked())+" "+get_onclick()+
         "'>"+txt+"</text>\n";
         return s;
     }

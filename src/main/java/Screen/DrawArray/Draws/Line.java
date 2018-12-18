@@ -20,7 +20,7 @@ public class Line extends Draw  {
                 get_id_tag()+
                 " x1='" +points.get(0).getX() + "' y1='" +points.get(0).getY() +
                 "' x2='" +points.get(1).getX() + "' y2='" +points.get(1).getY() +
-                "' style='stroke:"+color.get(0).gethtml(get_clicked())+
+                "' style='stroke:"+color.get(0).gethtml(is_clicked())+
                 ";stroke-width:" +stroke_width+ "'"+get_onclick()+" />\n";
         return s;
     }

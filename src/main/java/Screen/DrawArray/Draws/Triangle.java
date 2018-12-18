@@ -44,8 +44,8 @@ public class Triangle  extends Draw {
                 points.get(1).getX()+ "," +points.get(1).getY() + " " +
                 points.get(2).getX()+ "," +points.get(2).getY() + " " +
                 points.get(3).getX()+ "," +points.get(3).getY() +
-                "' style='fill:"+color.get(0).gethtml(get_clicked())+
-                ";stroke:"+color.get(1).gethtml(get_clicked())+
+                "' style='fill:"+color.get(0).gethtml(is_clicked())+
+                ";stroke:"+color.get(1).gethtml(is_clicked())+
                 ";stroke-width:" +stroke_width+
                 ";fill-rule:nonzero;'"+
                 get_onclick()+

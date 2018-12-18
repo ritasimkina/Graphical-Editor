@@ -21,9 +21,9 @@ public class Circle  extends Draw {
         s= "\t<circle "+
                 get_id_tag()+
                 " cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
-                "' stroke='"+color.get(0).gethtml(get_clicked())+
+                "' stroke='"+color.get(0).gethtml(is_clicked())+
                 "' stroke-width='" +stroke_width+
-                "' fill='"+color.get(1).gethtml(get_clicked())+"'"+get_onclick()+" />\n";
+                "' fill='"+color.get(1).gethtml(is_clicked())+"'"+get_onclick()+" />\n";
         return s;
     }
 }

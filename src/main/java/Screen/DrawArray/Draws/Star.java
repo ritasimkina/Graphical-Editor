@@ -29,8 +29,8 @@ public class Star  extends Draw {
                 points.get(3).getX()+ "," +points.get(3).getY() + " " +
                 points.get(4).getX()+ "," +points.get(4).getY() + " " +
                 points.get(5).getX()+ "," +points.get(5).getY() +
-        "' style='fill:"+color.get(0).gethtml(get_clicked())+
-        ";stroke:"+color.get(1).gethtml(get_clicked())+
+        "' style='fill:"+color.get(0).gethtml(is_clicked())+
+        ";stroke:"+color.get(1).gethtml(is_clicked())+
         ";stroke-width:" +stroke_width+
          ";fill-rule:nonzero;' "+
                 get_onclick()+

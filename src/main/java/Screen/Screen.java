@@ -46,6 +46,10 @@ public class Screen {
         //screen.select_svg( name);
         ((DrawArray)drawarray).select_svg(name);
     }
+    public void select_layer(String name)  {
+        //screen.select_svg( name);
+        ((DrawArray)drawarray).select_layer(name);
+    }
     public void add_layer()  {
         Component c=((DrawArray)drawarray).add_layer();
         toolbar_layer_observer.add_subject(c);
