@@ -11,10 +11,10 @@ public abstract class Draw extends Component {
     protected  List<Color> color = new ArrayList<Color>();
     protected boolean clicked=false;
 
-    public Draw()   {
+    /*public Draw()   {
         id_count++;
         id= Integer.toString(id_count);
-    }
+    }*/
 
     /*public Iterator createIterator() {
         assert false;

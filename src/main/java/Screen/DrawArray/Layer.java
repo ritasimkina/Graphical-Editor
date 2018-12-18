@@ -22,25 +22,6 @@ public class Layer extends Composite {
         //draws.add(new Text("Hello World!!!!"));
     }
 
-
-    //@Override
-    public Component get(int i) {
-        return draws.get(i);
-    }
-    @Override
-    public int size() {
-        return draws.size();
-    }
-    @Override
-    public String get_id() {
-        return null;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-
-    }
-
-
     public String get_html()   {
         if(is_visible()) return draws.get_html();
         else return "// hiden Layer\n";

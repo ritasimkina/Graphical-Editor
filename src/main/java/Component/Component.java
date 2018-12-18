@@ -6,6 +6,11 @@ public abstract class Component implements IComponent {
     boolean visible=true;
     boolean clicked=false;
 
+    public Component()  {
+        id_count++;
+        id= Integer.toString(id_count);
+    }
+
     public String get_id_tag()   {
         return "id="+get_id();
     }
