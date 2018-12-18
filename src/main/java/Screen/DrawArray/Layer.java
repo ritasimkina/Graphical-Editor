@@ -43,9 +43,12 @@ public class Layer implements Component {
 
     }
 
+
+
+
     public String get_html()   {
         if(visible) return draws.get_html();
-        else return "// hided Layer\n";
+        else return "// hiden Layer\n";
     }
 
 

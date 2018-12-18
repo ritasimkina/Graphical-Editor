@@ -24,7 +24,9 @@ public interface Component {
         }
     }
 
-
+    default public boolean is_visible()    {
+        return visible;
+    }
 
     public Component get(int i);
     public int size();

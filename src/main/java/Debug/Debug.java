@@ -25,7 +25,7 @@ public class Debug {
         s+=ste[level].getMethodName()+"()";
         if(string.length()>0) s+="\t\t--> "+string;
 
-        System.out.println( s );
+        //System.out.println( s );
 
     }
 

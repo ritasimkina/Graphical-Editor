@@ -20,8 +20,6 @@ public class Server extends Thread {
 
     private Proxy proxy=new Proxy();;
 
-
-
     Socket socket = null;
     BufferedReader in = null;
     DataOutputStream out = null;
@@ -36,7 +34,7 @@ public class Server extends Thread {
      */
     public void run() { Debug.out(Thread.currentThread());
         try {
-            //System.out.println( "Client="+  socket.getInetAddress() + ":" + socket.getPort());
+            System.out.println( "Client="+  socket.getInetAddress() + ":" + socket.getPort());
 
             in = new BufferedReader(new InputStreamReader (socket.getInputStream()));
             out = new DataOutputStream(socket.getOutputStream());
@@ -140,12 +138,12 @@ public class Server extends Thread {
      */
     public static void main (String args[]) throws Exception {  Debug.out(Thread.currentThread());
         ServerSocket Server = new ServerSocket (PORT, 10, InetAddress.getByName(IP));
-        System.out.println ("TCPServer Waiting for client on port "+PORT);
-
         while(true) {
+            System.out.println ("TCPServer Waiting for client on port "+PORT);
             Socket connected = Server.accept();
             (new Server(connected)).start();
         }
+        //while(true) {Thread.sleep(5000);}
     }
 }
 

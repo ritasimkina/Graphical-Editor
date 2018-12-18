@@ -34,7 +34,7 @@ public class Toolbar implements Component {
         File[] files = directory.listFiles();
         for (File file : files){
             if (file.isFile()){
-                System.out.println(file.getName());
+                //System.out.println(file.getName());
                 String str = file.getName().replace(".java", "");
                 toolbar_names.add(str);
             }

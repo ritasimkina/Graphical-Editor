@@ -3,20 +3,28 @@ package Screen;
 import Debug.*;
 import Iterator.*;
 import Component.*;
+import Observer.ToolbarLayerObserver;
 import Observer.ToolbarObserver;
 import Screen.DrawArray.DrawArray;
 import Factory.*;
+import Screen.Toolbar.ToolbarLayer;
+import Observer.*;
 
 public class Screen {
     Composite screen = new Composite();
     Component drawarray;    // for direct (faster) access
-    ToolbarObserver toolbar_observer=new ToolbarObserver();
+    Component toolbarLayer=null;
+    ToolbarLayerObserver toolbar_layer_observer=new ToolbarLayerObserver();
 
     public Screen() {   Debug.out(Thread.currentThread());
+System.out.println("Screen()");
         Factory factory_menubar = new FactoryMenubar();                       Component menubar=factory_menubar.create();
         Factory factory_toolbar = new FactoryToolbar();                       Component toolbar=factory_toolbar.create();
         Factory factory_toolbar_operation = new FactoryToolbarOperation();    Component toolbarOperation=factory_toolbar_operation.create();
-        Factory factory_toolbar_layer = new FactoryToolbarLayer();            Component toolbarLayer=factory_toolbar_layer.create();
+
+        Factory factory_toolbar_layer = new FactoryToolbarLayer();            toolbarLayer=factory_toolbar_layer.create();
+        ((ToolbarLayer)toolbarLayer).set_observer(toolbar_layer_observer);
+
         Factory factory_infobar = new FactoryInfobar();                       Component infobar=factory_infobar.create();
         Factory factory_drawarray = new FactoryDrawArray();                   drawarray=factory_drawarray.create();
 
@@ -26,9 +34,14 @@ public class Screen {
         screen.add(toolbarLayer); // in drawarray
         screen.add(drawarray);
         screen.add(infobar);
+System.out.println("!Screen()");
+
+
+
     }
 
     public String get_html()   {    Debug.out(Thread.currentThread());
+System.out.println("get_html()");
         return screen.get_html();
     }
 
@@ -42,9 +55,8 @@ public class Screen {
     }
     public void add_layer()  {
         Component c=((DrawArray)drawarray).add_layer();
-        c.registerObserver(toolbar_observer);
-        c.notifyObservers();
-        // register toolbarLayer
+        toolbar_layer_observer.add_subject(c);
+        c.registerObserver(toolbar_layer_observer);
     }
 
 }
