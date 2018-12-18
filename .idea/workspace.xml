@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,18 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToolbarLayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ToolbarLayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="41" />
               <folding>
                 <element signature="method#get#0;class#ToolbarLayer#0" expanded="false" />
                 <element signature="method#size#0;class#ToolbarLayer#0" expanded="false" />
                 <element signature="method#set_clicked#0;class#ToolbarLayer#0" expanded="false" />
                 <element signature="method#get_html#0;class#ToolbarLayer#0" expanded="false" />
                 <element signature="method#add_button_html#0;class#ToolbarLayer#0" expanded="false" />
-                <element signature="method#get_check_html#0;class#ToolbarLayer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="149" column="39" lean-forward="false" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
               <folding>
                 <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
@@ -203,6 +202,7 @@
       <find>check</find>
       <find>System.out.println</find>
       <find>window.location</find>
+      <find>layer_check</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -269,10 +269,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Observer/ToolbarLayerObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
       </list>
     </option>
   </component>
@@ -612,12 +612,12 @@
       <workItem from="1544129707209" duration="3630000" />
       <workItem from="1544174279693" duration="120000" />
       <workItem from="1545043594226" duration="37093000" />
-      <workItem from="1545131656341" duration="1016000" />
+      <workItem from="1545131656341" duration="1400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121602000" />
+    <option name="totallyTimeSpent" value="121986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -1846,21 +1846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="method#get#0;class#ToolbarLayer#0" expanded="false" />
-            <element signature="method#size#0;class#ToolbarLayer#0" expanded="false" />
-            <element signature="method#set_clicked#0;class#ToolbarLayer#0" expanded="false" />
-            <element signature="method#get_html#0;class#ToolbarLayer#0" expanded="false" />
-            <element signature="method#add_button_html#0;class#ToolbarLayer#0" expanded="false" />
-            <element signature="method#get_check_html#0;class#ToolbarLayer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1925,13 +1910,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="149" column="39" lean-forward="false" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
           <folding>
             <element signature="docComment;method#run#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#sendResponse#0;class#Server#0" expanded="false" />
             <element signature="method#sendResponse#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="41" />
+          <folding>
+            <element signature="method#get#0;class#ToolbarLayer#0" expanded="false" />
+            <element signature="method#size#0;class#ToolbarLayer#0" expanded="false" />
+            <element signature="method#set_clicked#0;class#ToolbarLayer#0" expanded="false" />
+            <element signature="method#get_html#0;class#ToolbarLayer#0" expanded="false" />
+            <element signature="method#add_button_html#0;class#ToolbarLayer#0" expanded="false" />
           </folding>
         </state>
       </provider>

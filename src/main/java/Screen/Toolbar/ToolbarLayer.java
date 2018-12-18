@@ -70,8 +70,8 @@ public class ToolbarLayer  implements Component{//}, Observer {
                 s+="<input type='checkbox' name='' value=''        >Layer "+ i +" <br>\n";
             }
             s += "\n\t</form>";
-            s+="\n\t</div>";
         }
+        s+="\n\t</div>";
         return s;
     }
 
