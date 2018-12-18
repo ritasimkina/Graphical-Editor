@@ -1,8 +1,7 @@
 package Factory;
 
-import Component.Component;
+import Component.*;
 import Debug.Debug;
-import Screen.DrawArray.DrawArray;
 import Screen.DrawArray.Layer;
 
 public class FactoryLayer implements Factory {

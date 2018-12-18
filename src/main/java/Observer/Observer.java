@@ -1,7 +1,5 @@
 package Observer;
 
-import Component.Component;
-
 public interface Observer {
 
 

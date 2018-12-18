@@ -1,6 +1,6 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -17,28 +17,15 @@ public class Quadrangle  extends Draw {
         addColor(0,0,255);  // stroke
     }
 
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<rect "+
                 get_id_tag()+
                 " x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
                 " width='" +width+ "' height='" +height+"'"+
-                "' style='fill:"+color.get(0).gethtml(clicked)+
+                "' style='fill:"+color.get(0).gethtml(get_clicked())+
                 ";stroke-width:" +stroke_width+
-                ";stroke:"+color.get(1).gethtml(clicked)+"'"+get_onclick()+" />\n";
+                ";stroke:"+color.get(1).gethtml(get_clicked())+"'"+get_onclick()+" />\n";
         return s;
     }
 }

@@ -1,11 +1,10 @@
 package Screen.Toolbar;
 
 import Debug.*;
-import Iterator.*;
 import Component.*;
 import Observer.*;
 
-public class ToolbarLayer  implements Component{//}, Observer {
+public class ToolbarLayer  extends Component {//}, Observer {
     Observer layer_observer=null;
 
 //    public Iterator createIterator() {
@@ -22,23 +21,7 @@ public class ToolbarLayer  implements Component{//}, Observer {
         layer_observer=o;
     }
 
-    @Override
-    public Component get(int i) {
-        assert false;
-        return null;
-    }
-    @Override
-    public int size() {
-        assert false;
-        return 0;
-    }
-    @Override
-    public String get_id() {
-        return null;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-    }
+
 
 
     public String get_html()   {Debug.out(Thread.currentThread());
@@ -62,13 +45,18 @@ public class ToolbarLayer  implements Component{//}, Observer {
     private String get_check_html()    {
         String s="\t<div>";
         for (int i=0; i<((ToolbarLayerObserver)layer_observer).size();i++)    {
+
+            ToolbarLayerObserver o=((ToolbarLayerObserver)layer_observer);
+
             s += "\n\t<form action=layer_check method=\"GET\">";
-            if( ((ToolbarLayerObserver)layer_observer).is_visible(i)) {
+
+            s+="<input type='checkbox' name='' value='' ";
+
+            if( o.is_visible(i)) {
 //                s+="<input type='checkbox' name='' value='' checked>Layer "+ ((ToolbarLayerObserver)layer_observer).get_id(i) +" <br>\n";
-                s+="<input type='checkbox' name='' value='' checked>Layer "+ i +" <br>\n";
-            } else {
-                s+="<input type='checkbox' name='' value=''        >Layer "+ i +" <br>\n";
+                s+="checked";
             }
+            s+=" onchange=\"meldung(" + o.get_id(i)+   ")\">Layer "+ i +" <br>\n";
             s += "\n\t</form>";
         }
         s+="\n\t</div>";

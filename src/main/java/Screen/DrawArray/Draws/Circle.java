@@ -1,7 +1,6 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
-import Screen.DrawArray.Color;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -17,27 +16,14 @@ public class Circle  extends Draw {
         stroke_width=2;
     }
 
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<circle "+
                 get_id_tag()+
                 " cx='" +points.get(0).getX() + "' cy='" +points.get(0).getY()+ "' r='" +cr+
-                "' stroke='"+color.get(0).gethtml(clicked)+
+                "' stroke='"+color.get(0).gethtml(get_clicked())+
                 "' stroke-width='" +stroke_width+
-                "' fill='"+color.get(1).gethtml(clicked)+"'"+get_onclick()+" />\n";
+                "' fill='"+color.get(1).gethtml(get_clicked())+"'"+get_onclick()+" />\n";
         return s;
     }
 }

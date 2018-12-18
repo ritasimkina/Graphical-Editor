@@ -5,33 +5,14 @@ import Iterator.*;
 import Component.*;
 import Observer.Observer;
 
-public class Tool implements Component {
+public class Tool extends Component {
     public Iterator createIterator() {
         assert false;
         return null;
     }
 
 
-    @Override
-    public Component get(int i) {
-        assert false;
-        return null;
-    }
-    @Override
-    public int size() {
-        assert false;
-        return 0;
-    }
 
-    @Override
-    public String get_id() {
-        return null;
-    }
-
-    @Override
-    public void set_clicked(boolean state) {
-
-    }
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}

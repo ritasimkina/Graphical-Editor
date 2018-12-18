@@ -1,6 +1,6 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -14,7 +14,7 @@ public class Triangle  extends Draw {
         L = lineto
         H = horizontal lineto
         V = vertical lineto
-        C = curveto
+        Component = curveto
         S = smooth curveto
         Q = quadratic Bézier curve
         T = smooth quadratic Bézier curveto
@@ -35,19 +35,6 @@ public class Triangle  extends Draw {
         addColor(0,0,0);  // stroke
     }
 
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<polygon " +
@@ -57,8 +44,8 @@ public class Triangle  extends Draw {
                 points.get(1).getX()+ "," +points.get(1).getY() + " " +
                 points.get(2).getX()+ "," +points.get(2).getY() + " " +
                 points.get(3).getX()+ "," +points.get(3).getY() +
-                "' style='fill:"+color.get(0).gethtml(clicked)+
-                ";stroke:"+color.get(1).gethtml(clicked)+
+                "' style='fill:"+color.get(0).gethtml(get_clicked())+
+                ";stroke:"+color.get(1).gethtml(get_clicked())+
                 ";stroke-width:" +stroke_width+
                 ";fill-rule:nonzero;'"+
                 get_onclick()+

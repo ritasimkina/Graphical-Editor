@@ -1,13 +1,10 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
-import Debug.Debug;
-import Iterator.Iterator;
-import Observer.Observer;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
-public class Text  extends Draw implements Component {
+public class Text  extends Draw  {
     private String txt="";
 
     public Text(String text, double x, double y) {
@@ -16,26 +13,12 @@ public class Text  extends Draw implements Component {
         addColor(0,0,0);    // fill
     }
 
-
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<text "+
                 get_id_tag()+
                 " x='" +points.get(0).getX() + "' y='"  +points.get(0).getY() +
-        "' fill="+color.get(0).gethtml(clicked)+" "+get_onclick()+
+        "' fill="+color.get(0).gethtml(get_clicked())+" "+get_onclick()+
         "'>"+txt+"</text>\n";
         return s;
     }

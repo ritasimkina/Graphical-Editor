@@ -12,14 +12,14 @@ public interface Component {
 
 
     public class Composite implements Component {
-        //Collection of child Component.
+        //Collection of child IComponent.
         List<Component> childComponent = new ArrayList<Component>();
 
-        //Adds the Component to the composition.
+        //Adds the IComponent to the composition.
         public void add(Component component) {Debug.out(Thread.currentThread());
             childComponent.add(component);
         }
-        //Removes the Component from the composition.
+        //Removes the IComponent from the composition.
         public void remove(Component component) {Debug.out(Thread.currentThread());
             childComponent.remove(component);
         }

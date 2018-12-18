@@ -4,38 +4,29 @@ import Component.*;
 import Debug.Debug;
 import Factory.*;
 import Iterator.*;
-import Observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class DrawArray implements Component {
-    Component screen = new Composite();
-
+public class DrawArray extends Component {
+    //Composite screen = new Composite();
     Factory factory_layer=null;
     int active_layer=0;
 
     List<Component> layer = new ArrayList<Component>();
 
-    @Override
-    public Component get(int i) {
+    //@Override
+    public Component get_layer(int i) {
         return layer.get(i);
     }
-    @Override
+    //@Override
     public int size() {
         return layer.size();
     }
 
-    @Override
-    public String get_id() {
-        return null;
-    }
 
-    @Override
-    public void set_clicked(boolean state) {
 
-    }
 
     /*public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}*/
@@ -75,32 +66,26 @@ public class DrawArray implements Component {
 
     public String get_html()   {
         String s="";
-        for (Component c: layer  ) {
+        for (IComponent c: layer  ) {
             s+=c.get_html();
         }
         return souround_svg(s);
     }
 
     public boolean create_shape(String name)    {
-        return   ((Layer)get(active_layer)).create_shape(name);
+        return   ((Layer)layer.get(active_layer)).create_shape(name);
     }
 
     public void select_svg(String name)  {
-        //screen.select_svg( name);
-
-        for (Component cl: layer  ) {
-            Iterator it = new IteratorSvgs(cl);
-
-            while(it.hasNext()) {
-                Component c = it.next();
-                if (c.get_id().equals(name)) {
-                    c.set_clicked(true);
-                } else {
-                    c.set_clicked(false);
-                }
+        Iterator it = new IteratorSvgs(layer.get(active_layer));
+        while(it.hasNext()) {
+            Component c = it.next();
+            if (c.get_id().equals(name)) {
+                c.set_clicked(true);
+            } else {
+                c.set_clicked(false);
             }
         }
-
     }
 
 }

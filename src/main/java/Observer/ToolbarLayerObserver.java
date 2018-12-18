@@ -2,7 +2,6 @@ package Observer;
 
 import Component.Component;
 import Debug.Debug;
-import Screen.DrawArray.Draw;
 
 import java.util.ArrayList;
 import java.util.List;

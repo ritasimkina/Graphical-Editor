@@ -1,14 +1,10 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
-import Debug.Debug;
-import Iterator.Iterator;
-import Observer.ToolbarObserver;
-import Observer.Observer;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
-public class Line extends Draw implements Component {
+public class Line extends Draw  {
     int stroke_width;
 
     public Line(double x1, double y1, double x2, double y2) {
@@ -18,26 +14,13 @@ public class Line extends Draw implements Component {
         stroke_width=2;
     }
 
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<line "+
                 get_id_tag()+
                 " x1='" +points.get(0).getX() + "' y1='" +points.get(0).getY() +
                 "' x2='" +points.get(1).getX() + "' y2='" +points.get(1).getY() +
-                "' style='stroke:"+color.get(0).gethtml(clicked)+
+                "' style='stroke:"+color.get(0).gethtml(get_clicked())+
                 ";stroke-width:" +stroke_width+ "'"+get_onclick()+" />\n";
         return s;
     }

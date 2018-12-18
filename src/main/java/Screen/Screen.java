@@ -1,14 +1,11 @@
 package Screen;
 
 import Debug.*;
-import Iterator.*;
 import Component.*;
 import Observer.ToolbarLayerObserver;
-import Observer.ToolbarObserver;
 import Screen.DrawArray.DrawArray;
 import Factory.*;
 import Screen.Toolbar.ToolbarLayer;
-import Observer.*;
 
 public class Screen {
     Composite screen = new Composite();

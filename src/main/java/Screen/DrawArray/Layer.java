@@ -6,14 +6,13 @@ import java.util.Random;
 import Debug.*;
 import Iterator.*;
 import Component.*;
-import Observer.Observer;
+import Component.Composite;
 import Screen.DrawArray.Draws.*;
 
-public class Layer implements Component {
+
+public class Layer extends Composite {
     Random rand = new Random();
     Composite draws = new Composite();
-
-
 
     public Iterator createIterator() {
         assert false;
@@ -24,7 +23,7 @@ public class Layer implements Component {
     }
 
 
-    @Override
+    //@Override
     public Component get(int i) {
         return draws.get(i);
     }
@@ -32,25 +31,20 @@ public class Layer implements Component {
     public int size() {
         return draws.size();
     }
-
     @Override
     public String get_id() {
         return null;
     }
-
     @Override
     public void set_clicked(boolean state) {
 
     }
 
 
-
-
     public String get_html()   {
-        if(visible) return draws.get_html();
+        if(is_visible()) return draws.get_html();
         else return "// hiden Layer\n";
     }
-
 
     public boolean create_shape(String name)    {
         // ToDo:: für aktiven layer

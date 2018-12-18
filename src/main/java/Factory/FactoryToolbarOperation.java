@@ -1,6 +1,6 @@
 package Factory;
 
-import Component.Component;
+import Component.*;
 import Debug.Debug;
 import Screen.Toolbar.ToolbarOperation;
 

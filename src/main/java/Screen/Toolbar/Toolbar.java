@@ -6,15 +6,10 @@ import Component.*;
 import Observer.Observer;
 
 import java.io.File;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Toolbar implements Component {
+public class Toolbar extends Component {
     static List<String> toolbar_names = new ArrayList<String>();
 
     public void registerObserver(Observer o)  {assert false;}
@@ -42,26 +37,7 @@ public class Toolbar implements Component {
     }
 
 
-    @Override
-    public Component get(int i) {
-        assert false;
-        return null;
-    }
-    @Override
-    public int size() {
-        assert false;
-        return 0;
-    }
 
-    @Override
-    public String get_id() {
-        return null;
-    }
-
-    @Override
-    public void set_clicked(boolean state) {
-
-    }
 
     public String get_html() {
         Debug.out(Thread.currentThread());

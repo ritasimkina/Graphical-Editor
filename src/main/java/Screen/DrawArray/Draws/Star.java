@@ -1,6 +1,6 @@
 package Screen.DrawArray.Draws;
 
-import Component.Component;
+import Component.IComponent;
 import Screen.DrawArray.Draw;
 import Screen.DrawArray.Point;
 
@@ -18,20 +18,6 @@ public class Star  extends Draw {
         addColor(0,0,0);  // stroke
     }
 
-
-    @Override
-    public Component get(int i) {
-        return null;
-    }
-    @Override
-    public int size() {
-        return 0;
-    }
-    @Override
-    public void set_clicked(boolean state) {
-        clicked=state;
-    }
-
     public String get_html() {
         String s;
         s= "\t<polygon "+
@@ -43,8 +29,8 @@ public class Star  extends Draw {
                 points.get(3).getX()+ "," +points.get(3).getY() + " " +
                 points.get(4).getX()+ "," +points.get(4).getY() + " " +
                 points.get(5).getX()+ "," +points.get(5).getY() +
-        "' style='fill:"+color.get(0).gethtml(clicked)+
-        ";stroke:"+color.get(1).gethtml(clicked)+
+        "' style='fill:"+color.get(0).gethtml(get_clicked())+
+        ";stroke:"+color.get(1).gethtml(get_clicked())+
         ";stroke-width:" +stroke_width+
          ";fill-rule:nonzero;' "+
                 get_onclick()+

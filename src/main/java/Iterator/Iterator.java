@@ -1,11 +1,9 @@
 package Iterator;
-import Debug.*;
-import Screen.Menubar.Menubar;
 import Component.Component;
 
 public interface Iterator {
 
-    //Iterator createIterator(Component c);
+    //Iterator createIterator(IComponent c);
 
     //Inserts obj into the list in front of the element that will be returned by the next call to next( ).
     //void add(Object obj)

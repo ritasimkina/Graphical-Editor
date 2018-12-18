@@ -1,35 +1,26 @@
 package Component;
 
-import java.util.ArrayList;
-import java.util.List;
-import Iterator.*;
-import Observer.Observer;
-import Debug.*;
-
-public interface Component {
+public abstract class Component implements IComponent {
+    protected static int id_count=0;
+    protected String id="?";
     boolean visible=true;
+    boolean clicked=false;
 
-    //Iterator.IteratorComponent   iterator = null;
-    //public Iterator createIterator();
-
-    public String get_html();
-
-    List<Observer> observers = new ArrayList<Observer>();
-    default public void registerObserver(Observer o)  {
-        observers.add(o);
+    public String get_id_tag()   {
+        return "id="+get_id();
     }
-    default public void notifyObservers()  {
-        for (Observer i: observers  ) {
-            i.update();
-        }
+    public String get_id()    {
+        return id;
     }
 
-    default public boolean is_visible()    {
+    public boolean is_visible()    {
         return visible;
     }
 
-    public Component get(int i);
-    public int size();
-    public String get_id();
-    public void set_clicked(boolean state);
+    public void set_clicked(boolean state) {
+        clicked=state;
+    }
+    public boolean get_clicked() {
+        return clicked;
+    }
 }

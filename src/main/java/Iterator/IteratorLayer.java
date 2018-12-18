@@ -1,14 +1,15 @@
 package Iterator;
 
+import Component.Composite;
 import Component.Component;
 import Debug.Debug;
 
 
 public class IteratorLayer implements Iterator {
-    Component component=null;
+    Composite component=null;
     int current=0;
 
-    public IteratorLayer(Component c) {
+    public IteratorLayer(Composite c) {
         Debug.out(Thread.currentThread());
         component=c;
         current=0;
