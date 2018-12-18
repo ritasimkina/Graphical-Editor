@@ -61,7 +61,7 @@ public class DrawArray implements Component {
         return "\t<script type=\"text/javascript\">"+
 //                "\n\t\tfunction meldung(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
                 "\n\t\tfunction meldung(clicked_id){\n"+
-                "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;}n"+
+                "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;\n"+
                  "\t\t}\n"+
                 "\t</script>\n\n";
     }
