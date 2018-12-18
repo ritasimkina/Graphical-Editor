@@ -18,8 +18,6 @@ public class ToolbarOperation  extends Component {
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
-
-
     public String get_html() {
         Debug.out(Thread.currentThread());
         //String s="\n<div id=\"toolbar\">";

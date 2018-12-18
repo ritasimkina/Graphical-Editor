@@ -34,6 +34,7 @@ public abstract class Component implements IComponent {
 
     public void set_clicked(boolean state) {
         clicked=state;
+        notifyObservers();
     }
     public boolean is_clicked() {
         return clicked;

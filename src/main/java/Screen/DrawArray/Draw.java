@@ -11,16 +11,6 @@ public abstract class Draw extends Component {
     protected  List<Color> color = new ArrayList<Color>();
     protected boolean clicked=false;
 
-    /*public Draw()   {
-        id_count++;
-        id= Integer.toString(id_count);
-    }*/
-
-    /*public Iterator createIterator() {
-        assert false;
-        return null;
-    }*/
-
     public void addPoint(Point p)   {
         points.add(p);
     }

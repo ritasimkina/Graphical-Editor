@@ -7,10 +7,6 @@ import Observer.Observer;
 
 public interface IComponent {
 
-
-    //Iterator.IteratorComponent   iterator = null;
-    //public Iterator createIterator();
-
     public String get_html();
 
     List<Observer> observers = new ArrayList<Observer>();
@@ -22,7 +18,6 @@ public interface IComponent {
             i.update();
         }
     }
-
 
     //public Component get(int i);
     //public int size();

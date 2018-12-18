@@ -81,17 +81,27 @@ public class Server extends Thread {
                                 resp.append(proxy.get_html());
                                 sendResponse(200, resp.toString());
                                 break;
-                            case "clicked_layer":
-                                object = tok.nextToken();
-                                proxy.select_layer(object);
-                                resp.append(proxy.get_html());
-                                sendResponse(200, resp.toString());
-                                break;
+
                             case "layer_add":
                                 proxy.add_layer();
                                 resp.append(proxy.get_html());
                                 sendResponse(200, resp.toString());
                                 break;
+                            case "clicked_layer_check":
+                                object = tok.nextToken();
+                                proxy.show_layer(object);
+                                resp.append(proxy.get_html());
+                                sendResponse(200, resp.toString());
+                                break;
+                            case "clicked_layer_radio":
+                                object = tok.nextToken();
+                                proxy.select_layer(object);
+                                resp.append(proxy.get_html());
+                                sendResponse(200, resp.toString());
+                                break;
+                            default:
+                                sendResponse(404, "not found");
+
                         }
 
                         resp.setLength(0);
@@ -103,7 +113,6 @@ public class Server extends Thread {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     /**

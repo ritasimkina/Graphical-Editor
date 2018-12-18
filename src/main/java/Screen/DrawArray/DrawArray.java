@@ -11,6 +11,17 @@ import java.util.List;
 
 public class DrawArray extends Component {
     //Composite screen = new Composite();
+
+    static final String SCRIPT=     "	<script type='text/javascript'>\n"+
+                                    "SCRIPTS"+
+                                    "	</script>\n\n";
+    static final String FUNCTION=   "		function FUNCTION_NAME(clicked_id){\n"+
+                                    "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
+                                    "		}\n";
+
+
+
+
     Factory factory_layer=null;
     int active_layer=0;
 
@@ -25,26 +36,40 @@ public class DrawArray extends Component {
         return layer.size();
     }
 
-    private String get_clicked_svg_function()   {
-        return "\t<script type=\"text/javascript\">"+
-//                "\n\t\tfunction clicked_svg(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
-                "\n\t\tfunction clicked_svg(clicked_id){\n"+
-                "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;\n"+
-                "\t\t}\n"+
-                "\t</script>\n\n";
+    private String layer_add_function()   {
+        String s=FUNCTION;
+        s=s.replace("FUNCTION_NAME","layer_add");
+        return s;
+
     }
-    private String get_clicked_layer_function()   {
-        return "\t<script type=\"text/javascript\">"+
-//                "\n\t\tfunction clicked_svg(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
-                "\n\t\tfunction clicked_layer(clicked_id){\n"+
-                "\t\t\twindow.location = \"clicked_layer.\"+clicked_id;\n"+
-                "\t\t}\n"+
-                "\t</script>\n\n";
+    private String clicked_layer_function()   {
+        String s=FUNCTION;
+        s=s.replace("FUNCTION_NAME","clicked_layer_check");
+        s+=FUNCTION;
+        s=s.replace("FUNCTION_NAME","clicked_layer_radio");
+        return s;
     }
+    private String clicked_svg_function()   {
+        String s=FUNCTION;
+        s=s.replace("FUNCTION_NAME","clicked_svg");
+        return s;
+    }
+
+
+    private String schripts_html()  {
+        String s=clicked_svg_function();
+        s+=layer_add_function();
+        s+=clicked_layer_function();
+        String r=SCRIPT;
+        r=r.replace("SCRIPTS",s);
+        return r;
+    }
+
+
     private String souround_svg(String s)   {
         return "<svg height='500' width='500'>\n"+
-                get_clicked_svg_function()+s+
-                get_clicked_layer_function()+s+
+                schripts_html()+
+                s+
                 "</svg>\n\n";
     }
 
@@ -55,16 +80,25 @@ public class DrawArray extends Component {
 
     public Component add_layer() {
         Component l=factory_layer.create();
+        //l.set_clicked(true);    // now draw on this layer
         layer.add(l);
         active_layer=layer.size()-1;
-        //System.out.println(active_layer);
-        // info an ToolbarLayer
         return layer.get(active_layer);
     }
-    public void select_layer(String name)  {
+    public void show_layer(String name)  {
         for( Component c: layer )    {
             if (c.get_id().equals(name)) {
                 c.toggle_visible();
+            }
+        }
+    }
+    public void select_layer(String name)  {
+        for( int i=0; i<layer.size();i++ )    {
+            if (layer.get(i).get_id().equals(name)) {
+                active_layer=i;
+                layer.get(i).set_clicked(true);
+            } else {
+                layer.get(i).set_clicked(false);
             }
         }
     }
@@ -86,7 +120,7 @@ public class DrawArray extends Component {
 
     public String get_html()   {
         String s="";
-        for (IComponent c: layer  ) {
+        for (Component c: layer  ) {
             s+=c.get_html();
         }
         return souround_svg(s);

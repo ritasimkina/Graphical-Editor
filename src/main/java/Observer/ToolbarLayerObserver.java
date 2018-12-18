@@ -11,6 +11,7 @@ public class ToolbarLayerObserver implements Observer {
     List<Component> subjects = new ArrayList<Component>();
     List<Boolean> visible = new ArrayList<Boolean>();
     List<String> ids = new ArrayList<String>();
+    String clicked_id="";
 
     public void add_subject(Component subject) {
         subjects.add(subject);
@@ -22,6 +23,7 @@ public class ToolbarLayerObserver implements Observer {
         //System.out.println(Thread.currentThread());
         for (int i=0; i<subjects.size();i++) {
             visible.set(i,subjects.get(i).is_visible());
+            if (subjects.get(i).is_clicked())   clicked_id=subjects.get(i).get_id();
         }
     }
 
@@ -33,6 +35,9 @@ public class ToolbarLayerObserver implements Observer {
     }
     public String get_id(int i)   {
         return ids.get(i);
+    }
+    public String clicked_id()   {
+        return clicked_id;
     }
 
 }
