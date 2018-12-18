@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/implementation/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/implementation/src/main/java/Component/Component.java" />
-      <change beforePath="$PROJECT_DIR$/implementation/src/main/java/FactoryDraw.java" afterPath="$PROJECT_DIR$/implementation/src/main/java/FactoryDraw.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component/Composite.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Composite.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryInfobar.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryInfobar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryMenubar.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryMenubar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarOperation.java" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarOperation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryDraw.java" afterPath="$PROJECT_DIR$/src/main/java/FactoryDraw.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Observer/Observer.java" afterPath="$PROJECT_DIR$/src/main/java/Observer/Observer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Observer/ToolbarLayerObserver.java" afterPath="$PROJECT_DIR$/src/main/java/Observer/ToolbarLayerObserver.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Infobar/Infobar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Infobar/Infobar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menubar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menubar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Tool.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Tool.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ComponentTest.java" afterPath="$PROJECT_DIR$/src/test/java/ComponentTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Component/Component.class" afterPath="$PROJECT_DIR$/target/classes/Component/Component.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Component/Composite.class" afterPath="$PROJECT_DIR$/target/classes/Component/Composite.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Factory/FactoryLayer.class" afterPath="$PROJECT_DIR$/target/classes/Factory/FactoryLayer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator/IteratorLayer.class" afterPath="$PROJECT_DIR$/target/classes/Iterator/IteratorLayer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Iterator/IteratorSvgs.class" afterPath="$PROJECT_DIR$/target/classes/Iterator/IteratorSvgs.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Observer/ToolbarLayerObserver.class" afterPath="$PROJECT_DIR$/target/classes/Observer/ToolbarLayerObserver.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draw.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draw.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Circle.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Circle.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Elipse.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Elipse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Line.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Line.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/NGon.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/NGon.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Quadrangle.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Quadrangle.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Star.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Star.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Text.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Text.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Triangle.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Layer.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Layer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Infobar/Infobar.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Infobar/Infobar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Menubar/Menu.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Menubar/Menu.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Menubar/Menubar.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Menubar/Menubar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Screen.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Screen.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Toolbar/Tool.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Toolbar/Tool.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Toolbar/Toolbar.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Toolbar/Toolbar.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Toolbar/ToolbarLayer.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Toolbar/ToolbarLayer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Toolbar/ToolbarOperation.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Toolbar/ToolbarOperation.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ComponentTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
@@ -121,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="31" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -133,6 +71,7 @@
                 <element signature="e#323#324#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
@@ -323,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Factory/FactoryToolbarOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component/IComponent.java" />
@@ -341,6 +279,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
       </list>
     </option>
   </component>
@@ -682,12 +621,12 @@
       <workItem from="1544129707209" duration="3630000" />
       <workItem from="1544174279693" duration="120000" />
       <workItem from="1545043594226" duration="37093000" />
-      <workItem from="1545131656341" duration="8593000" />
+      <workItem from="1545131656341" duration="8659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129179000" />
+    <option name="totallyTimeSpent" value="129245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -1904,22 +1843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1952,6 +1875,23 @@
             <element signature="method#get_html#0;class#DrawArray#0" expanded="false" />
             <element signature="e#1914#1915#0" expanded="true" />
             <element signature="e#1990#1991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
