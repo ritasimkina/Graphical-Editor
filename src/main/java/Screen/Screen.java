@@ -17,7 +17,6 @@ public class Screen {
     ToolbarLayerObserver toolbar_layer_observer=new ToolbarLayerObserver();
 
     public Screen() {   Debug.out(Thread.currentThread());
-System.out.println("Screen()");
         Factory factory_menubar = new FactoryMenubar();                       Component menubar=factory_menubar.create();
         Factory factory_toolbar = new FactoryToolbar();                       Component toolbar=factory_toolbar.create();
         Factory factory_toolbar_operation = new FactoryToolbarOperation();    Component toolbarOperation=factory_toolbar_operation.create();
@@ -34,15 +33,12 @@ System.out.println("Screen()");
         screen.add(toolbarLayer); // in drawarray
         screen.add(drawarray);
         screen.add(infobar);
-System.out.println("!Screen()");
 
-
-
+        add_layer();
     }
 
     public String get_html()   {    Debug.out(Thread.currentThread());
-System.out.println("get_html()");
-        return screen.get_html();
+       return screen.get_html();
     }
 
     public boolean create_shape(String name)    {

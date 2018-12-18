@@ -47,7 +47,7 @@ public class DrawArray implements Component {
 
     public DrawArray() { Debug.out(Thread.currentThread());
         factory_layer = new FactoryLayer();
-        add_layer();
+        //add_layer();
     }
 
     public Component add_layer() {

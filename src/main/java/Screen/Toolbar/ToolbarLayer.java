@@ -19,7 +19,6 @@ public class ToolbarLayer  implements Component{//}, Observer {
         return toolbar_layer_observer;
     }*/
     public void set_observer(Observer o) {
-System.out.println("set_observer");
         layer_observer=o;
     }
 
@@ -42,22 +41,11 @@ System.out.println("set_observer");
     }
 
 
-
-
-
     public String get_html()   {Debug.out(Thread.currentThread());
-
-
-    //für alle layer get_toolbar_html
-    //Iterator it=new IteratorLayer()
-
-
         assert false;
         String s="<div id=\"layers\">\n"+
-//                "Layers"+
                 add_button_html()+
                 get_check_html()+
-                //get_toolbar_html
                 "</div>\n\n";
         return s;
     }
@@ -72,14 +60,14 @@ System.out.println("set_observer");
     }
 
     private String get_check_html()    {
-System.out.println("get_check_html");
         String s="\t<div>";
         for (int i=0; i<((ToolbarLayerObserver)layer_observer).size();i++)    {
             s += "\n\t<form action=layer_check method=\"GET\">";
             if( ((ToolbarLayerObserver)layer_observer).is_visible(i)) {
-                s+="<input type='checkbox' name='' value='' checked>Layer "+ ((ToolbarLayerObserver)layer_observer).get_id(i) +" <br>\n";
+//                s+="<input type='checkbox' name='' value='' checked>Layer "+ ((ToolbarLayerObserver)layer_observer).get_id(i) +" <br>\n";
+                s+="<input type='checkbox' name='' value='' checked>Layer "+ i +" <br>\n";
             } else {
-                s+="<input type='checkbox' name='' value=''        >Layer "+ ((ToolbarLayerObserver)layer_observer).get_id(i) +" <br>\n";
+                s+="<input type='checkbox' name='' value=''        >Layer "+ i +" <br>\n";
             }
             s += "\n\t</form>";
             s+="\n\t</div>";
