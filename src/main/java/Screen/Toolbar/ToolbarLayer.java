@@ -56,7 +56,7 @@ public class ToolbarLayer  extends Component {//}, Observer {
 //                s+="<input type='checkbox' name='' value='' checked>Layer "+ ((ToolbarLayerObserver)layer_observer).get_id(i) +" <br>\n";
                 s+="checked";
             }
-            s+=" onchange=\"meldung(" + o.get_id(i)+   ")\">Layer "+ i +" <br>\n";
+            s+=" onchange=\"clicked_layer(" + o.get_id(i)+   ")\">Layer "+ i +" <br>\n";
             s += "\n\t</form>";
         }
         s+="\n\t</div>";

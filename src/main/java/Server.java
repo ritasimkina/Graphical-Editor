@@ -81,6 +81,12 @@ public class Server extends Thread {
                                 resp.append(proxy.get_html());
                                 sendResponse(200, resp.toString());
                                 break;
+                            case "clicked_layer":
+                                //object = tok.nextToken();
+                                //proxy.select_svg(object);
+                                resp.append(proxy.get_html());
+                                sendResponse(200, resp.toString());
+                                break;
                             case "layer_add":
                                 proxy.add_layer();
                                 resp.append(proxy.get_html());

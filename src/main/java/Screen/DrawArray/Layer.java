@@ -12,7 +12,7 @@ import Screen.DrawArray.Draws.*;
 
 public class Layer extends Composite {
     Random rand = new Random();
-    Composite draws = new Composite();
+    //Composite draws = new Composite();
 
     public Iterator createIterator() {
         assert false;
@@ -23,7 +23,7 @@ public class Layer extends Composite {
     }
 
     public String get_html()   {
-        if(is_visible()) return draws.get_html();
+        if(is_visible()) return super.get_html();
         else return "// hiden Layer\n";
     }
 
@@ -37,28 +37,28 @@ public class Layer extends Composite {
 
         switch (name) {
             case "Circle":
-                draws.add(new Circle(x, y, 10));
+                add(new Circle(x, y, 10));
                 break;
             case "Elipse":
-                draws.add(new Elipse(x, y, 10,20));
+                add(new Elipse(x, y, 10,20));
                 break;
             case "Line":
-                draws.add(new Line(50,50, x,y));
+                add(new Line(50,50, x,y));
                 break;
             case "NGon":
                 //draws.add(new Text("Text"));
                 break;
             case "Quadrangle":
-                draws.add(new Quadrangle(x,y,50,50));
+                add(new Quadrangle(x,y,50,50));
                 break;
             case "Star":
-                draws.add(new Star(x, y));
+                add(new Star(x, y));
                 break;
             case "Text":
-                draws.add(new Text("Text",x,y));
+                add(new Text("Text",x,y));
                 break;
             case "Triangle":
-                draws.add(new Triangle(x,y));
+                add(new Triangle(x,y));
                 break;
             default:
                 result=false;

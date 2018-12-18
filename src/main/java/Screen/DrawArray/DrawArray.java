@@ -48,18 +48,27 @@ public class DrawArray extends Component {
         // info an ToolbarLayer
         return layer.get(active_layer);
     }
-    private String get_onclick_function()   {
+    private String get_clicked_svg_function()   {
         return "\t<script type=\"text/javascript\">"+
-//                "\n\t\tfunction meldung(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
-                "\n\t\tfunction meldung(clicked_id){\n"+
+//                "\n\t\tfunction clicked_svg(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
+                "\n\t\tfunction clicked_svg(clicked_id){\n"+
                 "\t\t\twindow.location = \"clicked_svg.\"+clicked_id;\n"+
-                 "\t\t}\n"+
+                "\t\t}\n"+
+                "\t</script>\n\n";
+    }
+    private String get_clicked_layer_function()   {
+        return "\t<script type=\"text/javascript\">"+
+//                "\n\t\tfunction clicked_svg(clicked_id){alert('SVG-Element '+clicked_id+ ' wurde angeklickt!');}"+
+                "\n\t\tfunction clicked_layer(clicked_id){\n"+
+                "\t\t\twindow.location = \"clicked_layer.\"+clicked_id;\n"+
+                "\t\t}\n"+
                 "\t</script>\n\n";
     }
 
     private String souround_svg(String s)   {
         return "<svg height='500' width='500'>\n"+
-                get_onclick_function()+s+
+                get_clicked_svg_function()+s+
+                get_clicked_layer_function()+s+
                 "</svg>\n\n";
     }
 

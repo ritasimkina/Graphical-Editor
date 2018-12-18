@@ -29,7 +29,7 @@ public abstract class Draw extends Component {
     }
 
     public String get_onclick()   {
-        return " onclick=\"meldung(this.id)\"";
+        return " onclick=\"clicked_svg(this.id)\"";
     }
 
     public abstract String get_html();
