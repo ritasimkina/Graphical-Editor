@@ -28,14 +28,13 @@ public class Quadrangle  extends Draw {
         //CORE_ATTRIBUTES
             "id", "id",       //, "xml:base", "xml:lang",  "xml:space";
         //GRAPHICAL_EVENT_ATTRIBUTES
-         "onclick", "clicked_svg(this.id",  //,"onactivate",  "onfocusin", "onfocusout", "onload", "onmousedown", "onmousemove", "onmouseout", "onmouseover",  "onmouseup";
+         "onclick", "clicked_svg(this.id)",  //,"onactivate",  "onfocusin", "onfocusout", "onload", "onmousedown", "onmousemove", "onmouseout", "onmouseover",  "onmouseup";
         //PRESENTATION_ATTRIBUTES
          //Color and Painting properties:
             "fill", "",
             "stroke", "",
             "stroke-width", ""     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
     );
-
     SVGAttributeList attributes=new SVGAttributeList(ATTRIBUTES);
 
 
@@ -46,15 +45,23 @@ public class Quadrangle  extends Draw {
         addColor(0,0,255);  // stroke
     }
 
-    public String get_html() {
+
+    private void set_attributes()    {
+        attributes.setValue("id",get_id());
+        attributes.setValue("fill",color.get(0).gethtml(is_clicked()));
+        attributes.setValue("stroke",color.get(1).gethtml(is_clicked()));
+    }
+    private String get_attributes_html()    {
+        set_attributes();
         String s="";
-//        s= "\t<rect "+
-//                get_id_tag()+
-//                " x=" +points.get(0).getX()+ " y=" +points.get(0).getY() +
-//                " width='" +width+ "' height='" +height+"'"+
-//                "' style='fill:"+color.get(0).gethtml(is_clicked())+
-//                ";stroke-width:" +stroke_width+
-//                ";stroke:"+color.get(1).gethtml(is_clicked())+"'"+get_onclick()+" />\n";
+        for(int i=0;i<attributes.size();i++)    {
+            s+=attributes.get_key(i)+"='"+attributes.get_value(i)+"' ";
+        }
         return s;
+    }
+
+
+    public String get_html() {
+        return "\t<rect "+ get_attributes_html()+ " />\n";
     }
 }
