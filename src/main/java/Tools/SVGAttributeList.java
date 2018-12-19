@@ -21,6 +21,9 @@ public class SVGAttributeList {
         return "";
     }
 
+    public void setValue(int pos, String value) {
+        atr.get(pos).setValue(value);
+    }
     public void setValue(String key, String value) {
         for( Pair p: atr ) {
             if(p.getKey().equals(key))  p.setValue(value);

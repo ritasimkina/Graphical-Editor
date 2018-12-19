@@ -1,10 +1,17 @@
 package Component;
 
+import Tools.SVGAttributeList;
+
 public abstract class Component implements IComponent {
     protected static int id_count=0;
     protected String id="?";
     boolean visible=true;
     boolean clicked=false;
+
+
+    public void set_attributes(String parameter)    {
+        assert false;
+    }
 
     public Component()  {
         id_count++;
@@ -25,7 +32,7 @@ public abstract class Component implements IComponent {
     public String get_edit_html()  {
         // throw
         return "";
-    };
+    }
     public void set_visible(boolean state) {
         visible=state;
     }
@@ -50,5 +57,6 @@ public abstract class Component implements IComponent {
         clicked=!clicked;
         return clicked;
     }
+
 
 }

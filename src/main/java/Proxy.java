@@ -63,7 +63,7 @@ public class Proxy {
     public void edit()  {
         screen.edit_svg();
     }
-    public void edit_end(boolean save)  {
-        screen.edit_svg_end(save);
+    public void edit_end(String parameter)  {
+        screen.edit_svg_end(parameter);
     }
 }

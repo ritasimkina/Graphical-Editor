@@ -65,7 +65,11 @@ public class Screen {
     public void edit_svg()  {
         ((DrawArray)drawarray).set_strategy(new StrategySvgEdit(drawarray));
     }
-    public void edit_svg_end(boolean save)  {
+    public void edit_svg_end(String parameter)  {
+        if (!parameter.isEmpty())    {
+            Component c=((DrawArray)drawarray).aktiv_component();
+            c.set_attributes(parameter);
+        }
         ((DrawArray)drawarray).set_strategy(new StrategySvgShow(drawarray));
     }
 }

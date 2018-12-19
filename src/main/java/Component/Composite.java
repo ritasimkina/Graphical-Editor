@@ -48,7 +48,8 @@ public class Composite extends Component {
     }
 
 
-
-
-
+    @Override
+    public void set_attributes(String parameter) {
+        //throw
+    }
 }

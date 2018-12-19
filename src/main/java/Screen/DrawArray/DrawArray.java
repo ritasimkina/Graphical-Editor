@@ -79,7 +79,7 @@ public class DrawArray extends Component {
                 "</svg>\n\n";
     }
 
-    private Component aktiv_component() {
+    public Component aktiv_component() {
         Iterator it = new IteratorSvgs(layer.get(active_layer));
         while(it.hasNext()) {
             Component c=it.next();
@@ -104,6 +104,12 @@ public class DrawArray extends Component {
         return s+c.get_edit_html();
     }
 //-----------------------------------------------------------------------------------------------
+
+    public void set_parameter(String parameter)    {
+
+    }
+
+
     public void set_strategy(Strategy s) {
     strategy=s;
 };

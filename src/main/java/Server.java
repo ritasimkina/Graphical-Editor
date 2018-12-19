@@ -74,11 +74,12 @@ public class Server extends Thread {
                                 status=200; r=proxy.get_html();
                                 break;
                             case "svg_edit_save":
-                                proxy.edit_end(true);
+                                String s=req_side.substring(req_side.indexOf('.')+1);
+                                proxy.edit_end(s);
                                 status=200; r=proxy.get_html();
                                 break;
                             case "svg_edit_cancel":
-                                proxy.edit_end(false);
+                                proxy.edit_end("");
                                 status=200; r=proxy.get_html();
                                 break;
                             case "add_svg":

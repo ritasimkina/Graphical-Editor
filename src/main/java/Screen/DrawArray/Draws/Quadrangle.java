@@ -13,17 +13,17 @@ import java.util.List;
 public class Quadrangle  extends Draw {
     //https://www.w3.org/TR/SVG11/shapes.html#CircleElement
 
-    String EDIT_TABLE=(      "<table>\n"+
+    static String EDIT_TABLE=(      "<table>\n"+
                              "TABLEROW"+
                              "</table>\n" +
                             "<button onclick='svg_edit_save(IDS)'>Save</button>\n"  +
                              "<button onclick='svg_edit_cancel()'>Cancel</button>\n"  );
-    String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
+    static String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
 
 //<input type="text" id="myText" value="Some text...">
 
 
-    List<String> ATTRIBUTES=Arrays.asList(
+    static List<String> ATTRIBUTES=Arrays.asList(
         // ATTRIBUTES
             "class", "svg_rect",
             "transform", "",
@@ -45,9 +45,10 @@ public class Quadrangle  extends Draw {
             "stroke", "",
             "stroke-width", ""     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
     );
-    SVGAttributeList attributes=new SVGAttributeList(ATTRIBUTES);
+
 
     public Quadrangle(double x, double y, double width, double height) {
+        super(new SVGAttributeList(ATTRIBUTES));
         attributes.setValue("id",get_id());
         attributes.setValue("x",x);
         attributes.setValue("y",y);
@@ -55,9 +56,8 @@ public class Quadrangle  extends Draw {
         attributes.setValue("height",height);
         addColor(255,0,0);  // fill
         addColor(0,0,255);  // stroke
+
     }
-
-
     private void set_attributes()    {
         attributes.setValue("fill",color.get(0).gethtml(is_clicked()));
         attributes.setValue("stroke",color.get(1).gethtml(is_clicked()));
