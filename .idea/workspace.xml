@@ -7,8 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Strategy/IStrategy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Strategy/Strategy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Strategy/StrategySvgEdit.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Strategy/StrategySvgShow.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Component/Component.java" afterPath="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/SVG_styling_properties.txt" afterPath="$PROJECT_DIR$/Doku/SVG_styling_properties.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/main/java/Server.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategie.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tools/SVGAttributeList.java" afterPath="$PROJECT_DIR$/src/main/java/Tools/SVGAttributeList.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Component/Component.class" afterPath="$PROJECT_DIR$/target/classes/Component/Component.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy.class" afterPath="$PROJECT_DIR$/target/classes/Proxy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draw.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draw.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/DrawArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Quadrangle.class" afterPath="$PROJECT_DIR$/target/classes/Screen/DrawArray/Draws/Quadrangle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screen/Screen.class" afterPath="$PROJECT_DIR$/target/classes/Screen/Screen.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" afterPath="$PROJECT_DIR$/target/classes/Server.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Strategie.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tools/SVGAttributeList.class" afterPath="$PROJECT_DIR$/target/classes/Tools/SVGAttributeList.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,79 +46,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SVGAttributeList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tools/SVGAttributeList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding>
-                <element signature="method#SVGAttributeList#0;class#SVGAttributeList#0" expanded="false" />
-                <element signature="method#getValue#0;class#SVGAttributeList#0" expanded="false" />
-                <element signature="method#setValue#0;class#SVGAttributeList#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Quadrangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2379#2380#0" expanded="true" />
-                <element signature="e#2444#2445#0" expanded="true" />
+                <element signature="e#1020#1100#0" expanded="false" />
+                <element signature="e#1276#1317#0" expanded="false" />
+                <element signature="e#1400#1527#0" expanded="false" />
+                <element signature="e#3440#3441#0" expanded="true" />
+                <element signature="e#3488#3489#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="method#Component#0;class#Component#0" expanded="false" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="method#toggle_clicked#0;class#Component#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="175">
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+      <file leaf-file-name="StrategySvgEdit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategySvgEdit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="method#layer_add_function#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#clicked_layer_function#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#schripts_html#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#souround_svg#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#DrawArray#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#add_layer#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#show_layer#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#select_layer#0;class#DrawArray#0" expanded="false" />
-                <element signature="method#get_html#0;class#DrawArray#0" expanded="false" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,10 +103,68 @@
       <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding>
+                <element signature="method#Screen#0;class#Screen#0" expanded="false" />
                 <element signature="method#get_html#0;class#Screen#0" expanded="false" />
+                <element signature="method#select_svg#0;class#Screen#0" expanded="false" />
+                <element signature="method#select_layer#0;class#Screen#0" expanded="false" />
+                <element signature="method#show_layer#0;class#Screen#0" expanded="false" />
+                <element signature="method#add_layer#0;class#Screen#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="method#Component#0;class#Component#0" expanded="false" />
+                <element signature="method#get_show_html#0;class#Component#0" expanded="false" />
+                <element signature="method#get_edit_html#0;class#Component#0" expanded="false" />
+                <element signature="method#toggle_visible#0;class#Component#0" expanded="false" />
+                <element signature="method#set_clicked#0;class#Component#0" expanded="false" />
+                <element signature="method#toggle_clicked#0;class#Component#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Component/IComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="method#notifyObservers#0;class#IComponent#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding>
+                <element signature="method#layer_add_function#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#clicked_layer_function#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#clicked_svg_function#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#schripts_html#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#souround_svg#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#aktiv_component#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#DrawArray#0;class#DrawArray#0" expanded="false" />
+                <element signature="e#2426#2427#0" expanded="true" />
+                <element signature="e#2468#2469#0" expanded="true" />
+                <element signature="method#add_layer#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#show_layer#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#select_layer#0;class#DrawArray#0" expanded="false" />
+                <element signature="method#select_svg#0;class#DrawArray#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -125,11 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>layers</find>
-      <find>svg height=</find>
-      <find>&lt;polygon</find>
-      <find>&lt;/svg&gt;</find>
-      <find>footer</find>
       <find>/body</find>
       <find>angeklickt</find>
       <find>function meldung</find>
@@ -155,6 +206,11 @@
       <find>function clicked_layer</find>
       <find>onclick=</find>
       <find>clicked</find>
+      <find>GET</find>
+      <find>POST</find>
+      <find>&lt;button&gt;</find>
+      <find>&lt;button&gt;Edit</find>
+      <find>activ</find>
     </findStrings>
     <replaceStrings>
       <replace>extends Component</replace>
@@ -182,12 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/UI/FactoryToolbarLayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/FactoryToolbar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/FactoryMenubar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/Factory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/Observer/ToolbarObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java" />
@@ -216,23 +266,29 @@
         <option value="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
         <option value="$PROJECT_DIR$/src/main/java/Observer/ToolbarLayerObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Component/IComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Attributes.cfg" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/SVG_styling_properties.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/SVGAttributeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/Strategy" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/IStrategy" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/Screen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/IComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Component/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/StrategySvgEdit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/StrategySvgShow.java" />
       </list>
     </option>
   </component>
@@ -305,6 +361,11 @@
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
               <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="Doku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,6 +380,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g2018w_se2_0403" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -353,7 +422,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2018w_se2_0403" type="b2602c69:ProjectViewProjectNode" />
@@ -379,17 +448,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Doku" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/Strategie" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Doku/Disign1" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -570,12 +642,12 @@
       <workItem from="1545142842929" duration="1909000" />
       <workItem from="1545217241452" duration="613000" />
       <workItem from="1545217887394" duration="1498000" />
-      <workItem from="1545219440125" duration="3014000" />
+      <workItem from="1545219440125" duration="12394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138278000" />
+    <option name="totallyTimeSpent" value="147658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1604" height="908" extended-state="6" />
@@ -583,15 +655,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1883871" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22967742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -602,7 +674,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35096774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2864516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -623,43 +695,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Iterator/IteratorLayer.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java</url>
           <line>110</line>
           <properties />
-          <option name="timeStamp" value="130" />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="145" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="132" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="146" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -685,696 +736,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JavaScript-modules-diagram//home/uni/fileserver/semester/auslaufend/programming/g2018w_se2_0403/src/main/java/UI">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID />
-          <OriginalElement>$PROJECT_DIR$/src/main/java/UI</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="622.0" y="360.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/UI">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>UI</OriginalElement>
-          <nodes>
-            <node x="" y="">UI.FactoryUI.FactoryToolbarOperation</node>
-            <node x="" y="">UI.FactoryUI.FactoryInfobar</node>
-            <node x="" y="">UI.FactoryUI.FactoryMenubar</node>
-            <node x="" y="">UI.FactoryUI.FactoryToolbarLayer</node>
-            <node x="" y="">UI.FactoryUI.FactoryToolbar</node>
-            <node x="" y="">UI.FactoryUI.FactoryDrawArray</node>
-            <node x="" y="">UI.FactoryUI</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="607.0" y="97.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Server">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Server</OriginalElement>
-          <nodes>
-            <node x="159.0" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="115.5" y="1077.0">Server</node>
-            <node x="0.0" y="182.0">java.lang.Thread</node>
-            <node x="177.5" y="80.0">java.lang.Runnable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-26.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.lang.Thread" target="java.lang.Runnable">
-              <point x="-119.75" y="-422.5" />
-              <point x="119.75" y="157.0" />
-              <point x="208.5" y="157.0" />
-              <point x="-31.0" y="26.0" />
-            </edge>
-            <edge source="Server" target="java.lang.Thread">
-              <point x="-62.0" y="-48.0" />
-              <point x="177.5" y="1052.0" />
-              <point x="119.75" y="1052.0" />
-              <point x="-119.75" y="422.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-37.0" y="876.0" />
-          <SelectedNodes>
-            <node>Server</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="1907.0" y="1385.0">com</node>
-            <node x="1327.9775159924616" y="140.0">Component.Component</node>
-            <node x="1104.5770833333331" y="1310.0">Server</node>
-            <node x="1103.0770833333331" y="1150.0">Screen.Screen</node>
-            <node x="1855.0602434702973" y="530.0">DrawTest</node>
-            <node x="1516.9454998805538" y="810.0">Screen.DrawArray.DrawArray</node>
-            <node x="34.82708333333312" y="450.0">Screen.Infobar</node>
-            <node x="652.5475609837026" y="450.0">Screen.Menubar</node>
-            <node x="316.0" y="1540.0">sun</node>
-            <node x="1173.0" y="1385.0">DecoratorFileSVG</node>
-            <node x="129.625" y="1385.0">FactoryDraw</node>
-            <node x="1792.720499880554" y="140.0">Screen.DrawArray.Color</node>
-            <node x="947.0" y="1385.0">groovyjarjarasm</node>
-            <node x="1106.5770833333331" y="1230.0">Proxy</node>
-            <node x="1042.5400159924616" y="1020.0">UI.FactoryUI.FactoryToolbarOperation</node>
-            <node x="0.0" y="1540.0">java</node>
-            <node x="0.0" y="1465.0">FactoryDraw.FactoryDrawComponent</node>
-            <node x="925.0" y="1540.0">Strategie</node>
-            <node x="1742.0" y="1385.0">javax</node>
-            <node x="1784.6876463210704" y="0.0">Observer</node>
-            <node x="209.0" y="1465.0">FactoryDraw.FactoryLayer</node>
-            <node x="1555.1704998805537" y="450.0">Component.Composite</node>
-            <node x="942.7954998805537" y="810.0">UI.FactoryUI</node>
-            <node x="811.5475609837026" y="450.0">Iterator.IteratorSvgs</node>
-            <node x="1812.3935768036308" y="450.0">Screen.DrawArray.Draw</node>
-            <node x="158.0" y="1540.0">junit</node>
-            <node x="878.5400159924616" y="1020.0">UI.FactoryUI.FactoryMenubar</node>
-            <node x="689.5400159924616" y="1020.0">UI.FactoryUI.FactoryToolbarLayer</node>
-            <node x="378.5400159924616" y="1020.0">UI.FactoryUI.FactoryInfobar</node>
-            <node x="1532.3204998805538" y="620.0">Screen.DrawArray.Layer</node>
-            <node x="1692.720499880554" y="140.0">Screen.DrawArray.Point</node>
-            <node x="471.0" y="1540.0">org</node>
-            <node x="532.5400159924616" y="1020.0">UI.FactoryUI.FactoryToolbar</node>
-            <node x="1321.9204998805537" y="1020.0">UI.FactoryUI.FactoryDrawArray</node>
-            <node x="1990.526910136964" y="140.0">GraphicElementSelect</node>
-            <node x="17.6875" y="140.0">Iterator.Iterator</node>
-            <node x="1373.0" y="1385.0">META-INF</node>
-            <node x="774.0" y="1540.0">jdk</node>
-            <node x="623.0" y="1540.0">Decorator</node>
-            <node x="1569.0" y="1385.0">groovy</node>
-            <node x="1072.0" y="1540.0">Kontext</node>
-            <node x="676.0" y="1385.0">groovyjarjarcommonscli</node>
-            <node x="1690.5155448717946" y="530.0">Screen.DrawArray.Draws</node>
-            <node x="346.5475609837026" y="450.0">Screen.Toolbar</node>
-            <node x="420.0" y="1399.40625">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Screen.DrawArray.Layer" target="Iterator.Iterator">
-              <point x="-35.14285714285711" y="-15.0" />
-              <point x="1538.1776427376967" y="600.0" />
-              <point x="22.0" y="600.0" />
-              <point x="22.0" y="430.0" />
-              <point x="46.125" y="430.0" />
-              <point x="-17.0625" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draws" target="Component.Component">
-              <point x="-25.0" y="-15.0" />
-              <point x="1728.0155448717946" y="510.0" />
-              <point x="1724.6655448717947" y="510.0" />
-              <point x="1724.6655448717947" y="280.0" />
-              <point x="1437.9775159924616" y="280.0" />
-              <point x="52.0" y="15.0" />
-            </edge>
-            <edge source="Component.Composite" target="Observer">
-              <point x="44.80000000000001" y="-15.0" />
-              <point x="1655.9704998805537" y="300.0" />
-              <point x="1598.97482580825" y="300.0" />
-              <point x="1598.97482580825" y="120.0" />
-              <point x="1846.2209796544037" y="120.0" />
-              <point x="-9.466666666666697" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="Component.Component">
-              <point x="22.75" y="-15.0" />
-              <point x="1171.3270833333331" y="1100.0" />
-              <point x="1492.9204998805537" y="1100.0" />
-              <point x="1492.9204998805537" y="400.0" />
-              <point x="1393.9775159924616" y="400.0" />
-              <point x="8.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarOperation" target="Component.Component">
-              <point x="72.375" y="-15.0" />
-              <point x="1211.4150159924616" y="1000.0" />
-              <point x="1345.4829998805537" y="1000.0" />
-              <point x="1345.4829998805537" y="430.0" />
-              <point x="1381.9775159924616" y="430.0" />
-              <point x="-4.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarLayer" target="UI.FactoryUI">
-              <point x="21.125" y="-15.0" />
-              <point x="795.1650159924616" y="950.0" />
-              <point x="979.8339614190154" y="950.0" />
-              <point x="-16.46153846153834" y="15.0" />
-            </edge>
-            <edge source="Screen.Menubar" target="Iterator.Iterator">
-              <point x="-52.125" y="-15.0" />
-              <point x="669.9225609837026" y="280.0" />
-              <point x="80.25" y="280.0" />
-              <point x="17.0625" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.DrawArray" target="Screen.DrawArray.Layer">
-              <point x="16.5" y="-15.0" />
-              <point x="1588.4454998805538" y="790.0" />
-              <point x="1583.5704998805538" y="790.0" />
-              <point x="10.25" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryInfobar" target="Component.Component">
-              <point x="-16.75" y="-15.0" />
-              <point x="428.7900159924616" y="890.0" />
-              <point x="589.0789493417208" y="890.0" />
-              <point x="589.0789493417208" y="760.0" />
-              <point x="943.0475609837026" y="760.0" />
-              <point x="943.0475609837026" y="380.0" />
-              <point x="1361.9775159924616" y="380.0" />
-              <point x="-24.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryDrawArray" target="Screen.DrawArray.DrawArray">
-              <point x="57.75" y="-15.0" />
-              <point x="1456.6704998805537" y="1000.0" />
-              <point x="1544.4454998805538" y="1000.0" />
-              <point x="-27.5" y="15.0" />
-            </edge>
-            <edge source="Screen.Menubar" target="Observer">
-              <point x="-17.375" y="-15.0" />
-              <point x="704.6725609837026" y="270.0" />
-              <point x="673.6025159924616" y="270.0" />
-              <point x="673.6025159924616" y="80.0" />
-              <point x="1808.354312987737" y="80.0" />
-              <point x="-47.33333333333337" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.DrawArray" target="Iterator.Iterator">
-              <point x="-49.5" y="-15.0" />
-              <point x="1522.4454998805538" y="720.0" />
-              <point x="11.0" y="720.0" />
-              <point x="11.0" y="420.0" />
-              <point x="34.75" y="420.0" />
-              <point x="-28.4375" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryInfobar" target="UI.FactoryUI">
-              <point x="50.25" y="-15.0" />
-              <point x="495.7900159924616" y="920.0" />
-              <point x="955.1416537267075" y="920.0" />
-              <point x="-41.15384615384619" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryDrawArray">
-              <point x="9.75" y="-15.0" />
-              <point x="1158.3270833333331" y="1080.0" />
-              <point x="1398.9204998805537" y="1080.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Layer" target="Observer">
-              <point x="35.14285714285711" y="-15.0" />
-              <point x="1608.463357023411" y="600.0" />
-              <point x="1970.5602434702973" y="600.0" />
-              <point x="1970.5602434702973" y="70.0" />
-              <point x="1903.0209796544036" y="70.0" />
-              <point x="47.33333333333337" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draw" target="Component.Component">
-              <point x="-30.38461538461536" y="-15.0" />
-              <point x="1821.5089614190156" y="240.0" />
-              <point x="1441.9775159924616" y="240.0" />
-              <point x="56.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draw" target="Observer">
-              <point x="12.153846153846189" y="-15.0" />
-              <point x="1864.047422957477" y="390.0" />
-              <point x="1885.749987060041" y="390.0" />
-              <point x="1885.749987060041" y="120.0" />
-              <point x="1855.6876463210704" y="120.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="Iterator.IteratorSvgs">
-              <point x="-35.75" y="-15.0" />
-              <point x="1112.8270833333331" y="1120.0" />
-              <point x="54.38203834209207" y="1120.0" />
-              <point x="54.38203834209207" y="750.0" />
-              <point x="872.0475609837026" y="750.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryInfobar" target="Screen.Infobar">
-              <point x="-50.25" y="-15.0" />
-              <point x="395.2900159924616" y="1000.0" />
-              <point x="99.32708333333312" y="1000.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarOperation" target="UI.FactoryUI">
-              <point x="-72.375" y="-15.0" />
-              <point x="1066.6650159924616" y="980.0" />
-              <point x="1012.7570383420923" y="980.0" />
-              <point x="16.461538461538566" y="15.0" />
-            </edge>
-            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-              <point x="-60.333333333333336" y="15.0" />
-              <point x="450.1666666666667" y="1449.40625" />
-              <point x="400.0" y="1449.40625" />
-              <point x="400.0" y="1424.40625" />
-              <point x="-90.5" y="10.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draws" target="Screen.DrawArray.Point">
-              <point x="0.0" y="-15.0" />
-              <point x="1753.0155448717946" y="270.0" />
-              <point x="1702.720499880554" y="270.0" />
-              <point x="-30.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarLayer" target="Screen.Toolbar">
-              <point x="-63.375" y="-15.0" />
-              <point x="710.6650159924616" y="870.0" />
-              <point x="196.07894934172077" y="870.0" />
-              <point x="196.07894934172077" y="510.0" />
-              <point x="412.5475609837026" y="510.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbar" target="Component.Component">
-              <point x="-17.125" y="-15.0" />
-              <point x="583.9150159924616" y="900.0" />
-              <point x="744.2039493417208" y="900.0" />
-              <point x="744.2039493417208" y="770.0" />
-              <point x="1022.6100609837026" y="770.0" />
-              <point x="1022.6100609837026" y="390.0" />
-              <point x="1365.9775159924616" y="390.0" />
-              <point x="-20.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Layer" target="Component.Component">
-              <point x="-23.428571428571445" y="-15.0" />
-              <point x="1549.8919284519825" y="590.0" />
-              <point x="1533.6704998805537" y="590.0" />
-              <point x="1533.6704998805537" y="360.0" />
-              <point x="1409.9775159924616" y="360.0" />
-              <point x="24.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryToolbarLayer">
-              <point x="-16.25" y="-15.0" />
-              <point x="1132.3270833333331" y="1090.0" />
-              <point x="774.0400159924616" y="1090.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryMenubar" target="Screen.Menubar">
-              <point x="-54.0" y="-15.0" />
-              <point x="896.5400159924616" y="860.0" />
-              <point x="384.3289493417208" y="860.0" />
-              <point x="384.3289493417208" y="740.0" />
-              <point x="722.0475609837026" y="740.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draw" target="Screen.DrawArray.Color">
-              <point x="6.076923076923094" y="-15.0" />
-              <point x="1857.970499880554" y="380.0" />
-              <point x="1859.3871665472207" y="380.0" />
-              <point x="26.666666666666686" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI">
-              <point x="3.25" y="-15.0" />
-              <point x="1151.8270833333331" y="1070.0" />
-              <point x="1246.0400159924616" y="1070.0" />
-              <point x="1246.0400159924616" y="950.0" />
-              <point x="1029.2185768036306" y="950.0" />
-              <point x="32.923076923076906" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="Screen.DrawArray.DrawArray">
-              <point x="29.25" y="-15.0" />
-              <point x="1177.8270833333331" y="1110.0" />
-              <point x="1599.4454998805538" y="1110.0" />
-              <point x="27.5" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI" target="Component.Component">
-              <point x="0.0" y="-15.0" />
-              <point x="996.2954998805537" y="790.0" />
-              <point x="1200.9225609837026" y="790.0" />
-              <point x="1200.9225609837026" y="410.0" />
-              <point x="1373.9775159924616" y="410.0" />
-              <point x="-12.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryToolbarOperation">
-              <point x="-3.25" y="-15.0" />
-              <point x="1145.3270833333331" y="1070.0" />
-              <point x="1139.0400159924616" y="1070.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Component.Component" target="Observer">
-              <point x="0.0" y="-15.0" />
-              <point x="1385.9775159924616" y="100.0" />
-              <point x="1827.2876463210705" y="100.0" />
-              <point x="-28.399999999999977" y="15.0" />
-            </edge>
-            <edge source="Screen.Infobar" target="Observer">
-              <point x="-48.375" y="-15.0" />
-              <point x="50.95208333333312" y="400.0" />
-              <point x="7.1875" y="400.0" />
-              <point x="7.1875" y="60.0" />
-              <point x="1789.4209796544037" y="60.0" />
-              <point x="-66.26666666666665" y="15.0" />
-            </edge>
-            <edge source="Screen.Toolbar" target="Iterator.Iterator">
-              <point x="-49.5" y="-15.0" />
-              <point x="363.0475609837026" y="290.0" />
-              <point x="68.875" y="290.0" />
-              <point x="5.6875" y="15.0" />
-            </edge>
-            <edge source="Observer" target="Screen.DrawArray.Draw">
-              <point x="18.933333333333394" y="15.0" />
-              <point x="1874.6209796544038" y="100.0" />
-              <point x="1897.903833213887" y="100.0" />
-              <point x="1897.903833213887" y="410.0" />
-              <point x="1876.2012691113232" y="410.0" />
-              <point x="24.307692307692378" y="-15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryMenubar" target="UI.FactoryUI">
-              <point x="-18.0" y="-15.0" />
-              <point x="932.5400159924616" y="970.0" />
-              <point x="996.2954998805537" y="970.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="Component.Composite">
-              <point x="35.75" y="-15.0" />
-              <point x="1184.3270833333331" y="1120.0" />
-              <point x="1673.5155448717946" y="1120.0" />
-              <point x="1673.5155448717946" y="510.0" />
-              <point x="1633.5704998805538" y="510.0" />
-              <point x="22.399999999999977" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.DrawArray" target="Observer">
-              <point x="49.5" y="-15.0" />
-              <point x="1621.4454998805538" y="790.0" />
-              <point x="1980.026910136964" y="790.0" />
-              <point x="1980.026910136964" y="60.0" />
-              <point x="1912.4876463210703" y="60.0" />
-              <point x="56.799999999999955" y="15.0" />
-            </edge>
-            <edge source="Screen.Infobar" target="Iterator.Iterator">
-              <point x="-16.125" y="-15.0" />
-              <point x="83.20208333333312" y="430.0" />
-              <point x="57.5" y="430.0" />
-              <point x="-5.6875" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbar" target="UI.FactoryUI">
-              <point x="17.125" y="-15.0" />
-              <point x="618.1650159924616" y="930.0" />
-              <point x="963.3724229574768" y="930.0" />
-              <point x="-32.923076923076906" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryMenubar" target="Component.Component">
-              <point x="54.0" y="-15.0" />
-              <point x="1004.5400159924616" y="990.0" />
-              <point x="1314.1391115225356" y="990.0" />
-              <point x="1314.1391115225356" y="420.0" />
-              <point x="1377.9775159924616" y="420.0" />
-              <point x="-8.0" y="15.0" />
-            </edge>
-            <edge source="FactoryDraw.FactoryDrawComponent" target="FactoryDraw">
-              <point x="-47.25" y="-15.0" />
-              <point x="47.25" y="1435.0" />
-              <point x="145.0" y="1435.0" />
-              <point x="-46.125" y="15.0" />
-            </edge>
-            <edge source="Screen.Toolbar" target="Component.Component">
-              <point x="49.5" y="-15.0" />
-              <point x="462.0475609837026" y="330.0" />
-              <point x="1341.9775159924616" y="330.0" />
-              <point x="-44.0" y="15.0" />
-            </edge>
-            <edge source="Proxy" target="Screen.Screen">
-              <point x="21.0" y="-15.0" />
-              <point x="1169.5770833333331" y="1205.0" />
-              <point x="1171.3270833333331" y="1205.0" />
-              <point x="22.75" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbar" target="Screen.Toolbar">
-              <point x="-51.375" y="-15.0" />
-              <point x="549.6650159924616" y="880.0" />
-              <point x="185.07894934172077" y="880.0" />
-              <point x="185.07894934172077" y="500.0" />
-              <point x="368.5475609837026" y="500.0" />
-              <point x="-44.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="Iterator.Iterator">
-              <point x="-42.25" y="-15.0" />
-              <point x="1106.3270833333331" y="1130.0" />
-              <point x="0.0" y="1130.0" />
-              <point x="0.0" y="410.0" />
-              <point x="23.375" y="410.0" />
-              <point x="-39.8125" y="15.0" />
-            </edge>
-            <edge source="Iterator.IteratorSvgs" target="Iterator.Iterator">
-              <point x="-40.33333333333326" y="-15.0" />
-              <point x="831.7142276503694" y="260.0" />
-              <point x="91.625" y="260.0" />
-              <point x="28.4375" y="15.0" />
-            </edge>
-            <edge source="Server" target="Proxy">
-              <point x="22.0" y="-15.0" />
-              <point x="21.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Toolbar" target="Observer">
-              <point x="-16.5" y="-15.0" />
-              <point x="396.0475609837026" y="290.0" />
-              <point x="373.6337659924616" y="290.0" />
-              <point x="373.6337659924616" y="70.0" />
-              <point x="1798.8876463210704" y="70.0" />
-              <point x="-56.799999999999955" y="15.0" />
-            </edge>
-            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-              <point x="56.5" y="15.0" />
-              <point x="845.5" y="1445.0" />
-              <point x="646.0" y="1445.0" />
-              <point x="646.0" y="1392.5" />
-              <point x="-113.0" y="-7.5" />
-            </edge>
-            <edge source="DrawTest" target="Screen.DrawArray.Draw">
-              <point x="0.0" y="-15.0" />
-              <point x="1907.5602434702973" y="510.0" />
-              <point x="1878.226910136964" y="510.0" />
-              <point x="26.333333333333314" y="15.0" />
-            </edge>
-            <edge source="Screen.Menubar" target="Component.Component">
-              <point x="52.125" y="-15.0" />
-              <point x="774.1725609837026" y="350.0" />
-              <point x="1349.9775159924616" y="350.0" />
-              <point x="-36.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Layer" target="Component.Composite">
-              <point x="0.0" y="-15.0" />
-              <point x="1573.6776427376967" y="510.0" />
-              <point x="1566.3704998805538" y="510.0" />
-              <point x="-44.80000000000001" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryToolbar">
-              <point x="-22.75" y="-15.0" />
-              <point x="1125.8270833333331" y="1100.0" />
-              <point x="601.0400159924616" y="1100.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="FactoryDraw.FactoryLayer" target="FactoryDraw">
-              <point x="31.5" y="-15.0" />
-              <point x="303.5" y="1435.0" />
-              <point x="237.25" y="1435.0" />
-              <point x="46.125" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draw" target="Iterator.Iterator">
-              <point x="-36.46153846153844" y="-15.0" />
-              <point x="1815.4320383420923" y="250.0" />
-              <point x="103.0" y="250.0" />
-              <point x="39.8125" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarOperation" target="Screen.Toolbar">
-              <point x="24.125" y="-15.0" />
-              <point x="1163.1650159924616" y="960.0" />
-              <point x="1078.3525159924616" y="960.0" />
-              <point x="1078.3525159924616" y="730.0" />
-              <point x="661.9204998805537" y="730.0" />
-              <point x="661.9204998805537" y="510.0" />
-              <point x="456.5475609837026" y="510.0" />
-              <point x="44.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryInfobar">
-              <point x="-29.25" y="-15.0" />
-              <point x="1119.3270833333331" y="1110.0" />
-              <point x="445.5400159924616" y="1110.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Screen" target="UI.FactoryUI.FactoryMenubar">
-              <point x="-9.75" y="-15.0" />
-              <point x="1138.8270833333331" y="1080.0" />
-              <point x="950.5400159924616" y="1080.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Iterator.IteratorSvgs" target="Component.Component">
-              <point x="40.33333333333326" y="-15.0" />
-              <point x="912.3808943170359" y="370.0" />
-              <point x="1357.9775159924616" y="370.0" />
-              <point x="-28.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draw" target="Screen.DrawArray.Point">
-              <point x="-12.153846153846132" y="-15.0" />
-              <point x="1839.7397306497846" y="210.0" />
-              <point x="1762.720499880554" y="210.0" />
-              <point x="30.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryDrawArray" target="UI.FactoryUI">
-              <point x="-57.75" y="-15.0" />
-              <point x="1341.1704998805537" y="940.0" />
-              <point x="1037.4493460344" y="940.0" />
-              <point x="41.15384615384619" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.DrawArray" target="Component.Composite">
-              <point x="38.5" y="-15.0" />
-              <point x="1610.4454998805538" y="780.0" />
-              <point x="1624.8204998805538" y="780.0" />
-              <point x="1624.8204998805538" y="510.0" />
-              <point x="1611.1704998805537" y="510.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.Infobar" target="Component.Component">
-              <point x="16.125" y="-15.0" />
-              <point x="115.45208333333312" y="300.0" />
-              <point x="1329.9775159924616" y="300.0" />
-              <point x="-56.0" y="15.0" />
-            </edge>
-            <edge source="GraphicElementSelect" target="Observer">
-              <point x="0.0" y="-15.0" />
-              <point x="2080.526910136964" y="50.0" />
-              <point x="1921.954312987737" y="50.0" />
-              <point x="66.26666666666665" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.DrawArray" target="Component.Component">
-              <point x="-38.5" y="-15.0" />
-              <point x="1533.4454998805538" y="710.0" />
-              <point x="1496.9204998805537" y="710.0" />
-              <point x="1496.9204998805537" y="390.0" />
-              <point x="1397.9775159924616" y="390.0" />
-              <point x="12.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryToolbarLayer" target="Component.Component">
-              <point x="-21.125" y="-15.0" />
-              <point x="752.9150159924616" y="900.0" />
-              <point x="834.2275159924616" y="900.0" />
-              <point x="834.2275159924616" y="780.0" />
-              <point x="1109.1100609837026" y="780.0" />
-              <point x="1109.1100609837026" y="400.0" />
-              <point x="1369.9775159924616" y="400.0" />
-              <point x="-16.0" y="15.0" />
-            </edge>
-            <edge source="UI.FactoryUI.FactoryDrawArray" target="Component.Component">
-              <point x="19.25" y="-15.0" />
-              <point x="1418.1704998805537" y="420.0" />
-              <point x="1385.9775159924616" y="420.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Draws" target="Screen.DrawArray.Draw">
-              <point x="50.0" y="-15.0" />
-              <point x="1803.0155448717946" y="510.0" />
-              <point x="1851.8935768036308" y="510.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Component.Composite" target="Component.Component">
-              <point x="0.0" y="-15.0" />
-              <point x="1611.1704998805537" y="320.0" />
-              <point x="1425.9775159924616" y="320.0" />
-              <point x="40.0" y="15.0" />
-            </edge>
-            <edge source="Screen.DrawArray.Layer" target="Screen.DrawArray.Draws">
-              <point x="23.428571428571445" y="-15.0" />
-              <point x="1596.7490713091252" y="590.0" />
-              <point x="1753.0155448717946" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9371069182389936" x="1010.0" y="1105.0" />
-          <SelectedNodes>
-            <node>Component.Composite</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/FactoryUI.java" />
-    <entry file="file://$PROJECT_DIR$/implementation/src/main/java/Debug/Debug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/NGon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1481,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1533,58 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="method#remove#0;class#Composite#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="method#createIterator#0;class#Layer#0" expanded="false" />
-            <element signature="method#Layer#0;class#Layer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Component/IComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1594,35 +900,11 @@
         <state relative-caret-position="223">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1105#1106#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,25 +916,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/SVG_styling_properties.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="62" column="20" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="62" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tools/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1660,7 +934,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Tools/SVGAttributeList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="method#SVGAttributeList#0;class#SVGAttributeList#0" expanded="false" />
             <element signature="method#getValue#0;class#SVGAttributeList#0" expanded="false" />
@@ -1669,68 +943,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/OperationMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/OperationEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kontext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Strategy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/IStrategy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Toolbar/ToolbarOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="method#createIterator#0;class#Layer#0" expanded="false" />
+            <element signature="method#Layer#0;class#Layer#0" expanded="false" />
+            <element signature="method#get_html#0;class#Layer#0" expanded="false" />
+            <element signature="method#create_shape#0;class#Layer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategySvgEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="method#add#0;class#Composite#0" expanded="false" />
+            <element signature="method#remove#0;class#Composite#0" expanded="false" />
+            <element signature="method#get_html#0;class#Composite#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Component/IComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="29" />
-          <folding />
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="method#notifyObservers#0;class#IComponent#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding>
+            <element signature="method#Screen#0;class#Screen#0" expanded="false" />
             <element signature="method#get_html#0;class#Screen#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="method#layer_add_function#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#clicked_layer_function#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#schripts_html#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#souround_svg#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#DrawArray#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#add_layer#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#show_layer#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#select_layer#0;class#DrawArray#0" expanded="false" />
-            <element signature="method#get_html#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#select_svg#0;class#Screen#0" expanded="false" />
+            <element signature="method#select_layer#0;class#Screen#0" expanded="false" />
+            <element signature="method#show_layer#0;class#Screen#0" expanded="false" />
+            <element signature="method#add_layer#0;class#Screen#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Component/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="method#Component#0;class#Component#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
+            <element signature="method#get_show_html#0;class#Component#0" expanded="false" />
+            <element signature="method#get_edit_html#0;class#Component#0" expanded="false" />
+            <element signature="method#toggle_visible#0;class#Component#0" expanded="false" />
+            <element signature="method#set_clicked#0;class#Component#0" expanded="false" />
             <element signature="method#toggle_clicked#0;class#Component#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/DrawArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="method#layer_add_function#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#clicked_layer_function#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#clicked_svg_function#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#schripts_html#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#souround_svg#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#aktiv_component#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#DrawArray#0;class#DrawArray#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2468#2469#0" expanded="true" />
+            <element signature="method#add_layer#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#show_layer#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#select_layer#0;class#DrawArray#0" expanded="false" />
+            <element signature="method#select_svg#0;class#DrawArray#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doku/SVG_styling_properties.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategySvgShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#1020#1100#0" expanded="false" />
+            <element signature="e#1276#1317#0" expanded="false" />
+            <element signature="e#1400#1527#0" expanded="false" />
+            <element signature="e#3440#3441#0" expanded="true" />
+            <element signature="e#3488#3489#0" expanded="true" />
           </folding>
         </state>
       </provider>

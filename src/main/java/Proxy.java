@@ -60,4 +60,7 @@ public class Proxy {
     public void add_layer()  {
         screen.add_layer();
     }
+    public void edit()  {
+        screen.edit_svg();
+    }
 }

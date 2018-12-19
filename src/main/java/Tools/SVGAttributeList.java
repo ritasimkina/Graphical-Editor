@@ -26,6 +26,11 @@ public class SVGAttributeList {
             if(p.getKey().equals(key))  p.setValue(value);
         }
     }
+    public void setValue(String key, double value) {
+        for( Pair p: atr ) {
+            if(p.getKey().equals(key))  p.setValue(Double.toString(value));
+        }
+    }
 
     public int size()  {
         return atr.size();

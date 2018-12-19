@@ -13,6 +13,16 @@ import java.util.List;
 public class Quadrangle  extends Draw {
     //https://www.w3.org/TR/SVG11/shapes.html#CircleElement
 
+    String EDIT_TABLE=(      "<table>\n"+
+                             "TABLEROW"+
+                             "</table>\n" +
+                            "<button onclick=edit()\">Save</button>"  +
+                             "<button onclick=edit()\">Cancel</button>"  );
+    String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='' value='VALUE'></th></tr>\n");
+
+//<input type="text" id="myText" value="Some text...">
+
+
     List<String> ATTRIBUTES=Arrays.asList(
         // ATTRIBUTES
             "class", "svg_rect",
@@ -37,17 +47,18 @@ public class Quadrangle  extends Draw {
     );
     SVGAttributeList attributes=new SVGAttributeList(ATTRIBUTES);
 
-
-
     public Quadrangle(double x, double y, double width, double height) {
-        addPoint(new Point(x,y));
+        attributes.setValue("id",get_id());
+        attributes.setValue("x",x);
+        attributes.setValue("y",y);
+        attributes.setValue("width",width);
+        attributes.setValue("height",height);
         addColor(255,0,0);  // fill
         addColor(0,0,255);  // stroke
     }
 
 
     private void set_attributes()    {
-        attributes.setValue("id",get_id());
         attributes.setValue("fill",color.get(0).gethtml(is_clicked()));
         attributes.setValue("stroke",color.get(1).gethtml(is_clicked()));
     }
@@ -64,4 +75,24 @@ public class Quadrangle  extends Draw {
     public String get_html() {
         return "\t<rect "+ get_attributes_html()+ " />\n";
     }
+
+    public String get_edit_html(SVGAttributeList list)    {
+        String r="";
+        for(int i=0;i<list.size();i++)    {
+            String s=EDIT_TABLE_ROW;
+            s=s.replace("KEY",list.get_key(i));
+            s=s.replace("VALUE",list.get_value(i));
+            r+=s;
+        }
+        String t=EDIT_TABLE;
+        t=t.replace("TABLEROW",r);
+        return t;
+    }
+
+    @Override
+    public String get_edit_html() {
+        return get_edit_html(attributes);
+    }
+
+
 }

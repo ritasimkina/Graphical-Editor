@@ -53,7 +53,7 @@ public class Server extends Thread {
                 while (in.ready())  req = in.readLine();
 
 
-                if (httpMethod.equals("GET")) {
+                if (httpMethod.equals("GET") || httpMethod.equals("POST")) {
                     if (httpQueryString.equals("/")) {
                         resp.append(proxy.get_html());
                         sendResponse(200, resp.toString());
@@ -65,45 +65,44 @@ public class Server extends Thread {
                         StringTokenizer tok = new StringTokenizer(req_side,".");
                         String command = tok.nextToken();
                         String object ;
+
+                        String r="";
+                        int status=0;
                         switch (command) {
+                            case "Edit":
+                                proxy.edit();
+                                status=200; r=proxy.get_html();
+                                break;
                             case "add_svg":
                                 object = tok.nextToken();
-                                if ( proxy.create_shape(object))  {
-                                    resp.append(proxy.get_html());
-                                    sendResponse(200, resp.toString());
-                                } else {
-                                    sendResponse(404, "not found");;
-                                }
+                                proxy.create_shape(object);
+                                status=200; r=proxy.get_html();
                                 break;
                             case "clicked_svg":
                                 object = tok.nextToken();
                                 proxy.select_svg(object);
-                                resp.append(proxy.get_html());
-                                sendResponse(200, resp.toString());
+                                status=200; r=proxy.get_html();
                                 break;
-
                             case "layer_add":
                                 proxy.add_layer();
-                                resp.append(proxy.get_html());
-                                sendResponse(200, resp.toString());
+                                status=200; r=proxy.get_html();
                                 break;
                             case "clicked_layer_check":
                                 object = tok.nextToken();
                                 proxy.show_layer(object);
-                                resp.append(proxy.get_html());
-                                sendResponse(200, resp.toString());
+                                status=200; r=proxy.get_html();
                                 break;
                             case "clicked_layer_radio":
                                 object = tok.nextToken();
                                 proxy.select_layer(object);
-                                resp.append(proxy.get_html());
-                                sendResponse(200, resp.toString());
+                                status=200; r=proxy.get_html();
                                 break;
                             default:
-                                sendResponse(404, "not found");
+                                status=404;
+                                r="not found";
 
                         }
-
+                        sendResponse(status, r.toString());
                         resp.setLength(0);
                     }
                 }

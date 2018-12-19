@@ -1,6 +1,7 @@
 package Screen.DrawArray;
 import Iterator.*;
 import Component.*;
+import Strategy.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,7 @@ public abstract class Draw extends Component {
     protected  List<Point> points = new ArrayList<Point>();
     protected  List<Color> color = new ArrayList<Color>();
     protected boolean clicked=false;
+
 
     public void addPoint(Point p)   {
         points.add(p);
@@ -22,7 +24,9 @@ public abstract class Draw extends Component {
         return " onclick=\"clicked_svg(this.id)\"";
     }
 
-    public abstract String get_html();
+    /*public String get_html()    {
+        return strategy.get_html();
+    }*/
 
 
 }

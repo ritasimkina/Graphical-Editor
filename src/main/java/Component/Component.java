@@ -18,7 +18,14 @@ public abstract class Component implements IComponent {
         return id;
     }
 
-
+    public String get_show_html()  {
+        // throw
+        return "";
+    }
+    public String get_edit_html()  {
+        // throw
+        return "";
+    };
     public void set_visible(boolean state) {
         visible=state;
     }

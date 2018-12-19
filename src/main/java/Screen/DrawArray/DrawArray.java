@@ -4,6 +4,7 @@ import Component.*;
 import Debug.Debug;
 import Factory.*;
 import Iterator.*;
+import Strategy.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +20,12 @@ public class DrawArray extends Component {
                                     "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
                                     "		}\n";
 
+    Strategy strategy=new StrategySvgShow(this);
 
+
+    public void set_strategy(Strategy s) {
+        strategy=s;
+    };
 
 
     Factory factory_layer=null;
@@ -55,7 +61,6 @@ public class DrawArray extends Component {
         return s;
     }
 
-
     private String schripts_html()  {
         String s=clicked_svg_function();
         s+=layer_add_function();
@@ -64,8 +69,6 @@ public class DrawArray extends Component {
         r=r.replace("SCRIPTS",s);
         return r;
     }
-
-
     private String souround_svg(String s)   {
         return "<svg height='500' width='500'>\n"+
                 schripts_html()+
@@ -73,9 +76,39 @@ public class DrawArray extends Component {
                 "</svg>\n\n";
     }
 
+    private Component aktiv_component() {
+        Iterator it = new IteratorSvgs(layer.get(active_layer));
+        while(it.hasNext()) {
+            Component c=it.next();
+            if (c.is_clicked()) return c;
+        }
+        //throw
+        return null;
+    }
+
 
     public DrawArray() { Debug.out(Thread.currentThread());
         factory_layer = new FactoryLayer();
+    }
+
+
+
+
+    public String get_html()   {
+        return strategy.get_html();
+    }
+    @Override
+    public String get_show_html()   {
+        String s="";
+        for (Component c: layer  ) {
+            s+=c.get_html();
+        }
+        return souround_svg(s);
+    }
+    @Override
+    public String get_edit_html()   {
+        Component c=aktiv_component();
+        return c.get_edit_html();
     }
 
     public Component add_layer() {
@@ -117,15 +150,6 @@ public class DrawArray extends Component {
             }
         }
     }
-
-    public String get_html()   {
-        String s="";
-        for (Component c: layer  ) {
-            s+=c.get_html();
-        }
-        return souround_svg(s);
-    }
-
 
 
 }

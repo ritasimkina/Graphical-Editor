@@ -6,6 +6,7 @@ import Observer.ToolbarLayerObserver;
 import Screen.DrawArray.DrawArray;
 import Factory.*;
 import Screen.Toolbar.ToolbarLayer;
+import Strategy.StrategySvgEdit;
 
 public class Screen {
     Composite screen = new Composite();
@@ -59,6 +60,9 @@ public class Screen {
         toolbar_layer_observer.add_subject(c);
         c.registerObserver(toolbar_layer_observer);
         c.set_clicked(true);    // now draw on this layer
+    }
+    public void edit_svg()  {
+        ((DrawArray)drawarray).set_strategy(new StrategySvgEdit(drawarray));
     }
 
 }
