@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -46,78 +45,6 @@
 		<form action="add_svg.Elipse" method="GET">
 			<button>Elipse</button>
 		</form>
-		<form action="add_svg.Text" method="GET">
-			<button>Text</button>
-		</form>
-		<form action="add_svg.Quadrangle" method="GET">
-			<button>Quadrangle</button>
-		</form>
-		<form action="add_svg.Circle" method="GET">
-			<button>Circle</button>
-		</form>
-		<form action="add_svg.Triangle" method="GET">
-			<button>Triangle</button>
-		</form>
-		<form action="add_svg.Line" method="GET">
-			<button>Line</button>
-		</form>
-		<form action="add_svg.NGon" method="GET">
-			<button>NGon</button>
-		</form>
-		<form action="add_svg.Star" method="GET">
-			<button>Star</button>
-		</form>
-		<form action="add_svg.Elipse" method="GET">
-			<button>Elipse</button>
-		</form>
-		<form action="add_svg.Text" method="GET">
-			<button>Text</button>
-		</form>
-		<form action="add_svg.Quadrangle" method="GET">
-			<button>Quadrangle</button>
-		</form>
-		<form action="add_svg.Circle" method="GET">
-			<button>Circle</button>
-		</form>
-		<form action="add_svg.Triangle" method="GET">
-			<button>Triangle</button>
-		</form>
-		<form action="add_svg.Line" method="GET">
-			<button>Line</button>
-		</form>
-		<form action="add_svg.NGon" method="GET">
-			<button>NGon</button>
-		</form>
-		<form action="add_svg.Star" method="GET">
-			<button>Star</button>
-		</form>
-		<form action="add_svg.Elipse" method="GET">
-			<button>Elipse</button>
-		</form>
-		<form action="add_svg.Text" method="GET">
-			<button>Text</button>
-		</form>
-		<form action="add_svg.Quadrangle" method="GET">
-			<button>Quadrangle</button>
-		</form>
-		<form action="add_svg.Circle" method="GET">
-			<button>Circle</button>
-		</form>
-		<form action="add_svg.Triangle" method="GET">
-			<button>Triangle</button>
-		</form>
-		<form action="add_svg.Line" method="GET">
-			<button>Line</button>
-		</form>
-		<form action="add_svg.NGon" method="GET">
-			<button>NGon</button>
-		</form>
-		<form action="add_svg.Star" method="GET">
-			<button>Star</button>
-		</form>
-		<form action="add_svg.Elipse" method="GET">
-			<button>Elipse</button>
-		</form>
 	</table>
 </div>
 
@@ -135,20 +62,59 @@
 	</div>
 </div>
 
-<div id="layers">Layers</div>
+<div id='layers'>
+	<div>
+		<form action=layer_add method='GET'>
+			<button>New Layer</button>
+		</form>
+	</div>
+	<form action=layer_check method='GET'>
+		<input type='checkbox' name='' value='' CHECKED onchange='clicked_layer_check(8)'>  <input type='radio' name='layer_check' value='' CHECKED onchange='clicked_layer_radio(8)'>Layer 0<br>
+	</form>
+</div>
 
-<svg height='500' width='500'>
-	<script type="text/javascript">
-        function meldung(clicked_id){
-            window.location = "clicked_svg."+clicked_id;
+<script type='text/javascript'>
+    function clicked_svg(clicked_id){
+        window.location = 'clicked_svg.'+clicked_id;
+    }
+    function layer_add(clicked_id){
+        window.location = 'layer_add.'+clicked_id;
+    }
+    function clicked_layer_check(clicked_id){
+        window.location = 'clicked_layer_check.'+clicked_id;
+    }
+    function clicked_layer_radio(clicked_id){
+        window.location = 'clicked_layer_radio.'+clicked_id;
+    }
+    function svg_edit_save(parameter_size){
+        p=document.getElementById(0).value;
+        for (i = 1; i < parameter_size; i++) {
+            p=p+";"+document.getElementById(i).value;
         }
-	</script>
+        window.location = 'svg_edit_save.'+p;
+    }
+    function svg_edit_cancel(clicked_id){
+        window.location = 'svg_edit_cancel.'+clicked_id;
+    }
+</script>
 
-	<rect id=1 x=30.0 y=365.0 width='50.0' height='50.0'' style='fill:rgb(255,0,0);stroke-width:2;stroke:rgb(0,0,0)' onclick="meldung(this.id)" />
-	<rect id=2 x=30.0 y=445.0 width='50.0' height='50.0'' style='fill:rgb(255,0,0);stroke-width:2;stroke:rgb(0,0,0)' onclick="meldung(this.id)" />
-	<line x1='50.0' y1='50.0' x2='285.0' y2='445.0' style='stroke:rgb(0,0,0);stroke-width:2' />
-</svg>
-
+<table>
+	<tr><th>class</th><th><input type='text' id=0 value='svg_rect'></th></tr>
+	<tr><th>transform</th><th><input type='text' id='1' value=''></th></tr>
+	<tr><th>x</th><th><input type='text' id='2' value='185.0'></th></tr>
+	<tr><th>y</th><th><input type='text' id='3' value='50.0'></th></tr>
+	<tr><th>width</th><th><input type='text' id='4' value='50.0'></th></tr>
+	<tr><th>height</th><th><input type='text' id='5' value='50.0'></th></tr>
+	<tr><th>rx</th><th><input type='text' id='6' value='0'></th></tr>
+	<tr><th>ry</th><th><input type='text' id='7' value='0'></th></tr>
+	<tr><th>id</th><th><input type='text' id='8' value='10'></th></tr>
+	<tr><th>onclick</th><th><input type='text' id='9' value='clicked_svg(this.id)'></th></tr>
+	<tr><th>fill</th><th><input type='text' id='10' value='rgb(0,255,255)'></th></tr>
+	<tr><th>stroke</th><th><input type='text' id='11' value='rgb(255,255,0)'></th></tr>
+	<tr><th>stroke-width</th><th><input type='text' id='12' value=''></th></tr>
+</table>
+<button onclick='svg_edit_save(13)'>Save</button>
+<button onclick='svg_edit_cancel()'>Cancel</button>
 <div id="footer">footer</div>
 
 </body>

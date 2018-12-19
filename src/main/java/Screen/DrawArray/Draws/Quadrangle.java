@@ -16,9 +16,9 @@ public class Quadrangle  extends Draw {
     String EDIT_TABLE=(      "<table>\n"+
                              "TABLEROW"+
                              "</table>\n" +
-                            "<button onclick='svg_edit_save()'>Save</button>\n"  +
+                            "<button onclick='svg_edit_save(IDS)'>Save</button>\n"  +
                              "<button onclick='svg_edit_cancel()'>Cancel</button>\n"  );
-    String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='' value='VALUE'></th></tr>\n");
+    String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
 
 //<input type="text" id="myText" value="Some text...">
 
@@ -80,11 +80,13 @@ public class Quadrangle  extends Draw {
         String r="";
         for(int i=0;i<list.size();i++)    {
             String s=EDIT_TABLE_ROW;
+            s=s.replace("ID",Integer.toString(i));
             s=s.replace("KEY",list.get_key(i));
             s=s.replace("VALUE",list.get_value(i));
             r+=s;
         }
         String t=EDIT_TABLE;
+        t=t.replace("IDS",Integer.toString(list.size()));
         t=t.replace("TABLEROW",r);
         return t;
     }

@@ -20,15 +20,22 @@ public class DrawArray extends Component {
                                     "SCRIPTS"+
                                     "	</script>\n\n";
     static final String FUNCTION=   "		function FUNCTION_NAME(clicked_id){\n"+
-                                    "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
-                                    "		}\n";
+            "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
+            "		}\n";
+    static final String FUNCTION_SVG_EDIT=  "		function FUNCTION_NAME(parameter_size){\n"+
+                                            "			p=document.getElementById(0).value;"+
+                                            "			for (i = 1; i < parameter_size; i++) {"+
+                                            "				p=p+';'+document.getElementById(i).value;"+
+                                            "			}"+
+                                            "			window.location = 'svg_edit_save.'+p;"+
+                                            "		}\n";
 
     public DrawArray() { Debug.out(Thread.currentThread());
         factory_layer = new FactoryLayer();
     }
 
     private String svg_edit_save()   {
-        String s=FUNCTION;
+        String s=FUNCTION_SVG_EDIT;
         s=s.replace("FUNCTION_NAME","svg_edit_save");
         return s;
     }
