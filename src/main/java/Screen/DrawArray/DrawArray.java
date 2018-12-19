@@ -11,7 +11,10 @@ import java.util.List;
 
 
 public class DrawArray extends Component {
-    //Composite screen = new Composite();
+    Factory factory_layer=null;
+    int active_layer=0;
+    List<Component> layer = new ArrayList<Component>();
+    Strategy strategy=new StrategySvgShow(this);
 
     static final String SCRIPT=     "	<script type='text/javascript'>\n"+
                                     "SCRIPTS"+
@@ -20,33 +23,24 @@ public class DrawArray extends Component {
                                     "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
                                     "		}\n";
 
-    Strategy strategy=new StrategySvgShow(this);
-
-
-    public void set_strategy(Strategy s) {
-        strategy=s;
-    };
-
-
-    Factory factory_layer=null;
-    int active_layer=0;
-
-    List<Component> layer = new ArrayList<Component>();
-
-    //@Override
-    public Component get_layer(int i) {
-        return layer.get(i);
-    }
-    //@Override
-    public int size() {
-        return layer.size();
+    public DrawArray() { Debug.out(Thread.currentThread());
+        factory_layer = new FactoryLayer();
     }
 
+    private String svg_edit_save()   {
+        String s=FUNCTION;
+        s=s.replace("FUNCTION_NAME","svg_edit_save");
+        return s;
+    }
+    private String svg_edit_cancel()   {
+        String s=FUNCTION;
+        s=s.replace("FUNCTION_NAME","svg_edit_cancel");
+        return s;
+    }
     private String layer_add_function()   {
         String s=FUNCTION;
         s=s.replace("FUNCTION_NAME","layer_add");
         return s;
-
     }
     private String clicked_layer_function()   {
         String s=FUNCTION;
@@ -60,15 +54,17 @@ public class DrawArray extends Component {
         s=s.replace("FUNCTION_NAME","clicked_svg");
         return s;
     }
-
     private String schripts_html()  {
         String s=clicked_svg_function();
         s+=layer_add_function();
         s+=clicked_layer_function();
+        s+=svg_edit_save();
+        s+=svg_edit_cancel();
         String r=SCRIPT;
         r=r.replace("SCRIPTS",s);
         return r;
     }
+
     private String souround_svg(String s)   {
         return "<svg height='500' width='500'>\n"+
                 schripts_html()+
@@ -85,30 +81,34 @@ public class DrawArray extends Component {
         //throw
         return null;
     }
-
-
-    public DrawArray() { Debug.out(Thread.currentThread());
-        factory_layer = new FactoryLayer();
+//-----------------------------------------------------------------------------------------------
+    @Override
+    public String get_show_html()   {
+    String s="";
+    for (Component c: layer  ) {
+        s+=c.get_html();
     }
-
-
-
+    return souround_svg(s);
+}
+    @Override
+    public String get_edit_html()   {
+        String s=schripts_html();
+        Component c=aktiv_component();
+        return s+c.get_edit_html();
+    }
+//-----------------------------------------------------------------------------------------------
+    public void set_strategy(Strategy s) {
+    strategy=s;
+};
+    public Component get_layer(int i) {
+        return layer.get(i);
+    }
+    public int size() {
+        return layer.size();
+    }
 
     public String get_html()   {
         return strategy.get_html();
-    }
-    @Override
-    public String get_show_html()   {
-        String s="";
-        for (Component c: layer  ) {
-            s+=c.get_html();
-        }
-        return souround_svg(s);
-    }
-    @Override
-    public String get_edit_html()   {
-        Component c=aktiv_component();
-        return c.get_edit_html();
     }
 
     public Component add_layer() {

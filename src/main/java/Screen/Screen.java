@@ -7,6 +7,7 @@ import Screen.DrawArray.DrawArray;
 import Factory.*;
 import Screen.Toolbar.ToolbarLayer;
 import Strategy.StrategySvgEdit;
+import Strategy.StrategySvgShow;
 
 public class Screen {
     Composite screen = new Composite();
@@ -64,5 +65,7 @@ public class Screen {
     public void edit_svg()  {
         ((DrawArray)drawarray).set_strategy(new StrategySvgEdit(drawarray));
     }
-
+    public void edit_svg_end(boolean save)  {
+        ((DrawArray)drawarray).set_strategy(new StrategySvgShow(drawarray));
+    }
 }

@@ -73,6 +73,14 @@ public class Server extends Thread {
                                 proxy.edit();
                                 status=200; r=proxy.get_html();
                                 break;
+                            case "svg_edit_save":
+                                proxy.edit_end(true);
+                                status=200; r=proxy.get_html();
+                                break;
+                            case "svg_edit_cancel":
+                                proxy.edit_end(false);
+                                status=200; r=proxy.get_html();
+                                break;
                             case "add_svg":
                                 object = tok.nextToken();
                                 proxy.create_shape(object);

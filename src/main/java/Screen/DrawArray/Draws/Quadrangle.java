@@ -16,8 +16,8 @@ public class Quadrangle  extends Draw {
     String EDIT_TABLE=(      "<table>\n"+
                              "TABLEROW"+
                              "</table>\n" +
-                            "<button onclick=edit()\">Save</button>"  +
-                             "<button onclick=edit()\">Cancel</button>"  );
+                            "<button onclick='svg_edit_save()'>Save</button>\n"  +
+                             "<button onclick='svg_edit_cancel()'>Cancel</button>\n"  );
     String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='' value='VALUE'></th></tr>\n");
 
 //<input type="text" id="myText" value="Some text...">
