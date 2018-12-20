@@ -1,10 +1,7 @@
 package Screen.DrawArray.Draws;
 
-
 import Screen.DrawArray.Color;
 import Screen.DrawArray.Draw;
-import Screen.DrawArray.Point;
-import Tools.Pair;
 import Tools.SVGAttributeList;
 
 
@@ -12,12 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Quadrangle  extends Draw {
-    //https://www.w3.org/TR/SVG11/shapes.html#CircleElement
-
-
-
-//<input type="text" id="myText" value="Some text...">
-
 
     static List<String> ATTRIBUTES=Arrays.asList(
         // ATTRIBUTES
@@ -49,33 +40,19 @@ public class Quadrangle  extends Draw {
         attributes.setValue("y",y);
         attributes.setValue("width",width);
         attributes.setValue("height",height);
-//        addColor(255,0,0);  // fill
-//        addColor(0,0,255);  // stroke
-
     }
 
-    private SVGAttributeList make_clicked(SVGAttributeList al)    {
+    @Override
+    public SVGAttributeList make_clicked(SVGAttributeList al)    {
         Color fill=new Color(attributes.getValue("fill"));
         Color stroke=new Color(attributes.getValue("stroke"));
         al.setValue("fill",fill.gethtml(true));
         al.setValue("stroke",stroke.gethtml(true));
-
-//        attributes.setValue("fill",color.get(0).gethtml(is_clicked()));
-//        attributes.setValue("stroke",color.get(1).gethtml(is_clicked()));
         return al;
     }
 
     @Override
-    public String get_html() {
-        SVGAttributeList al = new SVGAttributeList(attributes);
-
-        if( is_clicked()) {
-            al=make_clicked(al);
-        }
-        String s=get_attributes_as_html(al);
+    public String souround_svg_type(String s) {
         return "\t<rect "+ s+ " />\n";
     }
-
-
-
 }

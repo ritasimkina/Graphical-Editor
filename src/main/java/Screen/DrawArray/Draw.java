@@ -76,4 +76,23 @@ public abstract class Draw extends Component {
     }
 
 
+
+    public SVGAttributeList make_clicked(SVGAttributeList al)  {
+        assert false;
+        return null;
+    }
+    public String souround_svg_type(String al)  {
+        assert false;
+        return null;
+    }
+
+    public String get_html() {
+        SVGAttributeList al = new SVGAttributeList(attributes);
+        if( is_clicked()) {
+            al=make_clicked(al);
+        }
+        String s=get_attributes_as_html(al);
+        return souround_svg_type(s);
+    }
+
 }
