@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bca16d4-726d-4efa-8c45-f4c141d95ad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" afterPath="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,16 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="663">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#688#729#0" expanded="false" />
                 <element signature="e#819#946#0" expanded="false" />
                 <element signature="method#make_clicked#0;class#Circle#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elipse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="e#905#1032#0" expanded="false" />
+                <element signature="method#make_clicked#0;class#Elipse#0" expanded="false" />
+                <element signature="e#2329#2330#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Menubar/Menubar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Iterator/IteratorSvgs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/Toolbar/Toolbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Debug/Debug.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Layer.java" />
@@ -187,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draw.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Quadrangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java" />
       </list>
     </option>
   </component>
@@ -541,12 +556,12 @@
       <workItem from="1545217241452" duration="613000" />
       <workItem from="1545217887394" duration="1498000" />
       <workItem from="1545219440125" duration="20760000" />
-      <workItem from="1545329751614" duration="9211000" />
+      <workItem from="1545329751614" duration="9588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165235000" />
+    <option name="totallyTimeSpent" value="165612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -741,13 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1114,13 +1122,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="663">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#688#729#0" expanded="false" />
             <element signature="e#819#946#0" expanded="false" />
             <element signature="method#make_clicked#0;class#Circle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Screen/DrawArray/Draws/Elipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#905#1032#0" expanded="false" />
+            <element signature="method#make_clicked#0;class#Elipse#0" expanded="false" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
           </folding>
         </state>
       </provider>
