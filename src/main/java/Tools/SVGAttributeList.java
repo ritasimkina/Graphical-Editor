@@ -13,7 +13,16 @@ public class SVGAttributeList {
         }
     }
 
+    public SVGAttributeList(SVGAttributeList attributes) {
+        for(int i=0;i<attributes.size();i++) {
+            atr.add( new Pair(attributes.get(i)) );
+        }
+    }
 
+
+    public Pair get(int pos) {
+        return atr.get(pos);
+    }
     public String getValue(String key) {
         for( Pair p: atr ) {
             if(p.getKey().equals(key))  return p.getValue();

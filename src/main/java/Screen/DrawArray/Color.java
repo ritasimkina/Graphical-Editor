@@ -1,5 +1,7 @@
 package Screen.DrawArray;
 
+import java.util.StringTokenizer;
+
 public class Color {
     int r=0, g=0,b=0;
 
@@ -7,6 +9,15 @@ public class Color {
         this.r=r;
         this.g=g;
         this.b=b;
+    }
+    public Color(String rgb) {
+        // rgb(r,g,b)
+        rgb=rgb.replace("rgb(","");
+        rgb=rgb.replace(")","");
+        StringTokenizer tok = new StringTokenizer(rgb,",");
+        this.r= Integer.valueOf(tok.nextToken()) ;
+        this.g= Integer.valueOf(tok.nextToken()) ;
+        this.b= Integer.valueOf(tok.nextToken()) ;
     }
 
     public String gethtml()   {

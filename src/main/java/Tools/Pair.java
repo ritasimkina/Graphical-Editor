@@ -10,6 +10,11 @@ public class Pair {
         this.value=value;
     }
 
+    public Pair(Pair pair) {
+        key=pair.key;
+        value=pair.value;
+    }
+
     public String getKey() {
         return key;
     }

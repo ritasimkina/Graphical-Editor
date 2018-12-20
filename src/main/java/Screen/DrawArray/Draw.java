@@ -15,12 +15,17 @@ public abstract class Draw extends Component {
     protected boolean clicked=false;
     protected SVGAttributeList attributes;//=new SVGAttributeList(ATTRIBUTES);
 
+    static String EDIT_TABLE=(      "<table>\n"+
+            "TABLEROW"+
+            "</table>\n" +
+            "<button onclick='svg_edit_save(IDS)'>Save</button>\n"  +
+            "<button onclick='svg_edit_cancel()'>Cancel</button>\n"  );
+    static String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
 
     public Draw()   {}
     public Draw(SVGAttributeList l)   {
         attributes=l;
     }
-
 
     public void addPoint(Point p)   {
         points.add(p);
@@ -33,12 +38,6 @@ public abstract class Draw extends Component {
         return " onclick=\"clicked_svg(this.id)\"";
     }
 
-    /*public String get_html()    {
-        return strategy.get_html();
-    }*/
-
-
-
     public void set_attributes(String parameter) {
         StringTokenizer tok = new StringTokenizer(parameter,";",true);  // no empty tokens
         int i=0;
@@ -49,10 +48,32 @@ public abstract class Draw extends Component {
                 attributes.setValue(i++, s);
             } else {
                 attributes.setValue(i++, s);
-                tok.nextToken();
+                if (tok.hasMoreTokens())  tok.nextToken();
             }
-            System.out.println(s);
         }
     }
+    public String get_attributes_as_html(SVGAttributeList l)    {
+        //using l, not attributes, to derived class can temporarily change attributes (clicked, ...)
+        String s="";
+        for(int i=0;i<l.size();i++)    {
+            s+=l.get_key(i)+"='"+l.get_value(i)+"' ";
+        }
+        return s;
+    }
+    public String get_edit_html()    {
+        String r="";
+        for(int i=0;i<attributes.size();i++)    {
+            String s=EDIT_TABLE_ROW;
+            s=s.replace("ID",Integer.toString(i));
+            s=s.replace("KEY",attributes.get_key(i));
+            s=s.replace("VALUE",attributes.get_value(i));
+            r+=s;
+        }
+        String t=EDIT_TABLE;
+        t=t.replace("IDS",Integer.toString(attributes.size()));
+        t=t.replace("TABLEROW",r);
+        return t;
+    }
+
 
 }
