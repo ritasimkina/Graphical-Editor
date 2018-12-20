@@ -75,6 +75,9 @@ public abstract class Draw extends Component {
         return t;
     }
 
+    public void set_attribute(String key, String value) {
+        attributes.setValue(key,value);
+    }
 
 
     public SVGAttributeList make_clicked(SVGAttributeList al)  {
@@ -85,6 +88,10 @@ public abstract class Draw extends Component {
         assert false;
         return null;
     }
+    public String additional_attributes()   {
+        return "";
+    }
+
 
     public String get_html() {
         SVGAttributeList al = new SVGAttributeList(attributes);

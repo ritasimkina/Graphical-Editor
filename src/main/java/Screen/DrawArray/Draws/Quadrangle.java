@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Quadrangle  extends Draw {
-
     static List<String> ATTRIBUTES=Arrays.asList(
         // ATTRIBUTES
             "class", "svg_rect",

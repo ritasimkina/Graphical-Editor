@@ -1,11 +1,8 @@
 package Screen.DrawArray.Draws;
 
-import Component.IComponent;
 import Screen.DrawArray.Color;
 import Screen.DrawArray.Draw;
-import Screen.DrawArray.Point;
 import Tools.SVGAttributeList;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -54,5 +51,4 @@ public class Line extends Draw  {
     public String souround_svg_type(String s) {
         return "\t<line "+ s+ " />\n";
     }
-
 }

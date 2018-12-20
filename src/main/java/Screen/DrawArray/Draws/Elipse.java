@@ -1,11 +1,8 @@
 package Screen.DrawArray.Draws;
 
-import Component.IComponent;
 import Screen.DrawArray.Color;
 import Screen.DrawArray.Draw;
-import Screen.DrawArray.Point;
 import Tools.SVGAttributeList;
-
 import java.util.Arrays;
 import java.util.List;
 
