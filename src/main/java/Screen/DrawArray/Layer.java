@@ -46,7 +46,7 @@ public class Layer extends Composite {
                 add(new Line(50,50, x,y));
                 break;
             case "NGon":
-                //draws.add(new Text("Text"));
+                add(new NGon(x,y));
                 break;
             case "Quadrangle":
                 add(new Quadrangle(x,y,50,50));

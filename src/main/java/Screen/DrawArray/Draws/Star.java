@@ -55,6 +55,4 @@ public class Star  extends Draw {
     public void set_additional_attributes() {
         set_attribute("points",get_points());
     }
-
-
 }
