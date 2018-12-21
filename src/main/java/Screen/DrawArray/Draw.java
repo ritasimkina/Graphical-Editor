@@ -88,8 +88,8 @@ public abstract class Draw extends Component {
         assert false;
         return null;
     }
-    public String additional_attributes()   {
-        return "";
+    public void set_additional_attributes()   {
+
     }
 
 
@@ -98,6 +98,7 @@ public abstract class Draw extends Component {
         if( is_clicked()) {
             al=make_clicked(al);
         }
+        set_additional_attributes();
         String s=get_attributes_as_html(al);
         return souround_svg_type(s);
     }

@@ -61,9 +61,18 @@ public class Triangle  extends Draw {
         return "\t<polygon "+ s+ " />\n";
     }
 
+    @Override
+    public void set_additional_attributes() {
+        set_attribute("points",get_points());
+    }
 
-
-
+    String get_points() {
+        String s=points.get(0).getX()+ "," +points.get(0).getY() + " " +
+                points.get(1).getX()+ "," +points.get(1).getY() + " " +
+                points.get(2).getX()+ "," +points.get(2).getY() + " " +
+                points.get(3).getX()+ "," +points.get(3).getY();
+        return s;
+    }
 
 
     //private double mx=0,my=0,l1x=0,l1y=0,l2x=0,l2y=0;
