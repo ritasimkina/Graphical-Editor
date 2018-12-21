@@ -89,7 +89,6 @@ public abstract class Draw extends Component {
         return null;
     }
     public void set_additional_attributes()   {
-
     }
 
 

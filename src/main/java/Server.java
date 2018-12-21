@@ -75,6 +75,7 @@ public class Server extends Thread {
                                 break;
                             case "svg_edit_save":
                                 String s=req_side.substring(req_side.indexOf('.')+1);
+                                s=s.replace("%20"," "); // url with space
                                 proxy.edit_end(s);
                                 status=200; r=proxy.get_html();
                                 break;
