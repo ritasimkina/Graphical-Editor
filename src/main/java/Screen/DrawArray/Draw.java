@@ -102,4 +102,11 @@ public abstract class Draw extends Component {
         return souround_svg_type(s);
     }
 
+    public String get_points() {
+        String s="";
+        for(int i=0;i<points.size();i+=1)   {
+            s+=points.get(i).getX()+ "," +points.get(i).getY() + " ";
+        }
+        return s;
+    }
 }
