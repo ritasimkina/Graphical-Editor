@@ -23,11 +23,11 @@ public class DrawArray extends Component {
             "			window.location = 'FUNCTION_NAME.'+clicked_id;\n"+
             "		}\n";
     static final String FUNCTION_SVG_EDIT=  "		function FUNCTION_NAME(parameter_size){\n"+
-                                            "			p=document.getElementById(0).value;"+
-                                            "			for (i = 1; i < parameter_size; i++) {"+
-                                            "				p=p+';'+document.getElementById(i).value;"+
-                                            "			}"+
-                                            "			window.location = 'svg_edit_save.'+p;"+
+                                            "			p=document.getElementById(0).value;\n"+
+                                            "			for (i = 1; i < parameter_size; i++) {\n"+
+                                            "				p=p+'&'+document.getElementById(i).value;\n"+
+                                            "			}\n"+
+                                            "			window.location = 'svg_edit_save.'+p;\n"+
                                             "		}\n";
 
     public DrawArray() { Debug.out(Thread.currentThread());

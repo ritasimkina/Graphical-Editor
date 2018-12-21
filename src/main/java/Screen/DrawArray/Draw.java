@@ -39,11 +39,11 @@ public abstract class Draw extends Component {
     }
 
     public void set_attributes(String parameter) {
-        StringTokenizer tok = new StringTokenizer(parameter,";",true);  // no empty tokens
+        StringTokenizer tok = new StringTokenizer(parameter,"&",true);  // no empty tokens
         int i=0;
         while (tok.hasMoreTokens()) {
             String s=tok.nextToken();
-            if (s.equals(";")) {
+            if (s.equals("&")) {
                 s="";
                 attributes.setValue(i++, s);
             } else {
