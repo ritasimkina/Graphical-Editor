@@ -37,9 +37,9 @@ public class Debug {
     }
     private static void signal(Thread thread, String string,int level)   {
         final StackTraceElement[] ste = thread.getStackTrace();
-        String s="";
-        s+=ste[level].getLineNumber()+": ";
-        s+=thread.getName()+"\t";
+        String s="signal: ";
+        //s+=ste[level].getLineNumber()+": ";
+        //s+=thread.getName()+"\t";
         s+=ste[level].getClassName()+"::";
         s+=ste[level].getMethodName()+"()";
         if(string.length()>0) s+="\t\t--> "+string;

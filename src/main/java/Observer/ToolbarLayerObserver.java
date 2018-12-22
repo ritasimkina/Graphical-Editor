@@ -20,6 +20,7 @@ public class ToolbarLayerObserver implements Observer {
     }
     public void update()    {
         Debug.out(Thread.currentThread());
+        Debug.signal(Thread.currentThread());
         //System.out.println(Thread.currentThread());
         for (int i=0; i<subjects.size();i++) {
             visible.set(i,subjects.get(i).is_visible());

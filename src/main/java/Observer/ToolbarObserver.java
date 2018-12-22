@@ -14,5 +14,7 @@ public class ToolbarObserver implements Observer {
 //    }
     public void update()    {
         Debug.out(Thread.currentThread());
+        Debug.signal(Thread.currentThread());
+
     }
 }
