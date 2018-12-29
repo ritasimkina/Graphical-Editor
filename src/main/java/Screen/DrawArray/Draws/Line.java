@@ -24,7 +24,7 @@ public class Line extends Draw  {
             //PRESENTATION_ATTRIBUTES
             //Color and Painting properties:
             "fill", "rgb(255,255,255)",
-            "stroke", "rgb(0,255,255)",
+            "stroke", "rgb(25,118,210)",
             "stroke-width", "5"     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
             //PRESENTATION ATTRIBUTES
     );
