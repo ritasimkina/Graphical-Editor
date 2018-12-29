@@ -13,7 +13,7 @@ public class Infobar extends Component {
 
     public String get_html()   {Debug.out(Thread.currentThread());
         assert false;
-        String s="<div id=\"footer\" style=\"color:white\"><br>&ensp; BAREIS Klaus, SCHMON Fabian, SIMKINA Margaryta</div>\n";
+        String s="<div id=\"footer\" style=\"color:white; font-family:arial;\"><br>&ensp; BAREIS Klaus, SCHMON Fabian, SIMKINA Margaryta</div>\n";
         return s;
     }
 
