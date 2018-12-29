@@ -19,7 +19,7 @@ FR3 The canvas must support at least three layers, which hold the graphic elemen
 Bareis
 
 FR4 The canvas output must be storable as a file in SVG format.
-Schmon editing...
+Schmon
 
 								Bareis
 • Observer Pattern				ToolbarLayerObserver

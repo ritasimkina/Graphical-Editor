@@ -76,4 +76,8 @@ public class Screen {
 
         ((DrawArray)drawarray).delete_aktiv_component();
     }
+    public void save()  {
+
+        ((DrawArray)drawarray).save();
+    }
 }

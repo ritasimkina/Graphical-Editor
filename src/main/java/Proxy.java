@@ -67,4 +67,5 @@ public class Proxy {
         screen.edit_svg_end(parameter);
     }
     public void delete() { screen.delete_component(); }
+    public void save() { screen.save(); }
 }

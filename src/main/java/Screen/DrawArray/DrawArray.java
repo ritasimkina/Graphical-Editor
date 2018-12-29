@@ -6,6 +6,9 @@ import Factory.*;
 import Iterator.*;
 import Strategy.*;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.nio.file.FileSystemException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -73,7 +76,7 @@ public class DrawArray extends Component {
     }
 
     private String souround_svg(String s)   {
-        return "<svg height='500' width='500'>\n"+
+        return "<svg height='500' width='900'>\n"+
                 schripts_html()+
                 s+
                 "</svg>\n\n";
@@ -93,6 +96,27 @@ public class DrawArray extends Component {
 
         Composite c = (Composite)layer.get(active_layer);
         c.remove(this.aktiv_component());
+    }
+
+    public void save() {
+        try (PrintWriter out = new PrintWriter("forms.svg")) {
+            out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+            out.println("<svg xmlns=\"http://www.w3.org/2000/svg\"\n" +
+                    "\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n" +
+                    "\txmlns:ev=\"http://www.w3.org/2001/xml-events\"\n" +
+                    "\tversion=\"1.1\" baseProfile=\"full\"\n" +
+                    "\twidth=\"900px\" height=\"500px\" viewBox=\"0 0 900 500\">");
+            String s="";
+            for (Component c: layer  ) {
+                s+=c.get_html();
+            }
+            out.println(s);
+            out.println("</svg>");
+            System.out.println("forms.svg file saved");
+        }
+        catch(FileNotFoundException e){
+            System.out.println("ERROR while saving forms.svg file");
+        }
     }
 
 
