@@ -43,11 +43,11 @@ public class Toolbar extends Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
-        s+="<div id=\"toolbar\">\n";
+        s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
             s += "\n\t<form action=\"add_svg." + i + "\" method=\"GET\">";
-            s += "\n\t\t<button>" + i + "</button>";
+            s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&ensp;";
             s += "\n\t</form>";
         }
         s+="\n\t</table>\n";

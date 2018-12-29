@@ -14,12 +14,12 @@ public class ToolbarLayer  extends Component {
                                         "</div>\n\n";
 
     static final String FORM_LAYER_ADD= "	<form action=layer_add method='GET'>\n"+
-                                        "		<button>New Layer</button>\n"+
+                                        "		<br><button style=\"height:30px; width:75px\">New Layer</button>\n"+
                                         "	</form>\n";
     static final String FORM_LAYER_CHECK="	<form action=layer_check method='GET'>\n"+
                                          "CHECKBOX_RADIO\t</form>\n";
-    static final String FORM_CHECKBOX_RADIO="		<input type='checkbox' name='' value='' CHECKED onchange='clicked_layer_check(ID)'>  "+
-                                            "<input type='radio' name='layer_check' value='' RADIO onchange='clicked_layer_radio(ID)'>TEXT<br>\n";
+    static final String FORM_CHECKBOX_RADIO="		&thinsp;<input type='checkbox' name='' value='' CHECKED onchange='clicked_layer_check(ID)'>  "+
+                                            "<input type='radio' name='layer_check' value='' RADIO onchange='clicked_layer_radio(ID)'>TEXT<br><br>\n";
 
     Observer layer_observer=null;
 
@@ -40,7 +40,7 @@ public class ToolbarLayer  extends Component {
             ToolbarLayerObserver o=((ToolbarLayerObserver)layer_observer);
             String s=FORM_CHECKBOX_RADIO;
             s=s.replace("ID",o.get_id(i));
-            s=s.replace("TEXT","Layer "+i);
+            s=s.replace("TEXT"," L "+i);
             if( !o.is_visible(i)) s=s.replace("CHECKED","");
 
             if( o.clicked_id().equals(o.get_id(i))) s=s.replace("RADIO","CHECKED");

@@ -25,11 +25,11 @@ public class ToolbarOperation  extends Component {
         //s+="</div>\n";
 //    }
 
-        String s="\n<div id=\"operations\">";
+        String s="\n<div id=\"operations\"><br>";
         for (String i : operation_names) {
             s+="\n\t<div>";
             s += "\n\t<form action=\"" + i + "\" method=\"GET\">";
-            s += "\n\t\t<button>" + i + "</button>";
+            s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&ensp;";
             s += "\n\t</form>";
             s+="\n\t</div>";
         }
