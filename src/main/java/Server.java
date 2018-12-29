@@ -64,13 +64,18 @@ public class Server extends Thread {
 
                         StringTokenizer tok = new StringTokenizer(req_side,".");
                         String command = tok.nextToken();
-                        String object ;
+                        String object;
 
                         String r="";
                         int status=0;
                         switch (command) {
                             case "Edit":
                                 proxy.edit();
+                                status=200; r=proxy.get_html();
+                                break;
+                            case "Delete":
+                                //object = tok.nextToken();
+                                proxy.delete();
                                 status=200; r=proxy.get_html();
                                 break;
                             case "svg_edit_save":

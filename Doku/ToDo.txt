@@ -11,7 +11,7 @@ FR1 The following graphic elements must be supported:
 
 FR2 The canvas must support the following operations regarding graphic elements:
 • addition		Bareis
-• deletion
+• deletion      Schmon
 • editing		Bareis
 • movement		(Bareis over editing)
 

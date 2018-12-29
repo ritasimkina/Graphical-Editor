@@ -72,4 +72,8 @@ public class Screen {
         }
         ((DrawArray)drawarray).set_strategy(new StrategySvgShow(drawarray));
     }
+    public void delete_component()  {
+
+        ((DrawArray)drawarray).delete_aktiv_component();
+    }
 }

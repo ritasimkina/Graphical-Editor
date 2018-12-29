@@ -88,6 +88,15 @@ public class DrawArray extends Component {
         //throw
         return null;
     }
+
+    public void delete_aktiv_component() {
+
+        Composite c = (Composite)layer.get(active_layer);
+        c.remove(this.aktiv_component());
+    }
+
+
+
 //-----------------------------------------------------------------------------------------------
     @Override
     public String get_show_html()   {

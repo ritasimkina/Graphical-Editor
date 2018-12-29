@@ -1,6 +1,7 @@
 package Component;
 
 import Debug.Debug;
+import Screen.DrawArray.DrawArray;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,10 @@ public class Composite extends Component {
         return childComponent.get(i);
     }
 
-
+    public List<Component> getChildComponent()
+    {
+        return childComponent;
+    }
 
     //Adds the IComponent to the composition.
     public void add(Component component) {
@@ -32,8 +36,6 @@ public class Composite extends Component {
     public int size()   {
         return childComponent.size();
     }
-
-
 
     /*@Override
     public void set_clicked(boolean state) {
