@@ -103,6 +103,7 @@ public class Server extends Thread {
                             case "add_svg":
                                 object = tok.nextToken();
                                 proxy.create_shape(object);
+                                proxy.get_html();
                                 status=200; r=proxy.get_html();
                                 break;
                             case "clicked_svg":
