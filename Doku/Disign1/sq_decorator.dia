@@ -80,7 +80,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#Decorator#</dia:string>
+        <dia:string>#Decorator.Decorator#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -374,7 +374,7 @@
         <dia:real val="1.3999999999999999"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#DecoratorFileSVG#</dia:string>
+        <dia:string>#Decorator.DecoratorFileSVG#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>

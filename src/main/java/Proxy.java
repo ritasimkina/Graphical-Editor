@@ -1,5 +1,9 @@
 
 import Debug.*;
+import Decorator.DarkDesign;
+import Decorator.Format;
+import Decorator.LightDesign;
+import Decorator.PlainFormat;
 import Screen.DrawArray.DrawArray;
 import Screen.Screen;
 
@@ -8,6 +12,7 @@ public class Proxy {
     static final String HTML_END = "\n</html>";
 
     private Screen screen;
+    private Format decorator = null;
 
     public Proxy() {    Debug.out(Thread.currentThread());
         screen = new Screen();
@@ -21,21 +26,25 @@ public class Proxy {
                     screen.get_html() +
                 "\n</body>\n";
     }
+
     private String get_format()   {   Debug.out(Thread.currentThread());
-        String formatting =
-                "<style type=\"text/css\">\n" +
-                        "html, body {height: 100%; overflow: hidden;}\n" +
-                        "body {padding-bottom: 60px; padding-top: 60px; box-sizing: border-box ;}\n" +
-                        "#menu {top: 0; background-color : #1976d2;}\n" +
-                        "#menu, #footer {left: 0; height: 60px; position: absolute; width: 100%; padding: 0px; margin-left: 0px;}\n" +
-                        "#menu, #footer {left: 0; position: absolute; width: 100%; padding: 0px; margin-left: 0px;}\n" +
-                        "#toolbar {position: relative; top: -8px; background-color : #bbdefb;}\n" +
-                        "#operations {position: relative; left: 0; top: -8px; width : 75px; height: 100%; float: left; background-color : #bbdefb;}\n" +
-                        "#layers {position: relative; right: 0; top: -8px; width : 75px; height: 100%; float: right; background-color : #bbdefb;}\n" +
-                       "#footer {bottom: 0; background-color : #1976d2;}\n" +
-                        "</style>\n" +
-                        "</head>\n\n";
+
+        if(decorator == null)
+        {
+            decorator = new LightDesign(new PlainFormat());
+        }
+        String formatting = decorator.get_format();
         return formatting;
+    }
+
+    public void set_LightDesign()
+    {
+        decorator = new LightDesign(new PlainFormat());
+    }
+
+    public void set_DarkDesign()
+    {
+        decorator = new DarkDesign(new PlainFormat());
     }
 
     public String get_html()   {    Debug.out(Thread.currentThread());

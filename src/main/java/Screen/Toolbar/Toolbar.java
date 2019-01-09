@@ -47,7 +47,7 @@ public class Toolbar extends Component {
         s+="\t<table>";
         for (String i : toolbar_names) {
             s += "\n\t<form action=\"add_svg." + i + "\" method=\"GET\">";
-            s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&ensp;";
+            s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&emsp;&emsp;";
             s += "\n\t</form>";
         }
         s+="\n\t</table>\n";

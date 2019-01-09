@@ -5,7 +5,7 @@ Erzeugungsmuster:
 Strukturmuster:
 -	• Composite Pattern:		Screenstruktur (unten)
 +	• Proxy Pattern:		 	schnittstelle Netzwerk-Interne Objekte (Objectstruktur <-> HTML)
--	• Decorator Pattern:		GUI unterschiedlich je nach selektion
+-	• Decorator.Decorator Pattern:		GUI unterschiedlich je nach selektion
 								StoreImage
 								-Leyer sichtbar oder nicht
 Verhaltensmuster:

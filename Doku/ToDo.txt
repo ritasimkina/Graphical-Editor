@@ -37,5 +37,5 @@ Schmon
 								FactoryToolbar
 								FactoryToolbarLayer
 								FactoryToolbarOperation
-• Decorator Pattern
+• Decorator.Decorator Pattern
 

@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ToolbarOperation  extends Component {
-    List<String> operation_names = Arrays.asList("Edit", "Move", "Delete", "Save");
+    List<String> operation_names = Arrays.asList("Edit", "Move", "Delete", "Save", "Light", "Dark");
 
     public Iterator createIterator() {
         assert false;

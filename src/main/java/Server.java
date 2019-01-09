@@ -82,6 +82,14 @@ public class Server extends Thread {
                                 proxy.save();
                                 status=200; r=proxy.get_html();
                                 break;
+                            case "Light":
+                                proxy.set_LightDesign();
+                                status=200; r=proxy.get_html();
+                                break;
+                            case "Dark":
+                                proxy.set_DarkDesign();
+                                status=200; r=proxy.get_html();
+                                break;
                             case "svg_edit_save":
                                 String s=req_side.substring(req_side.indexOf('.')+1);
                                 s=s.replace("%20"," "); // url with space
