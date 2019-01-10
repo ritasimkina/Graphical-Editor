@@ -17,10 +17,10 @@ public abstract class Draw extends Component {
 
     static String EDIT_TABLE=(      "<table>\n"+
             "TABLEROW"+
-            "</table>\n" +
-            "<button onclick='svg_edit_save(IDS)'>Save</button>\n"  +
-            "<button onclick='svg_edit_cancel()'>Cancel</button>\n"  );
-    static String EDIT_TABLE_ROW=(  "  <tr><th>KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
+            "</table>\n <br>" +
+            "&emsp;&emsp;&emsp;&emsp;<button style=\"height:30px; width:75px\", onclick='svg_edit_save(IDS)'>Save</button>\n"  +
+            "&emsp;&emsp;<button style=\"height:30px; width:75px\", onclick='svg_edit_cancel()'>Cancel</button>\n"  );
+    static String EDIT_TABLE_ROW=(  "<tr>&emsp;&emsp;<th> &emsp;&emsp; KEY</th><th><input type='text' id='ID' value='VALUE'></th></tr>\n");
 
     public Draw()   {}
     public Draw(SVGAttributeList l)   {
@@ -63,7 +63,7 @@ public abstract class Draw extends Component {
     public String get_edit_html()    {
         String r="";
         for(int i=0;i<attributes.size();i++)    {
-            String s=EDIT_TABLE_ROW;
+            String s = EDIT_TABLE_ROW;
             s=s.replace("ID",Integer.toString(i));
             s=s.replace("KEY",attributes.get_key(i));
             s=s.replace("VALUE",attributes.get_value(i));
