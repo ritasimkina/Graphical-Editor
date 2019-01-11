@@ -39,7 +39,8 @@ public class Server extends Thread {
 
             in = new BufferedReader(new InputStreamReader (socket.getInputStream()));
             out = new DataOutputStream(socket.getOutputStream());
-
+            boolean init = false;
+            boolean editable = false;
             StringBuffer resp = new StringBuffer();
             String req="";
 
@@ -54,7 +55,8 @@ public class Server extends Thread {
 
 
                 if (httpMethod.equals("GET") || httpMethod.equals("POST")) {
-                    if (httpQueryString.equals("/")) {
+                    if (httpQueryString.equals("/") || !init) {
+                        init = true;
                         resp.append(proxy.get_html());
                         sendResponse(200, resp.toString());
                         resp.setLength(0);
@@ -70,11 +72,16 @@ public class Server extends Thread {
                         int status=0;
                         switch (command) {
                             case "Edit":
+                                if(!editable) {
+                                    status=404; r=proxy.get_html();
+                                    break;
+                                }
+                                editable = false;
                                 proxy.edit();
                                 status=200; r=proxy.get_html();
                                 break;
                             case "Delete":
-                                //object = tok.nextToken();
+                                editable = false;
                                 proxy.delete();
                                 status=200; r=proxy.get_html();
                                 break;
@@ -107,6 +114,7 @@ public class Server extends Thread {
                                 status=200; r=proxy.get_html();
                                 break;
                             case "clicked_svg":
+                                editable = true;
                                 object = tok.nextToken();
                                 proxy.select_svg(object);
                                 status=200; r=proxy.get_html();
