@@ -37,7 +37,7 @@ Schmon
 								FactoryToolbar
 								FactoryToolbarLayer
 								FactoryToolbarOperation
-• Decorator.Decorator Pattern   Format
+• Decorator Pattern             Format
                                 DecoratorFileSVG
                                 PlainFormat
                                 LightDesign
