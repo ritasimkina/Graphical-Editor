@@ -11,7 +11,6 @@ import java.util.List;
 
 public class Toolbar extends Component {
     List<String> toolbar_names = new ArrayList<String>();
-    String lastColor;
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
