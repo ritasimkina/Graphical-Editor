@@ -182,8 +182,8 @@ public class DrawArray extends Component {
         }
     }
 
-    public boolean create_shape(String name)    {
-        return   ((Layer)layer.get(active_layer)).create_shape(name);
+    public boolean create_shape(String name, String params)    {
+        return   ((Layer)layer.get(active_layer)).create_shape(name, params);
     }
     public void select_svg(String name)  {
         Iterator it = new IteratorSvgs(layer.get(active_layer));

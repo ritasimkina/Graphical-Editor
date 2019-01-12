@@ -109,7 +109,8 @@ public class Server extends Thread {
                                 break;
                             case "add_svg":
                                 object = tok.nextToken();
-                                proxy.create_shape(object);
+                                String objectParams = httpQueryString.replace("/add_svg." + object + ".", "");
+                                proxy.create_shape(object, objectParams);
                                 proxy.get_html();
                                 status=200; r=proxy.get_html();
                                 break;
