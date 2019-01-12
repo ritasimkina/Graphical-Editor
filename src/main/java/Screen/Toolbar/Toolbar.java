@@ -11,6 +11,7 @@ import java.util.List;
 
 public class Toolbar extends Component {
     List<String> toolbar_names = new ArrayList<String>();
+    String lastColor;
 
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
@@ -39,7 +40,6 @@ public class Toolbar extends Component {
     public String get_html() {
         Debug.out(Thread.currentThread());
         String s = "";
-
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
@@ -47,11 +47,9 @@ public class Toolbar extends Component {
             s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&emsp;&emsp;";
             s += "\n\t</form>";
         }
+        s+="<a style=\"font-family:arial;\">Colour (HEX): </a> <input style=\"height:20px; width:52px\" type=\"color\" onchange=\"changeColor(this.value);\">";
         s+="\n\t</table>\n";
-        s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        Line color: <input type=\"color\" onchange=\"changeColor(this.value);\">\n" +
-            "    </div>\n" +
-            "    <script>\n" +
+        s+= "<script>\n" +
             "        function changeColor(color) {\n" +
             "            console.log(color);\n" +
             "            var list = document.getElementsByClassName(\"toolbar_form\");\n" +
