@@ -11,11 +11,13 @@ import Iterator.*;
 import Component.*;
 import Component.Composite;
 import Screen.DrawArray.Draws.*;
+import Tools.BeanContainer;
+import Tools.Context;
 
 
 public class Layer extends Composite {
     Random rand = new Random();
-    //Composite draws = new Composite();
+    private final Context context;
 
     public Iterator createIterator() {
         assert false;
@@ -23,6 +25,7 @@ public class Layer extends Composite {
     }
     public Layer() { Debug.out(Thread.currentThread());
         //draws.add(new Text("Hello World!!!!"));
+        this.context = BeanContainer.get(Context.class);
     }
 
     public String get_html()   {
@@ -31,13 +34,13 @@ public class Layer extends Composite {
     }
 
     public boolean create_shape(String name, String attributes) {
-        final String color = getValueFromAttr(attributes, "color");
+        final Optional<String> color = context.get("color");
         final DrawAbstractFactory factory;
-        if  (color.equals("")) {
+        if  (!color.isPresent()) {
             factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.DEFAULT, new HashMap<>());
         } else {
             Map<String, String> attrs = new HashMap<>();
-            attrs.put("color", color);
+            attrs.put("color", color.get());
             factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.COLOR, attrs);
         }
 
@@ -48,17 +51,6 @@ public class Layer extends Composite {
         }
 
         return false;
-    }
-
-    //parse attributes format: "key1:value1;key2:value2"
-    private String getValueFromAttr(String attributes, String key) {
-        for (String attr : attributes.split(";")) {
-            final String[] keyValue = attr.split(":");
-            if (key.equals(keyValue[0])) {
-                return keyValue[1];
-            }
-        }
-        return "";
     }
 
 }

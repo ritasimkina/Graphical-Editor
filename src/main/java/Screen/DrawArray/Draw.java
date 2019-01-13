@@ -109,4 +109,8 @@ public abstract class Draw extends Component {
         }
         return s;
     }
+
+    public SVGAttributeList getAttributes() {
+        return attributes;
+    }
 }

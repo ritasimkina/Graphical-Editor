@@ -122,4 +122,9 @@ public class ClickedDraw extends Draw {
     public boolean toggle_clicked() {
         return draw.toggle_clicked();
     }
+
+    @Override
+    public SVGAttributeList getAttributes() {
+        return draw.getAttributes();
+    }
 }

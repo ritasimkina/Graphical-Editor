@@ -62,8 +62,8 @@ public class Toolbar extends Component {
         s+="\n\t</table>\n";
         s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
             "        <label>Colour (HEX):</label> <input type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" value=\"#37d677\">\n" +
-            "        <label>X:</label> <input type=\"number\" onchange=\"changeAttr('x', this.value);\"> \n" +
-            "        <label>Y:</label><input type=\"number\" onchange=\"changeAttr('y', this.value);\"> \n" +
+            "        <label>X:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('x', this.value);\"> \n" +
+            "        <label>Y:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('y', this.value);\"> \n" +
             "    </div>\n" +
             "    <script>    \n" +
             "        function changeAttr(key, value) {\n" +
@@ -73,7 +73,7 @@ public class Toolbar extends Component {
             "               var attr = list[i].getAttribute(\"action\");\n" +
             "               var res;\n" +
             "               if (attr.includes(key)) {\n" +
-            "                   res = attr.replace(/color:.+;/i, key + \":\" + value + \";\")\n" +
+            "                   res = attr.replace(new RegExp(key + ':.+;', 'i'), key + \":\" + value + \";\")\n" +
             "               } else {\n" +
             "                   if (attr.charAt(attr.length - 1) != \";\")\n" +
             "                        attr += \".\";\n" +
