@@ -27,19 +27,19 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
         double y = context.get("y").map(Double::new).orElseGet(this::generate);
         switch (name) {
             case "Circle":
-                return Optional.of(new Circle(x, y, 10));
+                return Optional.of(new ClickedDraw(new Circle(x, y, 10)));
             case "Elipse":
                 new Elipse(x, y, 10, 20);
             case "Line":
-                return Optional.of(new Line(50, 50, x, y));
+                return Optional.of(new ClickedDraw(new Line(50, 50, x, y)));
             case "NGon":
-                return Optional.of(new NGon(x, y));
+                return Optional.of(new ClickedDraw(new NGon(x, y)));
             case "Quadrangle":
-                return Optional.of(new Quadrangle(x, y, 50, 50));
+                return Optional.of(new ClickedDraw(new Quadrangle(x, y, 50, 50)));
             case "Star":
-                return Optional.of(new Star(x, y));
+                return Optional.of(new ClickedDraw(new Star(x, y)));
             case "Text":
-                return Optional.of(new Text("Text", x, y));
+                return Optional.of(new ClickedDraw(new Text("Text", x, y)));
             case "Triangle":
                 return Optional.of(new Triangle(x, y));
             default:
