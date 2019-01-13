@@ -12,14 +12,14 @@ import java.util.*;
 import Debug.*;
 import Iterator.*;
 import Component.*;
+import Tools.BeanContainer;
+import Tools.Context;
 
 public class Server extends Thread {
     static final boolean SINGLE_CONNECTION=true;
     static final int PORT=8080;
     //static final String IP="10.101.101.5";
     static final String IP="127.0.0.1";
-
-    private Proxy proxy=new Proxy();;
 
     Socket socket = null;
     BufferedReader in = null;
@@ -34,6 +34,11 @@ public class Server extends Thread {
      * main Server routine
      */
     public void run() { Debug.out(Thread.currentThread());
+        //register beans
+        final Context context = new Context();
+        BeanContainer.registerBean(context, Context.class);
+
+        Proxy proxy = new Proxy();
         try {
             System.out.println( "Client="+  socket.getInetAddress() + ":" + socket.getPort());
 
@@ -70,6 +75,7 @@ public class Server extends Thread {
 
                         String r="";
                         int status=0;
+
                         switch (command) {
                             case "Edit":
                                 if(!editable) {
@@ -110,6 +116,7 @@ public class Server extends Thread {
                             case "add_svg":
                                 object = tok.nextToken();
                                 String objectParams = httpQueryString.replace("/add_svg." + object + ".", "");
+                                context.add("attributes", httpQueryString.replace("/add_svg." + object, ""));
                                 proxy.create_shape(object, objectParams);
                                 proxy.get_html();
                                 status=200; r=proxy.get_html();
