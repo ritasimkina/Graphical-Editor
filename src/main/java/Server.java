@@ -115,8 +115,8 @@ public class Server extends Thread {
                                 break;
                             case "add_svg":
                                 object = tok.nextToken();
-                                String objectParams = httpQueryString.replace("/add_svg." + object + ".", "");
-                                initContext(context, objectParams);
+                                String objectParams = httpQueryString.replace("/add_svg." + object, "");
+                                initContext(context, objectParams.replace(".", ""));
                                 proxy.create_shape(object, objectParams);
                                 proxy.get_html();
                                 status=200; r=proxy.get_html();
@@ -159,6 +159,9 @@ public class Server extends Thread {
     }
 
     private void initContext(Context context, String attributes) {
+        if (!attributes.contains(";")) {
+            return;
+        }
         for (String attr : attributes.split(";")) {
             final String[] keyValue = attr.split(":");
             context.add(keyValue[0], keyValue[1]);
