@@ -46,9 +46,16 @@ public class NGon  extends Draw {
                 points.get(5).getX()+ "," +points.get(5).getY() + " " +
                 points.get(6).getX()+ "," +points.get(6).getY();
         set_attribute("points",s);
-
     }
 
+    @Override
+    public SVGAttributeList make_clicked(SVGAttributeList al)    {
+        Color fill=new Color(attributes.getValue("fill"));
+        Color stroke=new Color(attributes.getValue("stroke"));
+        al.setValue("fill",fill.gethtml(true));
+        al.setValue("stroke",stroke.gethtml(true));
+        return al;
+    }
 
     @Override
     public String souround_svg_type(String s) {

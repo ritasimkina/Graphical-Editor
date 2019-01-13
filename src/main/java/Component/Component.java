@@ -18,8 +18,8 @@ public abstract class Component implements IComponent {
         id= Integer.toString(id_count);
     }
 
-    public Component(boolean new_ID)  {
-        if (new_ID) {
+    public Component(boolean newID)  {
+        if (newID) {
             id_count++;
         }
         id= Integer.toString(id_count);

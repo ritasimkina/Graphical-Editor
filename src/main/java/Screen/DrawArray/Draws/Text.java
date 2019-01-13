@@ -39,6 +39,15 @@ public class Text  extends Draw  {
     }
 
     @Override
+    public SVGAttributeList make_clicked(SVGAttributeList al)    {
+        Color fill=new Color(attributes.getValue("fill"));
+        Color stroke=new Color(attributes.getValue("stroke"));
+        al.setValue("fill",fill.gethtml(true));
+        al.setValue("stroke",stroke.gethtml(true));
+        return al;
+    }
+
+    @Override
     public String souround_svg_type(String s) {
         return "\t<text "+ s+ ">"+txt+"</text>\n";
     }

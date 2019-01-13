@@ -26,9 +26,8 @@ public abstract class Draw extends Component {
     public Draw(SVGAttributeList l)   {
         attributes=l;
     }
-
-    public Draw(SVGAttributeList l, boolean new_ID)  {
-        super(new_ID);
+    public Draw(SVGAttributeList l, boolean newID)  {
+        super(false);
         attributes=l;
     }
 
@@ -113,9 +112,5 @@ public abstract class Draw extends Component {
             s+=points.get(i).getX()+ "," +points.get(i).getY() + " ";
         }
         return s;
-    }
-
-    public SVGAttributeList getAttributes() {
-        return attributes;
     }
 }
