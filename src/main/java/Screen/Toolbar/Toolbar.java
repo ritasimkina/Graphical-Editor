@@ -44,15 +44,16 @@ public class Toolbar extends Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
-        final String attributes = context.get("color").orElse("");
-
+        final String color = context.get("color").orElse("");
+        final String x = context.get("x").orElse("100");
+        final String y = context.get("y").orElse("100");
 
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
             String action = "/add_svg." + i;
-            if (!attributes.equals("")) {
-                action = String.format("%s.color:%s;", action, attributes);
+            if (!color.equals("")) {
+                action = String.format("%s.color:%s;", action, color);
             }
 
             s += "\n\t<form class=\"toolbar_form\" action=\"" + action + "\" original=\"add_svg." + i + "\"  method=\"GET\">";
@@ -61,9 +62,9 @@ public class Toolbar extends Component {
         }
         s+="\n\t</table>\n";
         s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        <label>Colour (HEX):</label> <input type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" value=\"#37d677\">\n" +
-            "        <label>X:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('x', this.value);\"> \n" +
-            "        <label>Y:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('y', this.value);\"> \n" +
+            "        <label>Colour (HEX):</label> <input type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" value=\"" + changeCollorFormat(color) + "\">\n" +
+            "        <label>X:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('x', this.value);\" value=\"" + x + "\"> \n" +
+            "        <label>Y:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('y', this.value);\" value=\"" + y + "\"> \n" +
             "    </div>\n" +
             "    <script>    \n" +
             "        function changeAttr(key, value) {\n" +

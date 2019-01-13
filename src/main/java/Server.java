@@ -58,7 +58,6 @@ public class Server extends Thread {
                 String httpQueryString = header.nextToken();
                 while (in.ready())  req = in.readLine();
 
-
                 if (httpMethod.equals("GET") || httpMethod.equals("POST")) {
                     if (httpQueryString.equals("/") || !init) {
                         init = true;
