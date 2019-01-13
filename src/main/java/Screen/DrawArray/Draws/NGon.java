@@ -38,6 +38,15 @@ public class NGon  extends Draw {
         points.add(new Point(x+10,y+10));
         points.add(new Point(x-10,y+10));
         points.add(new Point(x-20,y));
+        String s=points.get(0).getX()+ "," +points.get(0).getY() + " " +
+                points.get(1).getX()+ "," +points.get(1).getY() + " " +
+                points.get(2).getX()+ "," +points.get(2).getY() + " " +
+                points.get(3).getX()+ "," +points.get(3).getY() + " " +
+                points.get(4).getX()+ "," +points.get(4).getY() + " " +
+                points.get(5).getX()+ "," +points.get(5).getY() + " " +
+                points.get(6).getX()+ "," +points.get(6).getY();
+        set_attribute("points",s);
+
     }
 
 
