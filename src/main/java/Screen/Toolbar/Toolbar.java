@@ -44,29 +44,45 @@ public class Toolbar extends Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
-        final String attributes = context.get("attributes").orElse("");
+        final String attributes = context.get("color").orElse("");
+
 
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
-            s += "\n\t<form class=\"toolbar_form\" action=\"add_svg." + i + attributes + "\" original=\"add_svg." + i + "\"  method=\"GET\">";
+            String action = "/add_svg." + i;
+            if (!attributes.equals("")) {
+                action = String.format("%s.%s;", action, attributes);
+            }
+
+            s += "\n\t<form class=\"toolbar_form\" action=\"" + action + "\" original=\"add_svg." + i + "\"  method=\"GET\">";
             s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&emsp;&emsp;";
             s += "\n\t</form>";
         }
         s+="\n\t</table>\n";
         s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        Colour (HEX): <input type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">\n" +
+            "        <label>Colour (HEX):</label> <input type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" value=\"#37d677\">\n" +
+            "        <label>X:</label> <input type=\"number\" onchange=\"changeAttr('x', this.value);\"> \n" +
+            "        <label>Y:</label><input type=\"number\" onchange=\"changeAttr('y', this.value);\"> \n" +
             "    </div>\n" +
-            "    <script>\n" +
-            "        function changeColor(color) {\n" +
-            "            console.log(color);\n" +
-            "            var list = document.getElementsByClassName(\"toolbar_form\");\n" +
-            "            console.log(list);\n" +
-            "            for(var i = 0; i < list.length; i++) {\n" +
-            "                list[i].setAttribute(\"action\", list[i].getAttribute(\"original\") + \".color:\" + hexToRgb(color) + \";\")\n" +
+            "    <script>    \n" +
+            "        function changeAttr(key, value) {\n" +
+            "           var list = document.getElementsByClassName(\"toolbar_form\");\n" +
+            "           console.log(list);\n" +
+            "           for(var i = 0; i < list.length; i++) {\n" +
+            "               var attr = list[i].getAttribute(\"action\");\n" +
+            "               var res;\n" +
+            "               if (attr.includes(key)) {\n" +
+            "                   res = attr.replace(/color:.+;/i, key + \":\" + value + \";\")\n" +
+            "               } else {\n" +
+            "                   if (attr.charAt(attr.length - 1) != \";\")\n" +
+            "                        attr += \".\";\n" +
+            "                   res = attr + \"\" + key + \":\" + value + \";\"\n" +
+            "               }\n" +
+            "                list[i].setAttribute(\"action\", res);\n" +
             "            }\n" +
             "        }\n" +
-            "        \n" +
+            "\n" +
             "        function hexToRgb(hex) {\n" +
             "            var result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);\n" +
             "            return \"rgb(\" + parseInt(result[1], 16) + \",\" + parseInt(result[2], 16) + \",\" + parseInt(result[3], 16) + \")\";\n" +
@@ -76,11 +92,11 @@ public class Toolbar extends Component {
         return s;
     }
 
-    // change "color:rgb(255,255,255)" -> "#ffffff"
+    // change "rgb(255,255,255)" -> "#ffffff"
     private String changeCollorFormat(String collorAttr) {
-        final Matcher matcher = Pattern.compile("color:rgb\\([0-9]+,[0-9]+,[0-9]+\\)").matcher(collorAttr);
+        final Matcher matcher = Pattern.compile("rgb\\([0-9]+,[0-9]+,[0-9]+\\)").matcher(collorAttr);
         if (matcher.find()) {
-            final String[] rgb = matcher.group().replace("color:rgb(", "").replace(")", "").split(",");
+            final String[] rgb = collorAttr.replace("rgb(", "").replace(")", "").split(",");
             StringBuilder res = new StringBuilder("#");
             for (String c : rgb) {
                 res.append(Integer.toHexString(Integer.valueOf(c)));

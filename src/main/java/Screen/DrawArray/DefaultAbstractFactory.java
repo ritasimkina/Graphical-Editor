@@ -8,16 +8,23 @@ import Screen.DrawArray.Draws.Quadrangle;
 import Screen.DrawArray.Draws.Star;
 import Screen.DrawArray.Draws.Text;
 import Screen.DrawArray.Draws.Triangle;
+import Tools.BeanContainer;
+import Tools.Context;
 
 import java.util.Optional;
 import java.util.Random;
 
 public class DefaultAbstractFactory extends DrawAbstractFactory {
+    private final Context context;
+
+    public DefaultAbstractFactory() {
+        this.context = BeanContainer.get(Context.class);
+    }
 
     @Override
     Optional<Draw> create(String name) {
-        double x = new Random().nextInt(100) * 5;
-        double y = new Random().nextInt(100) * 5;
+        double x = context.get("x").map(Double::new).orElseGet(this::generate);
+        double y = context.get("y").map(Double::new).orElseGet(this::generate);
         switch (name) {
             case "Circle":
                 return Optional.of(new Circle(x, y, 10));
@@ -38,5 +45,9 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
             default:
                 return Optional.empty();
         }
+    }
+
+    private double generate() {
+        return (double) new Random().nextInt(100) * 5;
     }
 }
