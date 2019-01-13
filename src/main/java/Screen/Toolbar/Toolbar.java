@@ -52,7 +52,7 @@ public class Toolbar extends Component {
         for (String i : toolbar_names) {
             String action = "/add_svg." + i;
             if (!attributes.equals("")) {
-                action = String.format("%s.%s;", action, attributes);
+                action = String.format("%s.color:%s;", action, attributes);
             }
 
             s += "\n\t<form class=\"toolbar_form\" action=\"" + action + "\" original=\"add_svg." + i + "\"  method=\"GET\">";

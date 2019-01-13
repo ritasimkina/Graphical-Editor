@@ -29,7 +29,7 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
             case "Circle":
                 return Optional.of(new ClickedDraw(new Circle(x, y, 10)));
             case "Elipse":
-                new Elipse(x, y, 10, 20);
+                return Optional.of(new Elipse(x, y, 10, 20));
             case "Line":
                 return Optional.of(new ClickedDraw(new Line(50, 50, x, y)));
             case "NGon":

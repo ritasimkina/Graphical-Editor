@@ -27,6 +27,11 @@ public abstract class Draw extends Component {
         attributes=l;
     }
 
+    public Draw(SVGAttributeList l, boolean new_ID)  {
+        super(new_ID);
+        attributes=l;
+    }
+
     public void addPoint(Point p)   {
         points.add(p);
     }
