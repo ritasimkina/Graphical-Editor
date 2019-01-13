@@ -6,7 +6,7 @@ public class ColorDraw extends Draw {
     private final Draw draw;
 
     public ColorDraw(Draw draw, String color) {
-        super(draw.attributes);
+        super(draw.attributes, false);
         draw.attributes.setValue("stroke", color);
         this.draw = draw;
         this.points = draw.points;
