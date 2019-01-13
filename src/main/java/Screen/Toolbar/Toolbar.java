@@ -4,14 +4,17 @@ import Debug.*;
 import Iterator.*;
 import Component.*;
 import Observer.Observer;
+import Tools.Context;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Toolbar extends Component {
     List<String> toolbar_names = new ArrayList<String>();
-
+    private final Context context;
     public void registerObserver(Observer o)  {assert false;}
     public void notifyObservers()  {assert false;}
 
@@ -20,8 +23,9 @@ public class Toolbar extends Component {
         return null;
     }
 
-    public Toolbar()    {
+    public Toolbar(Context context) {
         getClassnames();
+        this.context = context;
     }
     private void getClassnames() {
         File directory = new File("./src/main/java/Screen/DrawArray/Draws");
@@ -40,16 +44,18 @@ public class Toolbar extends Component {
         Debug.out(Thread.currentThread());
         String s = "";
 
+        final String attributes = context.get("attributes").orElse("");
+
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
-            s += "\n\t<form class=\"toolbar_form\" action=\"add_svg." + i + "\" original=\"add_svg." + i + "\"  method=\"GET\">";
+            s += "\n\t<form class=\"toolbar_form\" action=\"add_svg." + i + attributes + "\" original=\"add_svg." + i + "\"  method=\"GET\">";
             s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&emsp;&emsp;";
             s += "\n\t</form>";
         }
         s+="\n\t</table>\n";
         s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        Line color: <input type=\"color\" onchange=\"changeColor(this.value);\">\n" +
+            "        Line color: <input type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">\n" +
             "    </div>\n" +
             "    <script>\n" +
             "        function changeColor(color) {\n" +
@@ -70,4 +76,17 @@ public class Toolbar extends Component {
         return s;
     }
 
+    // change "color:rgb(255,255,255)" -> "#ffffff"
+    private String changeCollorFormat(String collorAttr) {
+        final Matcher matcher = Pattern.compile("color:rgb\\([0-9]+,[0-9]+,[0-9]+\\)").matcher(collorAttr);
+        if (matcher.find()) {
+            final String[] rgb = matcher.group().replace("color:rgb(", "").replace(")", "").split(",");
+            StringBuilder res = new StringBuilder("#");
+            for (String c : rgb) {
+                res.append(Integer.toHexString(Integer.valueOf(c)));
+            }
+            return res.toString();
+        }
+        return "#e66465";
+    }
 }
