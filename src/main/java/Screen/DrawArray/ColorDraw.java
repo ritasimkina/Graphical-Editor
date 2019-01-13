@@ -9,6 +9,7 @@ public class ColorDraw extends Draw {
         super(draw.attributes);
         draw.attributes.setValue("stroke", color);
         this.draw = draw;
+        this.points = draw.points;
     }
 
     @Override

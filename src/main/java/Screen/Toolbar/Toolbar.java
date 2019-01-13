@@ -43,12 +43,9 @@ public class Toolbar extends Component {
     public String get_html() {
         Debug.out(Thread.currentThread());
         String s = "";
-<<<<<<< HEAD
 
         final String attributes = context.get("attributes").orElse("");
 
-=======
->>>>>>> 705986b4e39311b4618bf31f553e4625d146d646
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
@@ -56,16 +53,11 @@ public class Toolbar extends Component {
             s += "\n\t\t<button style=\"height:30px; width:75px\">" + i + "</button>&emsp;&emsp;";
             s += "\n\t</form>";
         }
-        s+="<a style=\"font-family:arial;\">Colour (HEX): </a> <input style=\"height:20px; width:52px\" type=\"color\" onchange=\"changeColor(this.value);\">";
         s+="\n\t</table>\n";
-<<<<<<< HEAD
         s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        Line color: <input type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">\n" +
+            "        Colour (HEX): <input type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">\n" +
             "    </div>\n" +
             "    <script>\n" +
-=======
-        s+= "<script>\n" +
->>>>>>> 705986b4e39311b4618bf31f553e4625d146d646
             "        function changeColor(color) {\n" +
             "            console.log(color);\n" +
             "            var list = document.getElementsByClassName(\"toolbar_form\");\n" +
