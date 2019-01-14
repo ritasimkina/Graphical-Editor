@@ -1,7 +1,7 @@
 package Screen.DrawArray;
 
 import Screen.DrawArray.Draws.Circle;
-import Screen.DrawArray.Draws.Elipse;
+import Screen.DrawArray.Draws.Ellipse;
 import Screen.DrawArray.Draws.Line;
 import Screen.DrawArray.Draws.NGon;
 import Screen.DrawArray.Draws.Quadrangle;
@@ -23,8 +23,8 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
         switch (name) {
             case "Circle":
                 return Optional.of(new Circle(x, y, 10));
-            case "Elipse":
-                return Optional.of(new Elipse(x, y, 10, 20));
+            case "Ellipse":
+                return Optional.of(new Ellipse(x, y, 10, 20));
             case "Line":
                 return Optional.of(new Line(x, y, x2, y2));
             case "NGon":

@@ -6,7 +6,7 @@ import Tools.SVGAttributeList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Elipse  extends Draw {
+public class Ellipse extends Draw {
     static List<String> ATTRIBUTES= Arrays.asList(
             // ATTRIBUTES
             "class", "svg_ellipse",
@@ -29,7 +29,7 @@ public class Elipse  extends Draw {
             //PRESENTATION ATTRIBUTES
     );
 
-    public Elipse(double x, double y, double rx, double ry) {
+    public Ellipse(double x, double y, double rx, double ry) {
         super(new SVGAttributeList(ATTRIBUTES));
         attributes.setValue("id",get_id());
         attributes.setValue("cx",x);
