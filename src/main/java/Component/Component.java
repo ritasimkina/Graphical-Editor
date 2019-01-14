@@ -1,7 +1,5 @@
 package Component;
 
-import Tools.SVGAttributeList;
-
 public abstract class Component implements IComponent {
     protected static int id_count=0;
     protected String id="?";

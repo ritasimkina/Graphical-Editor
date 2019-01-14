@@ -16,10 +16,10 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
 
     @Override
     Optional<Draw> create(String name) {
-        double x = new Random().nextInt(100) * 5;
-        double y = new Random().nextInt(100) * 5;
-        double x2 = new Random().nextInt(100) * 5;
-        double y2 = new Random().nextInt(100) * 5;
+        double x = new Random().nextInt(900);
+        double y = new Random().nextInt(600);
+        double x2 = new Random().nextInt(900);
+        double y2 = new Random().nextInt(600);
         switch (name) {
             case "Circle":
                 return Optional.of(new Circle(x, y, 10));

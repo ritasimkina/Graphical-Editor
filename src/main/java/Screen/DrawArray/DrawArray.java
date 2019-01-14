@@ -76,7 +76,7 @@ public class DrawArray extends Component {
     }
 
     private String souround_svg(String s)   {
-        return "<svg height='500' width='900'>\n"+
+        return "<svg height='700' width='1000'>\n"+
                 schripts_html()+
                 s+
                 "</svg>\n\n";
