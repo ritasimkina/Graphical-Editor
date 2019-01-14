@@ -1,0 +1,49 @@
+
+FR1 The following graphic elements must be supported:
+• lines			Bareis
+• circles		Bareis
+• ellipses		Bareis
+• triangles		Bareis
+• quadrangles	Bareis
+• n-gons		Bareis, ...
+• stars			Bareis
+• text			Bareis
+
+FR2 The canvas must support the following operations regarding graphic elements:
+• addition		Bareis
+• deletion      Schmon
+• editing		Bareis
+• movement		(Bareis over editing)
+
+FR3 The canvas must support at least three layers, which hold the graphic elements. The visibility of a layer can be toggled on or off.
+Bareis
+
+FR4 The canvas output must be storable as a file in SVG format.
+Schmon
+
+
+• Observer Pattern				ToolbarLayerObserver
+• Strategy Pattern				StrategySvgEdit
+								StrategySvgShow
+• Iterator Pattern				IteratorLayer (not used)
+								IteratorSvgs
+• Composite Pattern				for Screen
+• Proxy Pattern					Proxy for HTML
+• Abstract Factory Pattern      ColorAbstractFactory
+                                ColorDraw
+                                Color
+                                DrawAbstractFactory
+                                DefaultAbstractFactory
+• Factory Method Pattern		FactoryDrawArray
+								FactoryInfobar
+								FactoryLayer
+								FactoryMenubar
+								FactoryToolbar
+								FactoryToolbarLayer
+								FactoryToolbarOperation
+• Decorator Pattern             Format
+                                DecoratorFileSVG
+                                PlainFormat
+                                LightDesign
+                                DarkDesign
+

@@ -1,0 +1,51 @@
+
+Erzeugungsmuster:
+-	• Abstract Factory Pattern:	System mit unterschiedlichen Produktfamilien konfiguriert (Screen.Screen.Menubar.Menu, Buttons, ...)
+-	• Factory Method Pattern:	zum erstellen neuer GrafikElemente (-> zeichnen)
+Strukturmuster:
+-	• Composite Pattern:		Screenstruktur (unten)
++	• Proxy Pattern:		 	schnittstelle Netzwerk-Interne Objekte (Objectstruktur <-> HTML)
+-	• Decorator.Decorator Pattern:		GUI unterschiedlich je nach selektion
+								StoreImage
+								-Leyer sichtbar oder nicht
+Verhaltensmuster:
++	• Observer.Observer Pattern:			GraphicElement->GUI:
+								Kein GraphicElement deselectiert: GUI-Delete disabled
+																editing disabled (FR2 Screen.Screen.Toolbar.Toolbar)
+																Screen.Screen.Infobar.Infobar: löschen
+								Ein	 GraphicElement selectiert: GUI-Delete enabled
+																editing enabled (FR2 Screen.Screen.Toolbar.Toolbar)
+																Screen.Screen.Infobar.Infobar: infos anzeigen
+																je nach selektion strategie (edit/move) setzten
+								GraphicElement move/edit:		nach gewälter strategie
+																Screen.Screen.Infobar.Infobar: Koordinate anzeigen
+								GUI->GraphicElement:
+								GraphicElement deletion:		Screen.Screen.Screen.Screen.DrawArray.DrawArray anpassen
+																GraphicElement deselectieren
+								GraphicElement addition: 		Screen.Screen.Screen.Screen.DrawArray.DrawArray anpassen
+																GraphicElement selectieren
+								FR3: Layer on/off				Screen.Screen.Screen.Screen.DrawArray.DrawArray anpassen
++	• Strategy Pattern:		 	FR2 mehrfach für alle GraphicElement Verwendet.
+								Move/Edit auf GraphicElement. (Edit ist move auf einen Punkt.)
+								• editing: ein punkt selectiert
+								• movement: object selectiert
+-	• Iterator Pattern:			Über die GUI und GraphicElement
+
+
+Screen.Screen						Composite (Screen.Screen.Menubar.Menubar, ...)
+	Screen.Screen.Menubar.Menubar
+		Screen.Screen.Menubar.Menu
+	Screen.Screen.Toolbar.Toolbar
+		FR1: GraphicElement
+		FR2: Operationen
+		FR3: Layer
+	Screen.Screen.Screen.Screen.DrawArray.DrawArray				Composite (Composite: Layer, Leaf: Line, ... )
+		Layer
+			GraphicElement
+			GraphicElement
+		Layer
+			GraphicElement
+	Screen.Screen.Infobar.Infobar
+	
+	
+
