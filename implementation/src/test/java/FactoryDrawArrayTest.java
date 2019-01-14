@@ -1,5 +1,6 @@
 //package Factory;
 
+import Factory.FactoryDrawArray;
 import Screen.DrawArray.DrawArray;
 import org.junit.Assert;
 import org.junit.Before;

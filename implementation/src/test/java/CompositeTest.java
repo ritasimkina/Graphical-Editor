@@ -1,5 +1,6 @@
 //package Component;
 
+import Component.Composite;
 import Screen.DrawArray.Draws.Ellipse;
 import Screen.DrawArray.Draws.NGon;
 import Screen.DrawArray.Draws.Quadrangle;

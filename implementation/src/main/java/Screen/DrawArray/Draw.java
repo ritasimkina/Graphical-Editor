@@ -56,11 +56,19 @@ public abstract class Draw extends Component {
             }
         }
     }
+
     public String get_attributes_as_html(SVGAttributeList l)    {
         //using l, not attributes, to derived class can temporarily change attributes (clicked, ...)
         String s="";
-        for(int i=0;i<l.size();i++)    {
-            s+=l.get_key(i)+"='"+l.get_value(i)+"' ";
+        try
+        {
+            for(int i=0;i<l.size();i++)    {
+                s+=l.get_key(i)+"='"+l.get_value(i)+"' ";
+            }
+        }
+        catch(NullPointerException e)
+        {
+            System.out.println("Error while fetching attributes: " + e.getMessage());
         }
         return s;
     }

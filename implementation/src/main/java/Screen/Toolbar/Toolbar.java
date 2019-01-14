@@ -52,6 +52,10 @@ public class Toolbar extends Component {
 
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
         s+="\t<table>";
+        s+= "<a style=\"font-family:arial;\">Colour (HEX): </a><input style=\"height:30px; width:75px\" type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" " + color + "> &ensp;" +
+                "<a style=\"font-family:arial;\">X: </a><input type=\"number\" min=\"1\" max=\"999\" input style=\"height:30px; width:45px\" onchange=\"changeAttr('x', this.value);\" " + x + ">&ensp;" +
+                "<a style=\"font-family:arial;\">Y: </a><input type=\"number\" min=\"1\" max=\"999\" input style=\"height:30px; width:45px\" onchange=\"changeAttr('y', this.value);\" " + y + ">" +
+                "&emsp;&emsp;\n";
         for (String i : toolbar_names) {
             String action = String.format("/add_svg.%s%s", i, context.get("attributes").map(a -> "." + a).orElse(""));
 
@@ -60,12 +64,7 @@ public class Toolbar extends Component {
             s += "\n\t</form>";
         }
         s+="\n\t</table>\n";
-        s+="<div style=\"background: #aacae4; padding: 10px;\">\n" +
-            "        <label>Colour (HEX):</label> <input type=\"color\" onchange=\"changeAttr('color',hexToRgb(this.value));\" " + color + ">\n" +
-            "        <label>X:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('x', this.value);\" " + x + "> \n" +
-            "        <label>Y:</label><input type=\"number\" min=\"1\" max=\"500\" onchange=\"changeAttr('y', this.value);\" " + y + "> \n" +
-            "    </div>\n" +
-            "    <script>    \n" +
+        s+="<script>    \n" +
             "        function changeAttr(key, value) {\n" +
             "           var list = document.getElementsByClassName(\"toolbar_form\");\n" +
             "           console.log(list);\n" +

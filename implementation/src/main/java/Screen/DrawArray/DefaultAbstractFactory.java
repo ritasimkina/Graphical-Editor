@@ -49,6 +49,6 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
     }
 
     private Double generate() {
-        return (double) new Random().nextInt(100) * 5;
+        return (double) new Random().nextInt(900);
     }
 }
