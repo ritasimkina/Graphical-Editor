@@ -1,8 +1,0 @@
-/**
- * erzeugt einen string der anfrage entsprechend
- *
- * @param args Kommandozeilenparameter
- * @return description
- * @exception classname description
- * @throws classname description
- */

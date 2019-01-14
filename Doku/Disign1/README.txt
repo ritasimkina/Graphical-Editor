@@ -1,1 +1,0 @@
-dia: http://dia-installer.de/index.html.de
