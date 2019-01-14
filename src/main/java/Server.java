@@ -57,7 +57,6 @@ public class Server extends Thread {
                 String httpQueryString = header.nextToken();
                 while (in.ready())  req = in.readLine();
 
-
                 if (httpMethod.equals("GET") || httpMethod.equals("POST")) {
                     if (httpQueryString.equals("/") || !init) {
                         init = true;
@@ -114,9 +113,11 @@ public class Server extends Thread {
                                 break;
                             case "add_svg":
                                 object = tok.nextToken();
-                                String objectParams = httpQueryString.replace("/add_svg." + object + ".", "");
-                                context.add("attributes", httpQueryString.replace("/add_svg." + object, ""));
-                                proxy.create_shape(object, objectParams);
+                                initContext(
+                                    context,
+                                    httpQueryString.replace("/add_svg." + object, "").replace("?", "")
+                                );
+                                proxy.create_shape(object);
                                 proxy.get_html();
                                 status=200; r=proxy.get_html();
                                 break;
@@ -154,6 +155,19 @@ public class Server extends Thread {
 
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private void initContext(Context context, String figureContext) {
+        if (!figureContext.isEmpty()) {
+            String attributes = figureContext.substring(1); //remove character '.'
+            context.add("attributes", attributes);
+            for (String attr : attributes.split(";")) {
+                final String[] keyValue = attr.split(":");
+                if (keyValue.length == 2) {
+                    context.add(keyValue[0], keyValue[1]);
+                }
+            }
         }
     }
 

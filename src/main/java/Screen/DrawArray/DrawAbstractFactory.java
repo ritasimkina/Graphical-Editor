@@ -1,18 +1,20 @@
 package Screen.DrawArray;
 
-import java.util.Map;
+import Tools.BeanContainer;
+import Tools.Context;
+
 import java.util.Optional;
 
 public abstract class DrawAbstractFactory {
 
-    // concrete factory class appropriate for the given architecture.
-    static DrawAbstractFactory getFactory(DrawAttribute attribute, Map<String, String> params) {
+    static DrawAbstractFactory getFactory(DrawAttribute attribute) {
+        Context context = BeanContainer.get(Context.class);
         switch (attribute) {
             case COLOR:
-                return new ColorAbstractFactory(params);
+                return new ColorAbstractFactory(context);
             case DEFAULT:
-                return new DefaultAbstractFactory();
-            default: return new DefaultAbstractFactory();
+                return new DefaultAbstractFactory(context);
+            default: return new DefaultAbstractFactory(context);
         }
     }
 

@@ -53,8 +53,8 @@ public class Proxy {
         return s+HTML_END;
     }
 
-    public boolean create_shape(String name, String params)    {
-        return screen.create_shape(name, params);
+    public boolean create_shape(String name)    {
+        return screen.create_shape(name);
     }
 
     public void select_layer(String name)  {

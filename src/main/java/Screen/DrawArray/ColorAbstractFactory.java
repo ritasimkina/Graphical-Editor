@@ -1,15 +1,16 @@
 package Screen.DrawArray;
 
-import java.util.Map;
+import Tools.Context;
+
 import java.util.Optional;
 
 public class ColorAbstractFactory extends DrawAbstractFactory {
     private final String color;
     private final DrawAbstractFactory abstractFactory;
 
-    public ColorAbstractFactory(Map<String, String> params) {
-        this.color = params.get("color");
-        this.abstractFactory = DrawAbstractFactory.getFactory(DrawAttribute.DEFAULT, params);
+    public ColorAbstractFactory(Context context) {
+        this.color = context.get("color").get();
+        this.abstractFactory = DrawAbstractFactory.getFactory(DrawAttribute.DEFAULT);
     }
 
     @Override

@@ -40,8 +40,8 @@ public class Screen {
        return screen.get_html();
     }
 
-    public boolean create_shape(String name, String params)    {
-        return ((DrawArray) drawarray).create_shape(name, params);
+    public boolean create_shape(String name)    {
+        return ((DrawArray) drawarray).create_shape(name);
     }
 
     public void select_svg(String name)  {
