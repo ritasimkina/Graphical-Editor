@@ -46,7 +46,7 @@ public class Toolbar extends Component {
 
         final String attributes = context.get("attributes").orElse("");
         s+="<div id=\"toolbar\">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n";
-        s+= "<a style=\"font-family:arial;\">Colour (HEX): </a><input style=\"height:30px; width:75px\" type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">&emsp;\n";
+        s+= "<a style=\"font-family:arial;\">Colour (HEX): </a><input style=\"height:30px; width:75px\" type=\"color\" onchange=\"changeColor(this.value);\" value=\"" + changeCollorFormat(attributes) + "\">&emsp;&emsp;\n";
         s+="\t<table>";
         for (String i : toolbar_names) {
             s += "\n\t<form class=\"toolbar_form\" action=\"add_svg." + i + attributes + "\" original=\"add_svg." + i + "\"  method=\"GET\">";

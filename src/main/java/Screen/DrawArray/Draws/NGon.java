@@ -31,20 +31,28 @@ public class NGon  extends Draw {
     public NGon(double x, double y) {
         super(new SVGAttributeList(ATTRIBUTES));
         attributes.setValue("id",get_id());
-        points.add(new Point(x-20,y));
-        points.add(new Point(x-10,y-10));
-        points.add(new Point(x+10,y-10));
-        points.add(new Point(x+20,y));
-        points.add(new Point(x+10,y+10));
-        points.add(new Point(x-10,y+10));
-        points.add(new Point(x-20,y));
+        points.add(new Point(x-24,y));
+        points.add(new Point(x-22,y-12));
+        points.add(new Point(x-14,y-20));
+        points.add(new Point(x+14,y-20));
+        points.add(new Point(x+22,y-12));
+        points.add(new Point(x+24,y));
+        points.add(new Point(x+22,y+12));
+        points.add(new Point(x+14,y+20));
+        points.add(new Point(x-14,y+20));
+        points.add(new Point(x-22,y+12));
+        points.add(new Point(x-24,y));
         String s=points.get(0).getX()+ "," +points.get(0).getY() + " " +
                 points.get(1).getX()+ "," +points.get(1).getY() + " " +
                 points.get(2).getX()+ "," +points.get(2).getY() + " " +
                 points.get(3).getX()+ "," +points.get(3).getY() + " " +
                 points.get(4).getX()+ "," +points.get(4).getY() + " " +
                 points.get(5).getX()+ "," +points.get(5).getY() + " " +
-                points.get(6).getX()+ "," +points.get(6).getY();
+                points.get(6).getX()+ "," +points.get(6).getY() + " " +
+                points.get(7).getX()+ "," +points.get(7).getY() + " " +
+                points.get(8).getX()+ "," +points.get(8).getY() + " " +
+                points.get(9).getX()+ "," +points.get(9).getY() + " " +
+                points.get(10).getX()+ "," +points.get(10).getY();
         set_attribute("points",s);
     }
 

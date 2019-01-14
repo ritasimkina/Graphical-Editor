@@ -18,13 +18,15 @@ public class DefaultAbstractFactory extends DrawAbstractFactory {
     Optional<Draw> create(String name) {
         double x = new Random().nextInt(100) * 5;
         double y = new Random().nextInt(100) * 5;
+        double x2 = new Random().nextInt(100) * 5;
+        double y2 = new Random().nextInt(100) * 5;
         switch (name) {
             case "Circle":
                 return Optional.of(new Circle(x, y, 10));
             case "Elipse":
                 return Optional.of(new Elipse(x, y, 10, 20));
             case "Line":
-                return Optional.of(new Line(50, 50, x, y));
+                return Optional.of(new Line(x, y, x2, y2));
             case "NGon":
                 return Optional.of(new NGon(x, y));
             case "Quadrangle":
