@@ -1,43 +1,41 @@
 package Screen.DrawArray;
-import java.util.HashMap;
-import java.util.Map;
+
+import Component.Composite;
+import Debug.Debug;
+import Iterator.Iterator;
+import Tools.BeanContainer;
+import Tools.Context;
+
 import java.util.Optional;
 import java.util.Random;
 
 
-
-import Debug.*;
-import Iterator.*;
-import Component.*;
-import Component.Composite;
-import Screen.DrawArray.Draws.*;
-
-
 public class Layer extends Composite {
     Random rand = new Random();
+    private final Context context;
 
     public Iterator createIterator() {
         assert false;
         return null;
     }
-    public Layer() { Debug.out(Thread.currentThread());
 
+    public Layer() {
+        Debug.out(Thread.currentThread());
+        context = BeanContainer.get(Context.class);
     }
 
-    public String get_html()   {
-        if(is_visible()) return super.get_html();
+    public String get_html() {
+        if (is_visible()) return super.get_html();
         else return "// hiden Layer\n";
     }
 
-    public boolean create_shape(String name, String attributes) {
-        final String color = getValueFromAttr(attributes, "color");
+    public boolean create_shape(String name) {
+        final Optional<String> color = context.get("color");
         final DrawAbstractFactory factory;
-        if  (color.equals("")) {
-            factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.DEFAULT, new HashMap<>());
+        if (color.isPresent()) {
+            factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.COLOR);
         } else {
-            Map<String, String> attrs = new HashMap<>();
-            attrs.put("color", color);
-            factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.COLOR, attrs);
+            factory = DrawAbstractFactory.getFactory(DrawAbstractFactory.DrawAttribute.DEFAULT);
         }
 
         final Optional<Draw> draw = factory.create(name);
@@ -47,17 +45,6 @@ public class Layer extends Composite {
         }
 
         return false;
-    }
-
-    //parse attributes format: "key1:value1;key2:value2"
-    private String getValueFromAttr(String attributes, String key) {
-        for (String attr : attributes.split(";")) {
-            final String[] keyValue = attr.split(":");
-            if (key.equals(keyValue[0])) {
-                return keyValue[1];
-            }
-        }
-        return "";
     }
 
 }
