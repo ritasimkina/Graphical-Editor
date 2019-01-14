@@ -20,10 +20,6 @@ public class ToolbarOperation  extends Component {
 
     public String get_html() {
         Debug.out(Thread.currentThread());
-        //String s="\n<div id=\"toolbar\">";
-        //s+="<button type=\"button\" onclick=\"alert('Hello World!')\">Click Me!</button>";
-        //s+="</div>\n";
-//    }
 
         String s="\n<div id=\"operations\"><br>";
         for (String i : operation_names) {

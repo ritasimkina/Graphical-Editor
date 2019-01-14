@@ -73,7 +73,6 @@ public class Toolbar extends Component {
         return s;
     }
 
-    // change "color:rgb(255,255,255)" -> "#ffffff"
     private String changeCollorFormat(String collorAttr) {
         final Matcher matcher = Pattern.compile("color:rgb\\([0-9]+,[0-9]+,[0-9]+\\)").matcher(collorAttr);
         if (matcher.find()) {

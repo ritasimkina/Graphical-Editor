@@ -29,17 +29,9 @@ public class Composite extends Component {
         childComponent.remove(component);
     }
 
-        /*public Iterator createIterator() {Debug.out(Thread.currentThread());
-            return (Iterator) childComponent.iterator();
-        }*/
-
     public int size()   {
         return childComponent.size();
     }
-
-    /*@Override
-    public void set_clicked(boolean state) {
-    }*/
 
     public String get_html()   {Debug.out(Thread.currentThread());
         String s="";
@@ -48,7 +40,6 @@ public class Composite extends Component {
         }
         return s;
     }
-
 
     @Override
     public void set_attributes(String parameter) {

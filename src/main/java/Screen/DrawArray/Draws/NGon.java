@@ -10,22 +10,18 @@ import java.util.List;
 
 public class NGon  extends Draw {
     static List<String> ATTRIBUTES= Arrays.asList(
-            // ATTRIBUTES
+            //ATTRIBUTES
             "class", "svg_ngon",
             "transform", "",
-            "points","",   //,"style","externalResourcesRequired";    style uses as PRESENTATION_ATTRIBUTES
-            //CONDITIONAL_PROCESSING_ATTRIBUTES
+            "points","",
             //CORE_ATTRIBUTES
-            "id", "id",       //, "xml:base", "xml:lang",  "xml:space";
+            "id", "id",
             //GRAPHICAL_EVENT_ATTRIBUTES
-            "onclick", "clicked_svg(this.id)",  //,"onactivate",  "onfocusin", "onfocusout", "onload", "onmousedown", "onmousemove", "onmouseout", "onmouseover",  "onmouseup";
-            //PRESENTATION_ATTRIBUTES
+            "onclick", "clicked_svg(this.id)",
             //Color and Painting properties:
             "fill", "rgb(255,255,255)",
             "stroke", "rgb(25,118,210)",
-            "stroke-width", "2"     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
-            //GRAPHICAL EVENT ATTRIBUTES
-            //PRESENTATION ATTRIBUTES
+            "stroke-width", "2"
     );
 
     public NGon(double x, double y) {

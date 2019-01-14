@@ -18,7 +18,6 @@ import Tools.Context;
 public class Server extends Thread {
     static final boolean SINGLE_CONNECTION=true;
     static final int PORT=8080;
-    //static final String IP="10.101.101.5";
     static final String IP="127.0.0.1";
 
     Socket socket = null;

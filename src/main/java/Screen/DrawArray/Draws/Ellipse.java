@@ -8,25 +8,21 @@ import java.util.List;
 
 public class Ellipse extends Draw {
     static List<String> ATTRIBUTES= Arrays.asList(
-            // ATTRIBUTES
+            //ATTRIBUTES
             "class", "svg_ellipse",
             "transform", "",
             "cx", "50",
             "cy", "50",
             "rx", "40",
-            "ry", "20", // "style", "externalResourcesRequired";    style uses as PRESENTATION_ATTRIBUTES
-            //CONDITIONAL_PROCESSING_ATTRIBUTES
-            //"requiredExtensions", "requiredFeatures",  "systemLanguage";
+            "ry", "20",
             //CORE_ATTRIBUTES
-            "id", "id",       //, "xml:base", "xml:lang",  "xml:space";
+            "id", "id",
             //GRAPHICAL_EVENT_ATTRIBUTES
-            "onclick", "clicked_svg(this.id)",  //,"onactivate",  "onfocusin", "onfocusout", "onload", "onmousedown", "onmousemove", "onmouseout", "onmouseover",  "onmouseup";
-            //PRESENTATION_ATTRIBUTES
+            "onclick", "clicked_svg(this.id)",
             //Color and Painting properties:
             "fill", "rgb(255,255,255)",
             "stroke", "rgb(25,118,210)",
-            "stroke-width", "2"     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
-            //PRESENTATION ATTRIBUTES
+            "stroke-width", "2"
     );
 
     public Ellipse(double x, double y, double rx, double ry) {

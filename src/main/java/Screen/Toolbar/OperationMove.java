@@ -1,3 +1,5 @@
 package Screen.Toolbar;
 
-public class OperationMove implements Operation {}
+public class OperationMove implements Operation {
+
+}

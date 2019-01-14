@@ -45,15 +45,12 @@ public class Screen {
     }
 
     public void select_svg(String name)  {
-        //screen.select_svg( name);
         ((DrawArray)drawarray).select_svg(name);
     }
     public void select_layer(String name)  {
-        //screen.select_svg( name);
         ((DrawArray)drawarray).select_layer(name);
     }
     public void show_layer(String name)  {
-        //screen.select_svg( name);
         ((DrawArray)drawarray).show_layer(name);
     }
     public void add_layer()  {

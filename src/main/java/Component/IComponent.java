@@ -19,8 +19,6 @@ public interface IComponent {
         }
     }
 
-    //public Component get(int i);
-    //public int size();
     public String get_id();
     public void set_clicked(boolean state);
 }

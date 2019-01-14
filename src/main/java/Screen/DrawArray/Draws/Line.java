@@ -8,25 +8,21 @@ import java.util.List;
 
 public class Line extends Draw  {
     static List<String> ATTRIBUTES= Arrays.asList(
-            // ATTRIBUTES
+            //ATTRIBUTES
             "class", "svg_line",
             "transform", "",
             "x1", "50",
             "y1", "50",
             "x2", "40",
-            "y2", "20", // "style", "externalResourcesRequired";    style uses as PRESENTATION_ATTRIBUTES
-            //CONDITIONAL_PROCESSING_ATTRIBUTES
-            //"requiredExtensions", "requiredFeatures",  "systemLanguage";
+            "y2", "20",
             //CORE_ATTRIBUTES
-            "id", "id",       //, "xml:base", "xml:lang",  "xml:space";
+            "id", "id",
             //GRAPHICAL_EVENT_ATTRIBUTES
-            "onclick", "clicked_svg(this.id)",  //,"onactivate",  "onfocusin", "onfocusout", "onload", "onmousedown", "onmousemove", "onmouseout", "onmouseover",  "onmouseup";
-            //PRESENTATION_ATTRIBUTES
+            "onclick", "clicked_svg(this.id)",
             //Color and Painting properties:
             "fill", "rgb(255,255,255)",
             "stroke", "rgb(25,118,210)",
-            "stroke-width", "5"     //, "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "fill-opacity", "fill-rule", "image-rendering", "marker", "marker-end", "marker-mid", "marker-start", "shape-rendering", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "text-rendering",
-            //PRESENTATION ATTRIBUTES
+            "stroke-width", "5"
     );
 
     public Line(double x1, double y1, double x2, double y2) {

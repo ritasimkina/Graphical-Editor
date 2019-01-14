@@ -13,7 +13,7 @@ public abstract class Draw extends Component {
     protected  List<Point> points = new ArrayList<Point>();
     protected  List<Color> color = new ArrayList<Color>();
     protected boolean clicked=false;
-    protected SVGAttributeList attributes;//=new SVGAttributeList(ATTRIBUTES);
+    protected SVGAttributeList attributes;
 
     static String EDIT_TABLE=(      "<table>\n"+
             "TABLEROW"+
