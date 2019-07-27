@@ -1,6 +1,1 @@
-# Hello 2018w SE2 Work Group 403!
-
-## 2018w SE2 DEAD Branch
-
-This branch is used for the **2018w SE2 DEAD** submission phase.
-The assignment and details of this milestone phase are provided in the semester project assignment sheet in the Moodle course.
+Whole implementation of a Graphical Editor is to be found in 2018w_se2_dead Branch as well as all description of software patterns, architecture used.
